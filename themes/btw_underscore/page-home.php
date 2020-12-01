@@ -68,7 +68,7 @@ get_header();
 
       <!-- quote
     ================================================== -->
-    <section id="instructor" >
+    <!-- <section id="instructor" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-6 left">
@@ -80,9 +80,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
-   
-
+    </section> -->
 
      <!-- INSTRUCTOR
 	================================================== -->
@@ -110,14 +108,14 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-8 col-md-6 right"  style="background: white url(/wp-content/themes/btw_underscore/assets/img/image-relax.jpg) 50% 99% no-repeat;
+                <!-- <div class="col-sm-8 col-md-6 right"  style="background: white url(/wp-content/themes/btw_underscore/assets/img/image-relax.jpg) 50% 99% no-repeat;
                     height: 485px;
                     width: 485px;
                     border-radius: 250px;
                     background-size: cover;
                     border: white 15px solid;
                     margin-left: 100px;">
-                </div>
+                </div> -->
                 <!-- end col -->
             </div>
             <!-- row -->
@@ -175,37 +173,27 @@ get_header();
 
             <div class="row">
                 <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-design.png" alt="Design"> -->
                     <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-berlin2.png" alt="Design" style=" padding: 15px;">
-                    <!-- <h3>Sexy &amp; Modern Design</h3> -->
                     <p>Zentraler Pick-Up und Drop-Off im MotionLab Berlin-Treptow</p>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-code.png" alt="Code"> -->
                     <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-chair.png" alt="Code"> 
-                    <!-- <h3>Quality HTML5 &amp; CSS3</h3> -->
                     <p>Ausführliche Einführung in Bike und Equipment bei Anmietung</p>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
                     <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-wheel.png" alt="CMS">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
                     <p>Neueste Modelle an Bikes und Zubehör, garantiert frisch gewartet und desinfiziert</p>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
                     <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-leaf.png" alt="CMS" style="padding: 8px;">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
                     <p>CO2 neutrales und somit emissionsfreies Reisen - so schont ihr die Umwelt</p>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
                     <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-cycle2.png" alt="CMS">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
                     <p>Alle unsere Partner verschreiben sich in höchstem Maße Nachhaltigkeit und Transparenz im Wirtschaftskreislauf</p>
                 </div>
                 <!-- col -->
@@ -224,19 +212,16 @@ get_header();
     <section id="optin">
         <div class="container">
             <div class="row">
-
                 <div class="col-sm-8">
                     <p class="lead"><?php echo $optin_text; ?></p>
                 </div>
                 <!-- end col -->
-
                 <div class="col-sm-4">
-                    <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
                     <?php echo $optin_button_text; ?>
 					</button>
                 </div>
                 <!-- end col -->
-
             </div>
             <!-- row -->
         </div>
@@ -286,10 +271,6 @@ get_header();
         <!-- container -->
     </section>
     <!-- boost-income -->
-
-
-  
-
 
 
 <?php

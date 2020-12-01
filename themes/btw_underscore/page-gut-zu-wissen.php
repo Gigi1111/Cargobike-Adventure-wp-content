@@ -231,7 +231,7 @@ get_header();
                 <!-- end col -->
 
                 <div class="col-sm-4">
-                    <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
                     <?php echo $optin_button_text; ?>
 					</button>
                 </div>

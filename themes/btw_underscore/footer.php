@@ -55,7 +55,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
                     <?php echo $booking_text ?>
-                    <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
+                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
                     <?php echo $booking_btn ?>
                     </button>
                 </div>
@@ -79,7 +79,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
                     </p>
                 </div>
                 <div class="col-sm-4">
-                        <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
+                        <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
                         <?php echo $form_btn ?>
                         </button>
                 </div>

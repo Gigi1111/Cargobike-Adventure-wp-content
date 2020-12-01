@@ -22,7 +22,7 @@ $hero_btn   = get_field('hero_btn');
     font-size: 18px;
     text-align: center;" />
                         <input type="submit" class="btn btn-success" id=”searchsubmit” value="<?php  echo $hero_btn; ?>" style="border-radius: 25px;
-    background: var(--brand-light-green) !important;
+    background: var(--brand-green-even-lighter) !important;
     color: white;"/>
                 </div>
             </div>
