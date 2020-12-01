@@ -48,14 +48,14 @@ get_header();
 
     <!-- HERO
     ================================================== -->
-    <section id="hero" style="height: 50vw; overflow: hidden;">
+    <section id="hero">
             <div class="container clearfix">
                 <!-- The video -->
-                <video autoplay muted loop id="videoPlayer" style="width:100vw;position: absolute; left: 0; top: -40px;" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
+                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
                     <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <div class="overlay" style="width: 100vw; position: absolute; left: 0; top: 0; content: ' '; height: 50vw; background: rgba(0,0,0,0.2);">
+                <div class="overlay">
                      <?php
                         get_template_part( 'template-parts/hero', 'content' );
                         ?>
@@ -68,7 +68,7 @@ get_header();
 
       <!-- quote
     ================================================== -->
-    <!-- <section id="instructor" >
+    <!-- <section id="introduction" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-6 left">
@@ -82,9 +82,9 @@ get_header();
         </div>
     </section> -->
 
-     <!-- INSTRUCTOR
+     <!-- INTRO
 	================================================== -->
-    <section id="instructor" >
+    <section id="introduction" class="color-dark-grey" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-6 left">
@@ -122,12 +122,12 @@ get_header();
         </div>
         <!-- container -->
     </section>
-    <!-- instructor -->
+    <!-- introduction -->
   
 
-     <!-- COURSE FEATURES
+     <!-- Column small
 	================================================== -->
-    <section id="course-features">
+    <section id="section-column-sm" class="color-black" >
         <div class="container">
 
             <div class="section-header">
@@ -159,13 +159,13 @@ get_header();
         </div>
         <!-- container -->
     </section>
-    <!-- course-features -->
+    <!-- section-column-sm -->
 
 
 
-     <!-- PROJECT FEATURES
+     <!-- section column middle
 	================================================== -->
-    <section id="project-features">
+    <section id="section-column-md" class="color-dark-grey" >
         <div class="container">
 
             <h2>Was macht Cargobike Adventures so besonders?</h2>
@@ -204,12 +204,12 @@ get_header();
         </div>
         <!-- container -->
     </section>
-    <!-- project-features -->
+    <!-- section-column-md -->
 
     
     <!-- OPT IN SECTION
 	================================================== -->
-    <section id="optin">
+    <section id="optin" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
@@ -230,9 +230,9 @@ get_header();
     <!-- optin -->
 
 
-    <!-- BOOST YOUR INCOME
+    <!-- column large
 	================================================== -->
-    <section id="boost-income">
+    <section id="section-column-lg" class="color-dark-grey" >
         <div class="container">
 
             <div class="section-header">
@@ -270,7 +270,7 @@ get_header();
         </div>
         <!-- container -->
     </section>
-    <!-- boost-income -->
+    <!-- section-column-lg -->
 
 
 <?php

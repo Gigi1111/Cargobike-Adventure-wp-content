@@ -61,7 +61,7 @@ wp_body_open(); ?>
 					<div class="container">
 						<!-- logo
 						================================================== -->
-						<div class="brand" style="">
+						<div class="brand">
 							<?php if(!empty($brand_logo)): ?>
 								<img src="<?php  echo $brand_logo['url']; ?>" alt="<?php echo $brand_logo['alt']; ?>">
 							<?php endif; ?>
