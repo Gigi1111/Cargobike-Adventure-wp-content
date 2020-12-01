@@ -68,13 +68,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --brand-secondary: #698b84;
     --brand-white: #ffff;
     --brand-black: #181d24;
-    --brand-dark-grey: #404040;
+    --brand-dark-grey: var(--brand-blue-grey);
+    /*#404040;*/
     --brand-grey: rgb(169, 169, 169);
+    --brand-blue-grey: #3e4249;
     /*button*/
     --brand-button-bg: var(--brand-secondary);
     --brand-button-bg-hover: var(--brand-primary);
     --brand-button-txt: var(--brand-white);
     --button-padding-horizontal: 50px;
+    --call-to-action-bg-color: var(--brand-blue-grey);
 }
 
 
@@ -277,7 +280,7 @@ button,
 
 button:hover,
 .btn:hover {
-    border-radius: 25px !important;
+    border-radius: 50px !important;
     background: var(--brand-button-bg-hover) !important;
     filter: brightness(110%);
     color: var(--brand-button-txt) !important;
@@ -1471,7 +1474,7 @@ form textarea {
     display: inline-block;
     width: 30%;
     margin: 0 2% 0 0;
-    background: #3e4249;
+    background: var(--call-to-action-bg-color);
     padding: 10px 20px 30px;
     position: relative;
     vertical-align: top;
@@ -1564,7 +1567,7 @@ section.main-content {
 }
 
 #optin {
-    background: #3e4249;
+    background: var(--call-to-action-bg-color);
     /*color*/
     padding: 20px 0;
     color: var(--brand-white);
@@ -1676,7 +1679,7 @@ section.main-content {
 }
 
 footer {
-    background: #3e4249;
+    background: var(--call-to-action-bg-color);
     /*color*/
     color: var(--brand-white);
     padding: 20px 0 10px;
@@ -2170,7 +2173,7 @@ header .navbar {
 /*logo*/
 
 header .container {
-    margin: 0 auto;
+    margin: 5px auto 0 auto;
     padding: 0;
 }
 

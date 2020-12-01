@@ -11,7 +11,12 @@ $optin_text         = get_post_meta(11, 'optin_text', true);
 $optin_button_text    = get_post_meta(11, 'optin_button_text', true);
 //post, key, true means single false set
 
+//greetings
 $greetings_content  = get_field('greetings_content');
+$greeting_slideshow_1  = get_field('greeting_slideshow_1');
+$greeting_slideshow_2  = get_field('greeting_slideshow_2');
+$greeting_slideshow_3  = get_field('greeting_slideshow_3');
+
 $news_content  = get_field('news_content');
 
 // advanced Custom Fields
@@ -41,6 +46,21 @@ $instagram        = get_post_meta(11, 'instagram', true);
 
 $brand_logo    			= get_field('header_logo');
 $brand_name       = get_field('header_brand_name');
+
+// column mid ; besonders
+$md_section_title      = get_field('md_section_title');
+$md_section_body      = get_field('md_section_body');
+$col_image_1      = get_field('col_image_1');
+$col_content_1      = get_field('col_content_1');
+$col_image_2      = get_field('col_image_2');
+$col_content_2      = get_field('col_content_2');
+$col_image_3      = get_field('col_image_3');
+$col_content_3      = get_field('col_content_3');
+$col_image_4      = get_field('col_image_4');
+$col_content_4      = get_field('col_content_4');
+$col_image_5      = get_field('col_image_5');
+$col_content_5      = get_field('col_content_5');
+
 
 get_header();
 ?>
@@ -108,21 +128,43 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <!-- <div class="col-sm-8 col-md-6 right"  style="background: white url(/wp-content/themes/btw_underscore/assets/img/image-relax.jpg) 50% 99% no-repeat;
-                    height: 485px;
-                    width: 485px;
-                    border-radius: 250px;
-                    background-size: cover;
-                    border: white 15px solid;
-                    margin-left: 100px;">
-                </div> -->
+                <div class="col-sm-8 col-md-6 right" >
+                    <div class="w3-content w3-section" style="max-width:500px">
+                        <?php if(!empty($greeting_slideshow_1)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_2)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_3)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                    </div>
+                </div>
                 <!-- end col -->
             </div>
             <!-- row -->
         </div>
         <!-- container -->
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2300); // Change image every 2 seconds
+            }
+        </script>
     </section>
     <!-- introduction -->
+
   
 
      <!-- Column small
@@ -161,43 +203,62 @@ get_header();
     </section>
     <!-- section-column-sm -->
 
-
-
      <!-- section column middle
 	================================================== -->
     <section id="section-column-md" class="color-dark-grey" >
         <div class="container">
-
-            <h2>Was macht Cargobike Adventures so besonders?</h2>
-            <p class="lead">Gemeinsam entlasten wir Städte, Straßen und den Himmel. Wir bieten euch ein nie dagewesenes Konzept von Aktivurlaub.</p>
-
+            <?php if(!empty($md_section_title)): ?>
+                <h2> <?php echo $md_section_title; ?></h2>
+            <?php endif; ?>
+            <?php if(!empty($md_section_body)): ?>
+                <p class="lead"> <?php echo $md_section_body; ?></p>
+            <?php endif; ?>
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-berlin2.png" alt="Design" style=" padding: 15px;">
-                    <p>Zentraler Pick-Up und Drop-Off im MotionLab Berlin-Treptow</p>
+                    <?php if(!empty($col_image_1)): ?>
+						<img src="<?php  echo $col_image_1['url']; ?>" alt="<?php echo $col_image_1['alt']; ?>" style="padding: 15px;">
+                    <?php endif; ?>
+                    <?php if(!empty($col_content_1)): ?>
+                        <p><?php echo $col_content_1; ?></p>
+                    <?php endif; ?>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-chair.png" alt="Code"> 
-                    <p>Ausführliche Einführung in Bike und Equipment bei Anmietung</p>
+                    <?php if(!empty($col_image_2)): ?>
+						<img src="<?php  echo $col_image_2['url']; ?>" alt="<?php echo $col_image_2['alt']; ?>" >
+                    <?php endif; ?>
+                    <?php if(!empty($col_content_2)): ?>
+                        <p><?php echo $col_content_2; ?></p>
+                    <?php endif; ?>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-wheel.png" alt="CMS">
-                    <p>Neueste Modelle an Bikes und Zubehör, garantiert frisch gewartet und desinfiziert</p>
+                    <?php if(!empty($col_image_3)): ?>
+						<img src="<?php  echo $col_image_3['url']; ?>" alt="<?php echo $col_image_3['alt']; ?>" >
+                    <?php endif; ?>
+                    <?php if(!empty($col_content_3)): ?>
+                        <p><?php echo $col_content_3; ?></p>
+                    <?php endif; ?>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-leaf.png" alt="CMS" style="padding: 8px;">
-                    <p>CO2 neutrales und somit emissionsfreies Reisen - so schont ihr die Umwelt</p>
+                    <?php if(!empty($col_image_4)): ?>
+						<img src="<?php  echo $col_image_4['url']; ?>" alt="<?php echo $col_image_4['alt']; ?>" style="padding: 8px;">
+                    <?php endif; ?>
+                    <?php if(!empty($col_content_4)): ?>
+                        <p><?php echo $col_content_4; ?></p>
+                    <?php endif; ?>
                 </div>
                 <!-- col -->
                 <div class="col-sm-4">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-cycle2.png" alt="CMS">
-                    <p>Alle unsere Partner verschreiben sich in höchstem Maße Nachhaltigkeit und Transparenz im Wirtschaftskreislauf</p>
+                    <?php if(!empty($col_image_5)): ?>
+						<img src="<?php  echo $col_image_5['url']; ?>" alt="<?php echo $col_image_5['alt']; ?>" >
+                    <?php endif; ?>
+                    <?php if(!empty($col_content_5)): ?>
+                        <p><?php echo $col_content_5; ?></p>
+                    <?php endif; ?>
                 </div>
                 <!-- col -->
-
             </div>
             <!-- row -->
 

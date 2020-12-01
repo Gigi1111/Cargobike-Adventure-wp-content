@@ -25,6 +25,8 @@
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
+	<!-- w3 school css -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<?php wp_head(); ?>
 
