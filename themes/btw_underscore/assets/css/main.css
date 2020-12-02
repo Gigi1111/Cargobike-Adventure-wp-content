@@ -2441,7 +2441,7 @@ header .brand h3 {
     border-radius: 50px;
     padding: 30px;
     position: absolute;
-    top: 50%;
+    top: 30% !important;
     z-index: 5;
     display: inline-block;
     width: 50px;
@@ -2469,4 +2469,29 @@ header .brand h3 {
 .carousel-control {
     background: none !important;
     background: none !important;
+}
+
+.glyphicon:before {
+    top: 30% !important;
+    font-size: 70px;
+    text-shadow: 0 0 50px var(--brand-primary);
+    right: unset !important;
+    left: unset !important;
+}
+
+.glyphicon {
+    top: 30% !important;
+    font-size: 70px;
+    right: unset !important;
+    left: unset !important;
+}
+
+.carousel-control.right,
+.glyphicon-chevron-right {
+    text-align: left !important;
+}
+
+.carousel-control.left,
+.glyphicon-chevron-left {
+    text-align: right !important;
 }
