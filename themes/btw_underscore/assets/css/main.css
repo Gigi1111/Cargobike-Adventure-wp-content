@@ -64,8 +64,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* COLOUR REFERENCES*/
 
 :root {
-    --brand-primary: #214438;
-    --brand-secondary: #698b84;
+    --brand-primary: #2b3e20;
+    /* #214438; */
+    --brand-secondary: #618a49;
+    /* #698b84; */
     --brand-white: #ffff;
     --brand-black: #181d24;
     --brand-dark-grey: var(--brand-blue-grey);
@@ -1677,6 +1679,21 @@ section.main-content {
     font-size: 24px;
 }
 
+
+/* footer */
+
+@media (min-width: 768px) {
+    #footer-features nav a {
+        padding: 0 !important;
+        margin: 5px 0 !important;
+        color: var(--brand-grey) !important;
+        background: none !important;
+    }
+    #footer-features nav a:hover {
+        color: var(--brand-secondary) !important;
+    }
+}
+
 footer {
     background: var(--call-to-action-bg-color);
     /*color*/
@@ -1991,7 +2008,7 @@ footer .navbar-nav>li>a {
 
 .current-menu-item>a,
 .navbar-nav>li>a:hover {
-    color: var(--brand-primary);
+    color: var(--brand-secondary) !important;
     /* text-shadow: 0px 0px 5px rgba(255,255,255,0);
     font-weight: 800;
     background: linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%); */
@@ -2145,7 +2162,7 @@ header .navbar {
 /*scrolled*/
 
 .navbar-inverse {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0) 100%) !important;
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0) 100%) !important; */
 }
 
 .scrolled {

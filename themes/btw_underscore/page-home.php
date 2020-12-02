@@ -207,7 +207,7 @@ get_header();
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
             <div class="container" style="width: 100% !important; margin: 0; padding: 0; text-align: center; color: var(--brand-dark-grey)">
-                <h2>Carousel Example</h2>  
+                <h2>Camping Equipments for Rent</h2>  
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 800px;
     overflow: hidden;">
                     <!-- Indicators -->
