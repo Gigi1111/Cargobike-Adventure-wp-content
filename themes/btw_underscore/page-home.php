@@ -240,7 +240,7 @@ get_header();
 
   <!-- Column small ; was wir bieten
     ================================================== -->
-    <section id="section-akordion" class="" style="">
+    <section id="section-image-akordion" class="section-image-akordion" style="">
         <div class="container" style="">
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">

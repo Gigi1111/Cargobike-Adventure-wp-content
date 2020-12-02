@@ -2221,7 +2221,8 @@ header .brand img {
 }
 
 header .brand h3 {
-    margin: 18px 0 !important font-size: 30px !important;
+    margin: 18px 0 !important;
+    font-size: 30px !important;
 }
 
 #menu-foryou,
@@ -2527,18 +2528,18 @@ header .brand h3 {
 
 /* akordion */
 
-.panel-group {
+.section-image-akordion .panel-group {
     display: flex;
     margin: 0;
 }
 
-.panel {
+.section-image-akordion .panel {
     margin: 2px !important;
     padding: 0;
     border: none !important;
 }
 
-.panel-default>.panel-heading {
+.section-image-akordion .panel-default>.panel-heading {
     color: var(--brand-white) !important;
     background-color: #f5f5f5;
     border: none;
@@ -2547,4 +2548,53 @@ header .brand h3 {
     background-size: cover;
     background-position: center;
     padding: 10px 15px;
+}
+
+#section-faq-akordion {}
+
+
+/* send email */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.form-top {
+    margin-top: 30px;
+}
+
+.panel {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
+    border-radius: 6px;
+    border: 0;
+}
+
+@-moz-document url-prefix() {
+    .form-control {
+        height: auto;
+    }
+}
+
+.panel-primary {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-warning {
+    background-color: transparent;
+    border-color: #bdc3c7;
 }

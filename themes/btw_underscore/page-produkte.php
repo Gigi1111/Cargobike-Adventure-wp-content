@@ -120,509 +120,79 @@ get_header();
             <!-- container -->
     </section>
 
-      <!-- quote
-    ================================================== -->
-    <!-- <section id="introduction" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <blockquote class="wp-block-quote is-style-large">
-                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
-                        <p> <?php echo $news_content; ?></p>
-                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-     <!-- INTRO
+    <!-- INTRO
 	================================================== -->
-    <section id="introduction" class="color-dark-grey" >
+    <section id="produkte-intro" class="color-dark-grey" >
         <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-4 left">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <?php echo $greetings_content; ?>
-                        <div class="">
-                        <?php if(!empty($twitter)): ?>
-                            <a href="<?php echo $twitter; ?>" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($facebook)): ?>
-                            <a href="<?php echo $facebook; ?>" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($instagram)): ?>
-                            <a href="<?php echo $instagram; ?>" class="badge social instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <?php endif; ?>
-                        </div>
-                        
-                    </div>
-                    </div>
-                    <!-- row -->
-                </div>
-                <!-- end col -->
-                <div class="col-sm-8 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
-                        <?php if(!empty($greeting_slideshow_1)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_2)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_3)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                    </div>
-                </div>
-                <!-- end col -->
+            <div class="parts">
+                <h3 style="font-weight: 300">
+                Rund um das Bike
+                </h3>
+                <p style="font-size:1.2em">
+                    Wir statten die Bikes außerdem mit einigen Annehmlichkeiten für eure Reise aus. Zur Grundausstattung gehören neben StVZO-konformer Beleuchtung auch ein Rückspiegel, ein fest installiertes, sowie ein extra ABUS Fahrradschloss und je Vermietung eine Luftpumpe dazu.
+                </p>
+                <p style="font-size:1.2em">
+                            Die Reichweite deiner Akkus variiert je nach Stärke der Unterstützung. Die maximale Reichweite beim schwächsten Modus „Eco“ beträgt ca. 200km. Danach rollt das Lastenrad natürlich weiter, ihr müsst dann aber ohne motorische Unterstützung auskommen.
+                </p>
+                <p style="font-size:1.2em">
+                            Um die Akkus von nahezu 0% auf 100% aufzuladen benötigt ihr ca. 3 Std. Zeit. Ihr könnt die Akkus vom Bike entfernen und sie an einer Steckdose laden, oder aber auch das Bike direkt mit dem Strom verbinden – so werden beide Akkus nacheinander geladen und man spart sich das Geschleppe. Auch die stärksten Regengüsse können den Cargobikes und der Elektronik nichts anhaben, ein Tauchgang im Bach kann aber zu einem selbstverschuldetem Ausfall führen - wir raten dringend davon ab es zu versuchen.
+                </p>
+                <p style="font-size:1.2em">
+                            Solltet Ihr selbst keine besitzen, geben wir euch 2 Ortlieb Fahrradtaschen für den Gepäckträger mit. Diese bieten mit je 20 Litern Volumen einiges an zusätzlichem Stauraum, sind komplett wasserdicht und abnehmbar. Je nachdem ob und wenn ja, wie viele Kinder ihr mitnehmt, bleibt euch in der vorderen Box noch einiges an Stauraum zum Transport von privaten Gegenstände frei zur Verfügung.
+                </p>
+                <p style="font-size:1.2em">
+                            Solltet ihr Extrawünsche haben dann lasst es zu uns wissen. Am Ende des Tages ist fast nichts unmöglich.        
+                </p>
             </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 2300); // Change image every 2 seconds
-            }
-        </script>
+            <!-- part -->
+            <div class="parts">
+                <h3 style="font-weight: 300">
+                Camping: Zelt
+                </h3>
+                <p style="font-size:1.2em">
+                Viele denken bei Camping Urlaub an kleine Zelte, ungemütliche Sitzpositionen auf dem Boden und Rückenschmerzen von dünnen Matten. Wir von Cargobike Adventures schicken euch in einen komfortablen Aktivurlaub. Mit unseren E-Cargobikes könnt ihr eine große Menge an Camping Equipment mit in den Urlaub nehmen und müsst so auf keine Annehmlichkeiten in der schönsten Zeit des Jahres verzichten.
+                 </p>
+                <p style="font-size:1.2em">
+                Wir haben uns dazu entschlossen, keine klassischen Zelte mit Gestänge zu verleihen sondern hier voll auf Innovation, Robustheit und Langlebigkeit zu setzen. Wir geben euch ein extrem robustes, aufblasbares Zelt des in Hamburg sitzenden Herstellers Heimplanet inklusive Pumpe mit. Ihr schließt die Pumpe an das Ventil des Zeltbogens an, pumpt ca. eine Minute und das Zelt steht. Heringe sichern das Zelt vom Wegfliegen - schon habt ihr euer Eigenheim für die Nacht aufgebaut. Schaut euch um, es gibt viel zu entdecken und das Zelt ist ein echter Hingucker.    
+                </p>
+                <p style="font-size:1.2em">
+                Wir haben bereits ein sogenanntes Groundsheet, also einen extra Boden an das Zelt angebracht. So wird der Zeltboden vor übermäßiger Abnutzung geschützt und die Lebensdauer erhöht. 
+                </p>
+                Schaut selbst wie einfach es geht:
+                
+                <!-- video: https://www.youtube.com/watch?v=XSEeBnMcklI -->
+            </div>
+            <iframe style="width:60vw; height:30vw; border: none;"
+                src="https://www.youtube.com/embed/XSEeBnMcklI?controls=0">
+                </iframe>
+             <!-- part -->
+             <div class="parts">
+                <h3 style="font-weight: 300">
+                Schlafsack
+                </h3>
+                <span>Bitte denkt daran, dass Schlafsäcke nicht Standard bei einer Buchung sind!</span>
+                <p style="font-size:1.2em">
+                Wir können keine Schlafsäcke als Leihartikel anbieten. Die ständige Reinigung würde die Modelle extrem schnell altern lassen und sich absolut mit unserer Idee von umweltbewusstem Handeln im Allgemeinen beißen. Hier sind wir dabei, mit Herstellen an Lösungen zu arbeiten um euch gute Konditionen für entsprechende Produkte anzubieten. Solltet ihr vorab eine Beratung zum Thema brauchen dann sagt uns Bescheid, wir helfen euch gerne und kompetent weiter. Bitte denkt also an Decken oder einen eigenen Schlafsack wenn ihr aufbrecht. Neben dem Schlafsack empfiehlt es sich, ein eigenes Kissen dabei zu haben. Da ihr weniger auf das Gewicht achten müsst, könnt ihr ruhig eure Kuschelkissen von zu Hause einpacken. Solltet ihr ohnehin mit dem Gedanken einer Neuanschaffung (z.B. auch für Wandertouren) spielen, informiert euch im Fachgeschäft was es für Modelle am Markt gibt und testet euch durch – nur so findet ihr euren Favoriten. Bei den Kollegen von Globetrotter in Steglitz z.B. kann man sich prima in verschiedene Modelle reinlegen um den geeigneten Schlafsack zu finden.    
+                </p>
+            </div>
+             <!-- part -->
+             <div class="parts">
+                <h3 style="font-weight: 300">
+                Isomatten
+                </h3>
+                <p style="font-size:1.2em">
+                Ähnlich wie bei den Schlafsäcken verhält es sich auch mit den Isomatten. Die Produkte sind sensibel in der Handhabung und definieren sich außerdem als hygienisch relevant. Wir wollen daher keine Isomatten als Leihartikel anbieten, haben aber auch hier eine Lösung für euch parat. Gemeinsam mit dem Anbieter VAUDE bieten wir euch ausgewählte Modelle zum Kauf an. Eine Beratung geben wir euch gerne, schaut mal im Shop vorbei und kontaktiert uns bei Fragen und Anregungen.
+                </p>
+                <p style="font-size:1.2em">
+                Da wir neben Rad Enthusiasten auch Outdoor erfahren sind, haben wir euch vom Anbieter VAUDE Modelle rausgesucht, die wir euch zum Kauf anbieten. Schaut mal in unserem Shop vorbei. LINK Favoriten zu finden.
+                </p>
+                <p style="font-size:1.2em">
+                Wir statten euch, je nach Wunsch, mit Isomatten für euren Trip aus. Aus hygienischen Gründen bitten wir euch, Bettbezügen zu verwenden. Wir säubern und desinfizieren die Leihmodelle nach jeder Vermietung, mit eurer Hilfe schaffen wir aber eine deutlich längere Lebensdauer und können nachhaltiger denken.
+                </p>
+            </div>
+       </div>
     </section>
     <!-- introduction -->
-
-  
-
-     <!-- Column small ; was wir bieten
-	================================================== -->
-    <section id="section-column-sm" class="color-black" >
-        <div class="container">
-
-            <div class="section-header">
-                <!--if user uploaded an image -->
-                <!-- <?php if(!empty($features_section_image)): ?>
-                    <img src="<?php  echo $features_section_image['url']; ?>" alt="<?php echo $features_section_image['alt']; ?>">
-                <?php endif; ?> -->
-                
-                <h2><?php echo $features_section_title; ?></h2>
-                <?php if(!empty($features_section_body)): ?>
-                        <p class="lead"><?php echo $features_section_body;?></p>
-                <?php endif; ?>
-            </div>
-            <!-- section-header -->
-
-            <div class="row">
-                <?php $loop = new WP_Query(array('post_type'=>'course_feature','orderby'=>'post_id','order'=>'ASC'));?>
-                <?php while($loop->have_posts()) : $loop->the_post(); ?>
-                    <div class="col-sm-2">
-                        <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/<?php the_field('course_feature_icon_url');?>" alt="Design" style="width:50px; height:50px" >
-                        <h4><?php the_title(); ?></h4>
-                    </div>
-                    <!-- end col -->
-                <?php endwhile; ?>
-            </div>
-            <!-- row -->
-
-        </div>
-        <!-- container -->
-    </section>
-     <!-- end section -->
-
-
-  <!-- Column small ; was wir bieten
-    ================================================== -->
-    <section id="section-akordion" class="" style="">
-        <div class="container" style="">
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                        Collapsible Group 1</a>
-                    </h4>
-                    </div>
-                    <div id="collapse1" class="panel-collapse collapse in">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                        Collapsible Group 2</a>
-                    </h4>
-                    </div>
-                    <div id="collapse2" class="panel-collapse collapse">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                        Collapsible Group 3</a>
-                    </h4>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse">
-                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   <!-- end section -->
-
-
-      <!-- section slideshow bikes
-	================================================== -->
-    <section id="section-slidshow" class="" style="padding-bottom: 0;">
-        <div class="container" style="width: 100%; text-align: center; color: var(--brand-dark-grey);">
-            <h2><?php echo $bike_slideshow_title; ?></h2>  
-            <p><?php echo $bike_slideshow_sub; ?></p>
-
-            <div id="bikeCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php  echo $bike_slideshow_item_image_1['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php  echo $bike_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
-                    <div class="item active">
-                        <img src="<?php  echo $bike_slideshow_item_image_1['url']; ?>" alt="<?php  echo $bike_slideshow_item_image_1['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $bike_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $bike_slideshow_item_description_1 ?></p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $bike_slideshow_item_image_2['url']; ?>" alt="<?php  echo $bike_slideshow_item_image_2['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $bike_slideshow_item_title_2 ?></h3>
-                            <p><?php echo $bike_slideshow_item_description_2 ?></p>
-                        </div>
-                    </div>
-                   
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#bikeCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#bikeCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-    
-     <!-- OPT IN SECTION
-	================================================== -->
-    <section id="optin" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <p class="lead"><?php echo $optin_text; ?></p>
-                </div>
-                <!-- end col -->
-                <div class="col-sm-4">
-                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-                    <?php echo $optin_button_text; ?>
-					</button>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- optin -->
-
-    
-    <!-- section slideshow equipments
-	================================================== -->
-    <section id="section-slidshow" class="" style="padding-bottom: 0;">
-        <div class="container" style="width: 100%;">
-            <h2 style="text-align: center; color: var(--brand-dark-grey);"><?php echo $equipment_slideshow_title; ?></h2>  
-            <p><?php echo $equipment_slideshow_sub; ?></p>
-
-            <div id="equipmentCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php  echo $equipment_slideshow_item_image_1['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php  echo $equipment_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="2" style="background: url('<?php  echo $equipment_slideshow_item_image_3['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="3" style="background: url('<?php  echo $equipment_slideshow_item_image_4['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="4" style="background: url('<?php  echo $equipment_slideshow_item_image_5['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                  
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
-                    <div class="item active">
-                        <img src="<?php  echo $equipment_slideshow_item_image_1['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_1['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_2['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $equipment_slideshow_item_title_2 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_2 ?></p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_3['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_3['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $equipment_slideshow_item_title_3 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_3 ?></p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_4['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_4['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info">
-                            <h3><?php echo $equipment_slideshow_item_title_4 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_4 ?></p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_5['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_5['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p>
-                        </div>
-                        <div class="carousel-caption d-none d-md-block"  id="bottom-info">
-                            <h3><?php echo $equipment_slideshow_item_title_5 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_5 ?></p>
-                        </div>
-                    </div>
-
-                   
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#equipmentCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#equipmentCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-    
-
-    <!-- OPT IN SECTION
-	================================================== -->
-    <section id="optin" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <p class="lead"><?php echo $optin_text; ?></p>
-                </div>
-                <!-- end col -->
-                <div class="col-sm-4">
-                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-                    <?php echo $optin_button_text; ?>
-					</button>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- optin -->
-
-  
-     <!-- section column middle; besonders
-	================================================== -->
-    <section id="section-column-md" class="color-dark-grey" >
-        <div class="container">
-            <?php if(!empty($md_section_title)): ?>
-                <h2> <?php echo $md_section_title; ?></h2>
-            <?php endif; ?>
-            <?php if(!empty($md_section_body)): ?>
-                <p class="lead"> <?php echo $md_section_body; ?></p>
-            <?php endif; ?>
-            <div class="row">
-                <div class="col-sm-4">
-                    <?php if(!empty($col_image_1)): ?>
-						<img src="<?php  echo $col_image_1['url']; ?>" alt="<?php echo $col_image_1['alt']; ?>" style="padding: 15px;">
-                    <?php endif; ?>
-                    <?php if(!empty($col_content_1)): ?>
-                        <p><?php echo $col_content_1; ?></p>
-                    <?php endif; ?>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <?php if(!empty($col_image_2)): ?>
-						<img src="<?php  echo $col_image_2['url']; ?>" alt="<?php echo $col_image_2['alt']; ?>" >
-                    <?php endif; ?>
-                    <?php if(!empty($col_content_2)): ?>
-                        <p><?php echo $col_content_2; ?></p>
-                    <?php endif; ?>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <?php if(!empty($col_image_3)): ?>
-						<img src="<?php  echo $col_image_3['url']; ?>" alt="<?php echo $col_image_3['alt']; ?>" >
-                    <?php endif; ?>
-                    <?php if(!empty($col_content_3)): ?>
-                        <p><?php echo $col_content_3; ?></p>
-                    <?php endif; ?>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <?php if(!empty($col_image_4)): ?>
-						<img src="<?php  echo $col_image_4['url']; ?>" alt="<?php echo $col_image_4['alt']; ?>" style="padding: 8px;">
-                    <?php endif; ?>
-                    <?php if(!empty($col_content_4)): ?>
-                        <p><?php echo $col_content_4; ?></p>
-                    <?php endif; ?>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <?php if(!empty($col_image_5)): ?>
-						<img src="<?php  echo $col_image_5['url']; ?>" alt="<?php echo $col_image_5['alt']; ?>" >
-                    <?php endif; ?>
-                    <?php if(!empty($col_content_5)): ?>
-                        <p><?php echo $col_content_5; ?></p>
-                    <?php endif; ?>
-                </div>
-                <!-- col -->
-            </div>
-            <!-- row -->
-
-        </div>
-        <!-- container -->
-    </section>
-    <!-- section-column-md -->
-
-    
-    <!-- OPT IN SECTION
-	================================================== -->
-    <section id="optin" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <p class="lead"><?php echo $optin_text; ?></p>
-                </div>
-                <!-- end col -->
-                <div class="col-sm-4">
-                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-                    <?php echo $optin_button_text; ?>
-					</button>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- optin -->
-
-
-    <!-- column large; premium service
-	================================================== -->
-    <section id="section-column-lg" class="color-dark-grey" >
-        <div class="container">
-
-            <div class="section-header">
-                <!--if user uploaded an image -->
-                <?php if(!empty($premium_service_feature_image)): ?>
-                    <img src="<?php  echo $premium_service_feature_image['url']; ?>" alt="<?php echo $premium_service_feature_image['alt']; ?>">
-                <?php endif; ?>
-                
-                <h2><?php echo $premium_service_section_title; ?></h2>
-            </div>
-            <!-- section-header -->
-
-            <p class="lead"><?php echo $premium_service_section_desc; ?></p>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3><?php echo $reason_1_title; ?></h3>
-                    <p><?php echo $reason_1_desc; ?></p>
-                </div>
-                <!-- end col -->
-
-                <div class="col-sm-6">
-                <h3><?php echo $reason_2_title; ?></h3>
-                    <p><?php echo $reason_2_desc; ?></p>
-                </div>
-                <!-- end col -->
-
-                <div class="col-sm-6">
-                <h3><?php echo $reason_3_title; ?></h3>
-                    <p><?php echo $reason_3_desc; ?></p>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-
-        </div>
-        <!-- container -->
-    </section>
-    <!-- section-column-lg -->
-
 
 <?php
 get_footer();

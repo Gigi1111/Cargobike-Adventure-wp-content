@@ -11,7 +11,12 @@ $optin_text         = get_post_meta(11, 'optin_text', true);
 $optin_button_text    = get_post_meta(11, 'optin_button_text', true);
 //post, key, true means single false set
 
+//greetings
 $greetings_content  = get_field('greetings_content');
+$greeting_slideshow_1  = get_field('greeting_slideshow_1');
+$greeting_slideshow_2  = get_field('greeting_slideshow_2');
+$greeting_slideshow_3  = get_field('greeting_slideshow_3');
+
 $news_content  = get_field('news_content');
 
 // advanced Custom Fields
@@ -42,20 +47,73 @@ $instagram        = get_post_meta(11, 'instagram', true);
 $brand_logo    			= get_field('header_logo');
 $brand_name       = get_field('header_brand_name');
 
+// column mid ; besonders
+$md_section_title      = get_field('md_section_title');
+$md_section_body      = get_field('md_section_body');
+$col_image_1      = get_field('col_image_1');
+$col_content_1      = get_field('col_content_1');
+$col_image_2      = get_field('col_image_2');
+$col_content_2      = get_field('col_content_2');
+$col_image_3      = get_field('col_image_3');
+$col_content_3      = get_field('col_content_3');
+$col_image_4      = get_field('col_image_4');
+$col_content_4      = get_field('col_content_4');
+$col_image_5      = get_field('col_image_5');
+$col_content_5      = get_field('col_content_5');
+
+// slideshow; camping equipments
+$equipment_slideshow_title      = get_field('equipment_slideshow_title');
+$equipment_slideshow_sub      = get_field('equipment_slideshow_sub');
+// item
+$equipment_slideshow_item_title_1      = get_field('equipment_slideshow_item_title_1');
+$equipment_slideshow_item_description_1      = get_field('equipment_slideshow_item_description_1');
+$equipment_slideshow_item_image_1      = get_field('equipment_slideshow_item_image_1');
+// item
+$equipment_slideshow_item_title_2      = get_field('equipment_slideshow_item_title_2');
+$equipment_slideshow_item_description_2      = get_field('equipment_slideshow_item_description_2');
+$equipment_slideshow_item_image_2      = get_field('equipment_slideshow_item_image_2');
+// item
+$equipment_slideshow_item_title_3      = get_field('equipment_slideshow_item_title_3');
+$equipment_slideshow_item_description_3      = get_field('equipment_slideshow_item_description_3');
+$equipment_slideshow_item_image_3      = get_field('equipment_slideshow_item_image_3');
+// item
+$equipment_slideshow_item_title_4      = get_field('equipment_slideshow_item_title_4');
+$equipment_slideshow_item_description_4      = get_field('equipment_slideshow_item_description_4');
+$equipment_slideshow_item_image_4      = get_field('equipment_slideshow_item_image_4');
+// item
+$equipment_slideshow_item_title_5      = get_field('equipment_slideshow_item_title_5');
+$equipment_slideshow_item_description_5      = get_field('equipment_slideshow_item_description_5');
+$equipment_slideshow_item_image_5      = get_field('equipment_slideshow_item_image_5');
+
+// slideshow; bikes
+$bike_slideshow_title      = get_field('bike_slideshow_title');
+$bike_slideshow_sub      = get_field('bike_slideshow_sub');
+// item
+$bike_slideshow_item_title_1      = get_field('bike_slideshow_item_title_1');
+$bike_slideshow_item_description_1      = get_field('bike_slideshow_item_description_1');
+$bike_slideshow_item_image_1      = get_field('bike_slideshow_item_image_1');
+// item
+$bike_slideshow_item_title_2      = get_field('bike_slideshow_item_title_2');
+$bike_slideshow_item_description_2      = get_field('bike_slideshow_item_description_2');
+$bike_slideshow_item_image_2      = get_field('bike_slideshow_item_image_2');
+
+// http://reusableforms.com/d/o5/html5-contact-form-send-email
+
+
 get_header();
 ?>
 
 
     <!-- HERO
     ================================================== -->
-    <section id="hero" style="height: 50vw; overflow: hidden;">
+    <section id="hero">
             <div class="container clearfix">
                 <!-- The video -->
-                <video autoplay muted loop id="videoPlayer" style="width:100vw;position: absolute; left: 0; top: -40px;" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
+                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
                     <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <div class="overlay" style="width: 100vw; position: absolute; left: 0; top: 0; content: ' '; height: 50vw; background: rgba(0,0,0,0.2);">
+                <div class="overlay">
                      <?php
                         get_template_part( 'template-parts/hero', 'content' );
                         ?>
@@ -66,231 +124,117 @@ get_header();
             <!-- container -->
     </section>
 
-      <!-- quote
-    ================================================== -->
-    <section id="instructor" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <blockquote class="wp-block-quote is-style-large">
-                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
-                        <p> <?php echo $news_content; ?></p>
-                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
-   
-
-
-     <!-- INSTRUCTOR
+    <!-- INTRO
 	================================================== -->
-    <section id="instructor" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <?php echo $greetings_content; ?>
-                        <div class="">
-                        <?php if(!empty($twitter)): ?>
-                            <a href="<?php echo $twitter; ?>" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($facebook)): ?>
-                            <a href="<?php echo $facebook; ?>" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($instagram)): ?>
-                            <a href="<?php echo $instagram; ?>" class="badge social instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <?php endif; ?>
+    <section id="produkte-intro" class="color-dark-grey" >
+    <div class="container">
+            <!-- Form Started -->
+            <div class="container form-top">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-body">
+                                <form id="reused_form">
+                                    <div class="form-group">
+                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                    </div>
+                                </form>
+                                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                    <h4>
+                                        Error
+                                    </h4>
+                                    Sorry there was an error sending your form. 
+                                </div>
+                                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                <h2>Success! Your Message was Sent Successfully.</h2>
+                                </div>
+                            </div>
                         </div>
-                        
                     </div>
-                    </div>
-                    <!-- row -->
                 </div>
-                <!-- end col -->
-                <div class="col-sm-8 col-md-6 right"  style="background: white url(/wp-content/themes/btw_underscore/assets/img/image-relax.jpg) 50% 99% no-repeat;
-                    height: 485px;
-                    width: 485px;
-                    border-radius: 250px;
-                    background-size: cover;
-                    border: white 15px solid;
-                    margin-left: 100px;">
-                </div>
-                <!-- end col -->
             </div>
-            <!-- row -->
+            <!-- Form Ended -->
         </div>
-        <!-- container -->
-    </section>
-    <!-- instructor -->
-  
+        <script>
+        
+$(function()
+{
+    function after_form_submitted(data) 
+    {
+        if(data.result == 'success')
+        {
+            $('form#reused_form').hide();
+            $('#success_message').show();
+            $('#error_message').hide();
+        }
+        else
+        {
+            $('#error_message').append('<ul></ul>');
 
-     <!-- COURSE FEATURES
-	================================================== -->
-    <section id="course-features">
-        <div class="container">
+            jQuery.each(data.errors,function(key,val)
+            {
+                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
+            });
+            $('#success_message').hide();
+            $('#error_message').show();
 
-            <div class="section-header">
-                <!--if user uploaded an image -->
-                <!-- <?php if(!empty($features_section_image)): ?>
-                    <img src="<?php  echo $features_section_image['url']; ?>" alt="<?php echo $features_section_image['alt']; ?>">
-                <?php endif; ?> -->
-                
-                <h2><?php echo $features_section_title; ?></h2>
-                <?php if(!empty($features_section_body)): ?>
-                        <p class="lead"><?php echo $features_section_body;?></p>
-                <?php endif; ?>
-            </div>
-            <!-- section-header -->
-
-            <div class="row">
-                <?php $loop = new WP_Query(array('post_type'=>'course_feature','orderby'=>'post_id','order'=>'ASC'));?>
-                <?php while($loop->have_posts()) : $loop->the_post(); ?>
-                    <div class="col-sm-2">
-                        <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/<?php the_field('course_feature_icon_url');?>" alt="Design" style="width:50px; height:50px" >
-                        <h4><?php the_title(); ?></h4>
-                    </div>
-                    <!-- end col -->
-                <?php endwhile; ?>
-            </div>
-            <!-- row -->
+            //reverse the response on the button
+            $('button[type="button"]', $form).each(function()
+            {
+                $btn = $(this);
+                label = $btn.prop('orig_label');
+                if(label)
+                {
+                    $btn.prop('type','submit' ); 
+                    $btn.text(label);
+                    $btn.prop('orig_label','');
+                }
+            });
             
-        </div>
-        <!-- container -->
+        }//else
+    }
+
+	$('#reused_form').submit(function(e)
+      {
+        e.preventDefault();
+
+        $form = $(this);
+        //show some response on the button
+        $('button[type="submit"]', $form).each(function()
+        {
+            $btn = $(this);
+            $btn.prop('type','button' ); 
+            $btn.prop('orig_label',$btn.text());
+            $btn.text('Sending ...');
+        });
+        
+
+                    $.ajax({
+                type: "POST",
+                url: 'handler.php',
+                data: $form.serialize(),
+                success: after_form_submitted,
+                dataType: 'json' 
+            });        
+        
+      });	
+});
+
+</script>
     </section>
-    <!-- course-features -->
-
-
-
-     <!-- PROJECT FEATURES
-	================================================== -->
-    <section id="project-features">
-        <div class="container">
-
-            <h2>Was macht Cargobike Adventures so besonders?</h2>
-            <p class="lead">Gemeinsam entlasten wir Städte, Straßen und den Himmel. Wir bieten euch ein nie dagewesenes Konzept von Aktivurlaub.</p>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-design.png" alt="Design"> -->
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-berlin2.png" alt="Design" style=" padding: 15px;">
-                    <!-- <h3>Sexy &amp; Modern Design</h3> -->
-                    <p>Zentraler Pick-Up und Drop-Off im MotionLab Berlin-Treptow</p>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-code.png" alt="Code"> -->
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-chair.png" alt="Code"> 
-                    <!-- <h3>Quality HTML5 &amp; CSS3</h3> -->
-                    <p>Ausführliche Einführung in Bike und Equipment bei Anmietung</p>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-wheel.png" alt="CMS">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
-                    <p>Neueste Modelle an Bikes und Zubehör, garantiert frisch gewartet und desinfiziert</p>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-leaf.png" alt="CMS" style="padding: 8px;">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
-                    <p>CO2 neutrales und somit emissionsfreies Reisen - so schont ihr die Umwelt</p>
-                </div>
-                <!-- col -->
-                <div class="col-sm-4">
-                    <!-- <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS"> -->
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/specialty-cycle2.png" alt="CMS">
-                    <!-- <h3>Easy-to-use CMS</h3> -->
-                    <p>Alle unsere Partner verschreiben sich in höchstem Maße Nachhaltigkeit und Transparenz im Wirtschaftskreislauf</p>
-                </div>
-                <!-- col -->
-
-            </div>
-            <!-- row -->
-
-        </div>
-        <!-- container -->
-    </section>
-    <!-- project-features -->
-
-    
-    <!-- OPT IN SECTION
-	================================================== -->
-    <section id="optin">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm-8">
-                    <p class="lead"><?php echo $optin_text; ?></p>
-                </div>
-                <!-- end col -->
-
-                <div class="col-sm-4">
-                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-                    <?php echo $optin_button_text; ?>
-					</button>
-                </div>
-                <!-- end col -->
-
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-    </section>
-    <!-- optin -->
-
-
-    <!-- BOOST YOUR INCOME
-	================================================== -->
-    <section id="boost-income">
-        <div class="container">
-
-            <div class="section-header">
-                <!--if user uploaded an image -->
-                <?php if(!empty($premium_service_feature_image)): ?>
-                    <img src="<?php  echo $premium_service_feature_image['url']; ?>" alt="<?php echo $premium_service_feature_image['alt']; ?>">
-                <?php endif; ?>
-                
-                <h2><?php echo $premium_service_section_title; ?></h2>
-            </div>
-            <!-- section-header -->
-
-            <p class="lead"><?php echo $premium_service_section_desc; ?></p>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3><?php echo $reason_1_title; ?></h3>
-                    <p><?php echo $reason_1_desc; ?></p>
-                </div>
-                <!-- end col -->
-
-                <div class="col-sm-6">
-                <h3><?php echo $reason_2_title; ?></h3>
-                    <p><?php echo $reason_2_desc; ?></p>
-                </div>
-                <!-- end col -->
-
-                <div class="col-sm-6">
-                <h3><?php echo $reason_3_title; ?></h3>
-                    <p><?php echo $reason_3_desc; ?></p>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-
-        </div>
-        <!-- container -->
-    </section>
-    <!-- boost-income -->
-
-
-  
-
-
+    <!-- introduction -->
 
 <?php
 get_footer();
