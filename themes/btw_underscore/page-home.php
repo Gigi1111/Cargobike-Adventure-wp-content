@@ -107,9 +107,9 @@ get_header();
     <section id="introduction" class="color-dark-grey" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-6 left">
+                <div class="col-sm-8 col-md-4 left">
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="col-lg-12">
                             <?php echo $greetings_content; ?>
                         <div class="">
                         <?php if(!empty($twitter)): ?>
@@ -128,8 +128,8 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-8 col-md-6 right" >
-                    <div class="w3-content w3-section" style="max-width:500px">
+                <div class="col-sm-8 col-md-8 right" >
+                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
                         <?php if(!empty($greeting_slideshow_1)): ?>
                             <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
                         <?php endif; ?>
@@ -167,7 +167,7 @@ get_header();
 
   
 
-     <!-- Column small
+     <!-- Column small ; was wir bieten
 	================================================== -->
     <section id="section-column-sm" class="color-black" >
         <div class="container">
@@ -197,13 +197,119 @@ get_header();
                 <?php endwhile; ?>
             </div>
             <!-- row -->
-            
+
         </div>
         <!-- container -->
     </section>
-    <!-- section-column-sm -->
 
-     <!-- section column middle
+
+      <!-- section slideshow
+	================================================== -->
+    <section id="section-slidshow" class="" style="padding-bottom: 0;">
+            <div class="container" style="width: 100% !important; margin: 0; padding: 0; text-align: center; color: var(--brand-dark-grey)">
+                <h2>Carousel Example</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 800px;
+    overflow: hidden;">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" style="height: 100%">
+                            <div class="item active" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
+    background-position: center center; margin: 0; margin: 0;">
+                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
+    padding: 0;">
+                                    <h3>caption blah blah</h3>
+                                    <p>caption blah blah</p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
+    background-position: center center; margin: 0;">
+                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
+    padding: 0;">
+                                    <h3>caption blah blah</h3>
+                                    <p>caption blah blah</p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
+    background-position: center center; margin: 0;">
+                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
+    padding: 0;">
+                                    <h3>caption blah blah</h3>
+                                    <p>caption blah blah</p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background: none !important;">
+                        <div class="btn" style="background: var(--brand-primary); opacity: 1; border-radius: 50px;  padding: 30px;    position: absolute;
+                    top: 50%;
+                    z-index: 5;
+                    display: inline-block;    width: 50px;
+    height: 50px;
+    padding: 0 !important;">
+                            <span class="glyphicon glyphicon-chevron-left" style="margin: 0 !important; padding: 10px 33px 0 0 !important; position: relative !important;  right: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0;"></span>
+                            <span class="sr-only">Previous</span>
+                        </div>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none !important;">
+                        <div class="btn" style="background: var(--brand-primary); opacity: 1; border-radius: 50px;  padding: 30px;    position: absolute;
+                    top: 50%;
+                    z-index: 5;
+                    display: inline-block;    width: 50px;
+    height: 50px;
+    padding: 0 !important;">
+                            <span class="glyphicon glyphicon-chevron-right"  style="margin: 0 !important;  padding: 8px 30px 0 0 !important;
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0;"></span>
+                            <span class="sr-only">Next</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <style>
+            </style>
+    </section>
+
+
+      <!-- OPT IN SECTION
+	================================================== -->
+    <section id="optin" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="lead"><?php echo $optin_text; ?></p>
+                </div>
+                <!-- end col -->
+                <div class="col-sm-4">
+                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+                    <?php echo $optin_button_text; ?>
+					</button>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- optin -->
+
+  
+     <!-- section column middle; besonders
 	================================================== -->
     <section id="section-column-md" class="color-dark-grey" >
         <div class="container">
@@ -291,7 +397,7 @@ get_header();
     <!-- optin -->
 
 
-    <!-- column large
+    <!-- column large; premium service
 	================================================== -->
     <section id="section-column-lg" class="color-dark-grey" >
         <div class="container">

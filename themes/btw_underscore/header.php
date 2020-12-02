@@ -28,6 +28,7 @@
 	<!-- w3 school css -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+
 	<?php wp_head(); ?>
 
 	   <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
