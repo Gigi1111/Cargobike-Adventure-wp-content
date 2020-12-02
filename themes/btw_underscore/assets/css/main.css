@@ -2343,7 +2343,7 @@ header .brand h3 {
         bottom: 0;
         /* padding: 10px; */
         z-index: 4;
-        height: 101px;
+        height: 102px;
     }
 }
 
@@ -2362,9 +2362,11 @@ header .brand h3 {
     background-position: center !important;
     border: 1px solid #ddd !important;
     border-radius: 0;
+    background-color: white !important;
 }
 
 .carousel-indicators li:hover {
+    backdrop-filter: brightness(100%);
     filter: brightness(80%);
     width: 100px;
     height: 100px;
@@ -2375,6 +2377,7 @@ header .brand h3 {
 }
 
 .carousel-indicators li.active {
+    backdrop-filter: brightness(100%);
     filter: brightness(70%);
     width: 100px;
     height: 100px;
