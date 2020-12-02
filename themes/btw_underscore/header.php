@@ -36,7 +36,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	
+
 	<?php wp_head(); ?>
 
 	   <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,11 +72,13 @@ wp_body_open(); ?>
 					<div class="container">
 						<!-- logo
 						================================================== -->
-						<div class="brand">
-							<?php if(!empty($brand_logo)): ?>
-								<img src="<?php  echo $brand_logo['url']; ?>" alt="<?php echo $brand_logo['alt']; ?>">
-							<?php endif; ?>
-							<?php  echo $brand_name; ?>
+						<div class="brand" >
+							<a href="/home" style=" display: flex;">
+								<?php if(!empty($brand_logo)): ?>
+									<img src="<?php  echo $brand_logo['url']; ?>" alt="<?php echo $brand_logo['alt']; ?>">
+								<?php endif; ?>
+								<?php  echo $brand_name; ?>
+							</a>
 						</div>
 						
 						<div class="navbar-header">
