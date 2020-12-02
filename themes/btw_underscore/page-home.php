@@ -260,10 +260,11 @@ get_header();
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active" style="background: url('<?php  echo $equipment_slideshow_item_image_1['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li>
-                    <!-- <li data-target="#myCarousel" data-slide-to="1" style="background: url('<?php  echo $equipment_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li> -->
+                    <li data-target="#myCarousel" data-slide-to="1" style="background: url('<?php  echo $equipment_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li>
+                    <li data-target="#myCarousel" data-slide-to="2" style="background: url('<?php  echo $equipment_slideshow_item_image_3['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li>
+                    <li data-target="#myCarousel" data-slide-to="3" style="background: url('<?php  echo $equipment_slideshow_item_image_4['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li>
+                    <li data-target="#myCarousel" data-slide-to="4" style="background: url('<?php  echo $equipment_slideshow_item_image_5['url']; ?>') !important;background-size: contain !important; background-position: center !important;"></li>
                   
-                    <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>-->
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -276,24 +277,48 @@ get_header();
                         </div>
                     </div>
 
-                    <!-- <div class="item">
-                    <img src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_2['alt']; ?>" >
+                    <div class="item">
+                        <img src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_2['alt']; ?>" >
                         <div class="carousel-caption d-none d-md-block">
                             <h3><?php echo $equipment_slideshow_item_title_2 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_2 ?></p>
                         </div>
-                    </div> -->
+                    </div>
+
+                    <div class="item">
+                        <img src="<?php  echo $equipment_slideshow_item_image_3['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_3['alt']; ?>" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3><?php echo $equipment_slideshow_item_title_3 ?></h3>
+                            <p><?php echo $equipment_slideshow_item_description_3 ?></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="<?php  echo $equipment_slideshow_item_image_4['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_4['alt']; ?>" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3><?php echo $equipment_slideshow_item_title_4 ?></h3>
+                            <p><?php echo $equipment_slideshow_item_description_4 ?></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="<?php  echo $equipment_slideshow_item_image_5['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_5['alt']; ?>" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3><?php echo $equipment_slideshow_item_title_5 ?></h3>
+                            <p><?php echo $equipment_slideshow_item_description_5 ?></p>
+                        </div>
+                    </div>
 
                    
                 </div>
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="glyphicon glyphicon-chevron-left btn"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="glyphicon glyphicon-chevron-right btn"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
