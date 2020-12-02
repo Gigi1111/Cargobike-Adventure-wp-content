@@ -1535,7 +1535,7 @@ section h2 {
 }
 
 section h3 {
-    margin: 30px 0 10px;
+    margin: 15px 0;
 }
 
 section.main-content {
@@ -2522,4 +2522,29 @@ header .brand h3 {
 .carousel-control.left,
 .glyphicon-chevron-left {
     /* text-align: right !important; */
+}
+
+
+/* akordion */
+
+.panel-group {
+    display: flex;
+    margin: 0;
+}
+
+.panel {
+    margin: 2px !important;
+    padding: 0;
+    border: none !important;
+}
+
+.panel-default>.panel-heading {
+    color: var(--brand-white) !important;
+    background-color: #f5f5f5;
+    border: none;
+    background-image: url(http://localhost:8888/wp-content/uploads/2020/12/two-bikes.jpg) !important;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 15px;
 }
