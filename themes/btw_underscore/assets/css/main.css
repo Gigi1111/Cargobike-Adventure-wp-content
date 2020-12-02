@@ -2355,6 +2355,35 @@ header .brand h3 {
     background: var(--brand-primary)!important;
 }
 
+.carousel-indicators li {
+    width: 100px;
+    height: 100px;
+    background-size: contain !important;
+    background-position: center !important;
+    border: 1px solid #ddd !important;
+    border-radius: 0;
+}
+
+.carousel-indicators li:hover {
+    filter: brightness(80%);
+    width: 100px;
+    height: 100px;
+    background-size: contain !important;
+    background-position: center !important;
+    border: 1px solid #ddd !important;
+    border-radius: 0;
+}
+
+.carousel-indicators li.active {
+    filter: brightness(70%);
+    width: 100px;
+    height: 100px;
+    background-size: contain !important;
+    background-position: center !important;
+    border: 1px solid #ddd !important;
+    border-radius: 0;
+}
+
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
     height: 100%;
