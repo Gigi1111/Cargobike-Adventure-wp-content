@@ -61,6 +61,29 @@ $col_content_4      = get_field('col_content_4');
 $col_image_5      = get_field('col_image_5');
 $col_content_5      = get_field('col_content_5');
 
+// slideshow; camping equipments
+$equipment_slideshow_title      = get_field('equipment_slideshow_title');
+$equipment_slideshow_sub      = get_field('equipment_slideshow_sub');
+// item
+$equipment_slideshow_item_title_1      = get_field('equipment_slideshow_item_title_1');
+$equipment_slideshow_item_description_1      = get_field('equipment_slideshow_item_description_1');
+$equipment_slideshow_item_image_1      = get_field('equipment_slideshow_item_image_1');
+// item
+$equipment_slideshow_item_title_2      = get_field('equipment_slideshow_item_title_2');
+$equipment_slideshow_item_description_2      = get_field('equipment_slideshow_item_description_2');
+$equipment_slideshow_item_image_2      = get_field('equipment_slideshow_item_image_2');
+// item
+$equipment_slideshow_item_title_3      = get_field('equipment_slideshow_item_title_3');
+$equipment_slideshow_item_description_3      = get_field('equipment_slideshow_item_description_3');
+$equipment_slideshow_item_image_3      = get_field('equipment_slideshow_item_image_3');
+// item
+$equipment_slideshow_item_title_4      = get_field('equipment_slideshow_item_title_4');
+$equipment_slideshow_item_description_4      = get_field('equipment_slideshow_item_description_4');
+$equipment_slideshow_item_image_4      = get_field('equipment_slideshow_item_image_4');
+// item
+$equipment_slideshow_item_title_5      = get_field('equipment_slideshow_item_title_5');
+$equipment_slideshow_item_description_5      = get_field('equipment_slideshow_item_description_5');
+$equipment_slideshow_item_image_5      = get_field('equipment_slideshow_item_image_5');
 
 get_header();
 ?>
@@ -202,80 +225,73 @@ get_header();
         <!-- container -->
     </section>
 
-
-      <!-- section slideshow
+          
+    <!-- section slideshow equipments
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
-            <div class="container" style="width: 100% !important; margin: 0; padding: 0; text-align: center; color: var(--brand-dark-grey)">
-                <h2>Camping Equipments for Rent</h2>  
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 800px;
-    overflow: hidden;">
+            <div class="container" style="width: 100%;">
+                
+                <h2 style="text-align: center; color: var(--brand-dark-grey);"><?php echo $equipment_slideshow_title; ?></h2>  
+                <p><?php echo $equipment_slideshow_sub; ?></p>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" style="height: 100%">
+                    <div class="carousel-inner" style="height: 600px; overflow: hidden;">
                             <div class="item active" style="height: 100%">
-                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
-    background-position: center center; margin: 0; margin: 0;">
-                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
-    padding: 0;">
-                                    <h3>caption blah blah</h3>
-                                    <p>caption blah blah</p>
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_1['url']; ?>" alt="First slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_1 ?></p>
                                 </div>
                             </div>
                             <div class="item" style="height: 100%">
-                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
-    background-position: center center; margin: 0;">
-                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
-    padding: 0;">
-                                    <h3>caption blah blah</h3>
-                                    <p>caption blah blah</p>
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="Second slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_2 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_2 ?></p>
                                 </div>
                             </div>
                             <div class="item" style="height: 100%">
-                                <img class="d-block w-100" src="<?php  echo $greeting_slideshow_3['url']; ?>"   alt="Third slide" style="width: 100%;
-    background-position: center center; margin: 0;">
-                                <div class="carousel-caption d-none d-md-block" style="bottom:0; margin-bottom: 100px;
-    padding: 0;">
-                                    <h3>caption blah blah</h3>
-                                    <p>caption blah blah</p>
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_3['url']; ?>" alt="Third slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_3 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_3 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_4['url']; ?>" alt="Fourth slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_4 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_4 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_5['url']; ?>" alt="Fifth slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_5 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_5 ?></p>
                                 </div>
                             </div>
                     </div>
 
                     <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background: none !important;">
-                        <div class="btn" style="background: var(--brand-primary); opacity: 1; border-radius: 50px;  padding: 30px;    position: absolute;
-                    top: 50%;
-                    z-index: 5;
-                    display: inline-block;    width: 50px;
-    height: 50px;
-    padding: 0 !important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="margin: 0 !important; padding: 10px 33px 0 0 !important; position: relative !important;  right: 0 !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: 0;"></span>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <div class="btn">
+                            <span class="glyphicon glyphicon-chevron-left" ></span>
                             <span class="sr-only">Previous</span>
                         </div>
                     </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none !important;">
-                        <div class="btn" style="background: var(--brand-primary); opacity: 1; border-radius: 50px;  padding: 30px;    position: absolute;
-                    top: 50%;
-                    z-index: 5;
-                    display: inline-block;    width: 50px;
-    height: 50px;
-    padding: 0 !important;">
-                            <span class="glyphicon glyphicon-chevron-right"  style="margin: 0 !important;  padding: 8px 30px 0 0 !important;
-    position: relative !important;
-    right: 0 !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: 0;"></span>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <div class="btn">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                         </div>
                     </a>
@@ -286,7 +302,106 @@ get_header();
     </section>
 
 
-      <!-- OPT IN SECTION
+    <!-- OPT IN SECTION
+	================================================== -->
+    <section id="optin" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="lead"><?php echo $optin_text; ?></p>
+                </div>
+                <!-- end col -->
+                <div class="col-sm-4">
+                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+                    <?php echo $optin_button_text; ?>
+					</button>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </section>
+    <!-- optin -->
+
+    
+    <!-- section slideshow equipments
+	================================================== -->
+    <section id="section-slidshow" class="" style="padding-bottom: 0;">
+            <div class="container" style="width: 100%;">
+                
+                <h2 style="text-align: center; color: var(--brand-dark-grey);"><?php echo $equipment_slideshow_title; ?></h2>  
+                <p><?php echo $equipment_slideshow_sub; ?></p>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" style="height: 600px; overflow: hidden;">
+                            <div class="item active" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_1['url']; ?>" alt="First slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_1 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="Second slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_2 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_2 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_3['url']; ?>" alt="Third slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_3 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_3 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_4['url']; ?>" alt="Fourth slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_4 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_4 ?></p>
+                                </div>
+                            </div>
+                            <div class="item" style="height: 100%">
+                                <img class="d-block w-100" src="<?php  echo $equipment_slideshow_item_image_5['url']; ?>" alt="Fifth slide" >
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3><?php echo $equipment_slideshow_item_title_5 ?></h3>
+                                    <p><?php echo $equipment_slideshow_item_description_5 ?></p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <div class="btn">
+                            <span class="glyphicon glyphicon-chevron-left" ></span>
+                            <span class="sr-only">Previous</span>
+                        </div>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <div class="btn">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <style>
+            </style>
+    </section>
+
+
+    <!-- OPT IN SECTION
 	================================================== -->
     <section id="optin" >
         <div class="container">
