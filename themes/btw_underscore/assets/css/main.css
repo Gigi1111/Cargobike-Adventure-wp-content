@@ -2223,6 +2223,7 @@ header .brand img {
 header .brand h3 {
     margin: 18px 0 !important;
     font-size: 30px !important;
+    color: var(--brand-secondary);
 }
 
 #menu-foryou,
