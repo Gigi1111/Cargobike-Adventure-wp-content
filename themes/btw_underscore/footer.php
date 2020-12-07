@@ -46,107 +46,100 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
 
 <?php wp_footer(); ?>
 
-
-    <!-- SIGN UP SECTION
+      <!-- image call to action
 	================================================== -->
-    <section id="signup">
-         <!-- data-type="background" data-speed="4"> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <?php echo $booking_text ?>
-                    <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
-                    <?php echo $booking_btn ?>
-                    </button>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
+    <section id="signup" >
+            <?php 
+             set_query_var( 'content_text', "Gift a dream bike trip to some now" );
+             set_query_var( 'btn_text', "los geht's" );
+            get_template_part( 'template-parts/section', 'image-calltoaction' );?>
     </section>
-    <!-- signup -->
+    <!-- optin -->
 
 
     <!-- FOOTER
 	================================================== -->
-    <footer>
-        <div class="container">
-            <div class="">
-                <div class="col-sm-8">
-                    <p class="lead">
-                        <?php echo $form_text ?>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                        <button class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#myModal" style="">
-                        <?php echo $form_btn ?>
-                        </button>
-                </div>
-            </div>
-            <!-- end col -->
-        </div>
-        <!-- container -->
-    </footer>
+    <section id="optin" >
+            <?php
+            set_query_var( 'content_text', "Gift a dream bike trip to some now" );
+            set_query_var( 'btn_text', "los geht's" );
+             get_template_part( 'template-parts/section', 'oneline' );?>
+    </section>
 
+  
      <!-- PROJECT FEATURES
 	================================================== -->
     <section id="footer-features" >
         <div class="container">
             <div class="row">
-                <?php if(!empty($title1)): ?>
+                <!-- <?php if(!empty($title1)): ?> -->
+                
                     <div class="col-sm-2">
-                        <h5><?php echo $title1; ?></h5>
-                            <?php echo $address; ?>
+                        <h5>
+                        <!-- <?php echo $title1; ?> -->
+                        Kontakt
+                        </h5>
+                            <!-- <?php echo $address; ?> -->
+                            Cargobike Adventures @ MORE Cargobike GmbH Bouchéstr. 12 | Halle 20 12435 Berlin
+
                             <br><br>
-                            <?php echo $contact; ?>
+                            <!-- <?php echo $contact; ?> -->
+                            0160.2066123 urlaub@cargobike-adventures.de
+
                             <br><br>
-                            <?php echo $opening_hour; ?>
+                            <!-- <?php echo $opening_hour; ?> -->
+
+                            (Nahezu) jederzeit mit vorheriger Terminvereinbarung.
                     </div>
-                <?php endif; ?>
+                <!-- <?php endif; ?> -->
                 <!-- col -->
-                <?php if(!empty($title2)): ?>
-                    <div class="col-sm-2">
-                        <h5><?php echo $title2; ?></h5>
-                        <div class="column">
-                            <?php
-                                wp_nav_menu(array(
-                                    'theme_location' => 'legal',
-                                    'container' => 'nav',
-                                    'menu_class' => 'nav navbar-nav'
-                                ));
-                            ?>
-                        </div>
+  
+  
+                <div class="col-sm-2">
+                        <h5>
+                        Gesetz
+                        </h5>
+                         <ul class="nav navbar-nav">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;"> 
+                                <a href="<?php echo get_site_url(); ?>/impressum" style="margin:0">Impressum</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;">
+                                <a href="<?php echo get_site_url(); ?>/datenschutz" style="margin:0">Datenschutz</a>
+                            </li>
+                         </ul>
                     </div>
-                <?php endif; ?>
                 <!-- col -->
-                <?php if(!empty($title3)): ?>
-                    <div class="col-sm-2">
-                        <h5><?php echo $title3; ?></h5>
-                        <div class="column">
-                            <?php
-                                wp_nav_menu(array(
-                                    'theme_location' => 'foryou',
-                                    'container' => 'nav',
-                                    'menu_class' => 'nav navbar-nav'
-                                ));
-                            ?>
-                        </div>
+                <div class="col-sm-2">
+                        <h5>
+                        Für Euch
+                        </h5>
+                         <ul class="nav navbar-nav">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155" style="width: 80%;text-align: center;">
+                                <a href="<?php echo get_site_url(); ?>/gut-zu-wissen" style="margin:0">Gut Zu Wissen</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;">
+                                <a href="<?php echo get_site_url(); ?>/kontakt" style="margin:0">Kontakt</a>
+                            </li>
+                         </ul>
                     </div>
-                <?php endif; ?>
                 <!-- col -->
                 <?php if(!empty($title4)): ?>
                     <div class="col-sm-2">
-                        <h5><?php echo $title4; ?></h5>
-                        <?php if(!empty($paypal)): ?>
-                            <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/<?php echo $paypal; ?>" alt="paypal" style="height: 40px; margin: 3px;">
-                        <?php endif; ?>
-                        <?php if(!empty($visa)): ?>
-                            <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/<?php echo $visa; ?>" alt="visa" style="height: 40px; margin: 3px;">
-                        <?php endif; ?>
-                        <?php if(!empty($mastercard)): ?>
-                            <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/<?php echo $mastercard; ?>" alt="mastercard" style="height: 40px; margin: 3px;">
-                        <?php endif; ?>
+                        <h5>Zahlungsmethode</h5>
+                        <ul style="list-style-type:none; margin: 0">
+                            <li>
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/paypal.svg" alt="paypal" style="height: 40px; margin: 3px;    display: block;">
+                           </li>
+                           <li>
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/visa.svg" alt="visa" style="height: 40px; margin: 3px;    display: block;">
+                            </li>
+                           <li>
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/mastercard.svg" alt="mastercard" style="height: 40px; margin: 3px;    display: block;">
+                            </li>
+                           <li>
+                                Überweisung
+                           </li>
+                        </ul>
                     </div>
                 <?php endif; ?>
                 <!-- col -->

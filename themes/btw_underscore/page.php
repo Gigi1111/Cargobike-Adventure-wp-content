@@ -15,24 +15,46 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+ <!-- HERO
+    ================================================== -->
+    <section id="hero">
+            <div class="container clearfix">
+                <!-- The video -->
+                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
+                    <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay">
+                     <?php
+                        get_template_part( 'template-parts/hero', 'content' );
+                        ?>
+                </div>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+                
+            </div>
+            <!-- container -->
+    </section>
 
-			get_template_part( 'template-parts/content', 'page' );
+	
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			<div class="page-wrapper">
+				<div class="page-content" style="text-align:">
+					<div class="">
+					<h1 class="page-title">Page Not Found</h1>
+					<form action="<?php echo get_site_url();?>" method="post">
+                        <label for="search"> 
+                        </label>
+                            <input type="submit" class="btn" id=”searchsubmit” value="Back to HOME"/>
+                        </form>
+					</div>
+					
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+				</div><!-- .page-content -->
+			</div><!-- .page-wrapper -->
 
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

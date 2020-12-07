@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Kontakt
+ * Template Name: Gutschein
  */
 $prelaunch_price    = get_post_meta(11, 'prelaunch_price', true);
 $launch_price       = get_post_meta(11, 'launch_price', true);
@@ -136,19 +136,28 @@ get_header();
                             <div class="panel-body">
                                 <form id="reused_form">
                                     <div class="form-group">
-                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                        <label><i class="fa fa-user" aria-hidden="true"></i> Gutscheinwert</label>
+                                        <!-- <input type="text" name="name" class="form-control" placeholder="Enter Name"> -->
+                                        <label class="radio-inline"><input type="radio" name="optradio" checked>50</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">100</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">150</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">200</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">250</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">???</label>
                                     </div>
                                     <div class="form-group">
-                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i>Email</label>
                                         <input type="email" name="email" class="form-control" placeholder="Enter Email">
                                     </div>
                                     <div class="form-group">
-                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i>Zahlungsmethode</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio" checked>Ueberweisung</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">Paypal</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio">Credit Card</label>
                                     </div>
+
                                     <div class="form-group">
-                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                        <button class="btn btn-raised btn-block btn-danger">Next Step &rarr;</button>
                                     </div>
                                 </form>
                                 <div id="error_message" style="width:100%; height:100%; display:none; ">
@@ -167,75 +176,7 @@ get_header();
             </div>
             <!-- Form Ended -->
         </div>
-        <script>
-        
-$(function()
-{
-    function after_form_submitted(data) 
-    {
-        if(data.result == 'success')
-        {
-            $('form#reused_form').hide();
-            $('#success_message').show();
-            $('#error_message').hide();
-        }
-        else
-        {
-            $('#error_message').append('<ul></ul>');
-
-            jQuery.each(data.errors,function(key,val)
-            {
-                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-            });
-            $('#success_message').hide();
-            $('#error_message').show();
-
-            //reverse the response on the button
-            $('button[type="button"]', $form).each(function()
-            {
-                $btn = $(this);
-                label = $btn.prop('orig_label');
-                if(label)
-                {
-                    $btn.prop('type','submit' ); 
-                    $btn.text(label);
-                    $btn.prop('orig_label','');
-                }
-            });
-            
-        }//else
-    }
-
-	$('#reused_form').submit(function(e)
-      {
-        e.preventDefault();
-
-        $form = $(this);
-        //show some response on the button
-        $('button[type="submit"]', $form).each(function()
-        {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            $btn.prop('orig_label',$btn.text());
-            $btn.text('Sending ...');
-        });
-        
-
-                    $.ajax({
-                type: "POST",
-                url: 'handler.php',
-                data: $form.serialize(),
-                success: after_form_submitted,
-                dataType: 'json' 
-            });        
-        
-      });	
-});
-
-</script>
-    </section>
-    <!-- introduction -->
-
+  </section>
 <?php
 get_footer();
 ?>

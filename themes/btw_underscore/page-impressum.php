@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Kontakt
+ * Template Name: Home Page
  */
 $prelaunch_price    = get_post_meta(11, 'prelaunch_price', true);
 $launch_price       = get_post_meta(11, 'launch_price', true);
@@ -96,10 +96,6 @@ $bike_slideshow_item_image_1      = get_field('bike_slideshow_item_image_1');
 $bike_slideshow_item_title_2      = get_field('bike_slideshow_item_title_2');
 $bike_slideshow_item_description_2      = get_field('bike_slideshow_item_description_2');
 $bike_slideshow_item_image_2      = get_field('bike_slideshow_item_image_2');
-
-// http://reusableforms.com/d/o5/html5-contact-form-send-email
-
-
 get_header();
 ?>
 
@@ -124,117 +120,98 @@ get_header();
             <!-- container -->
     </section>
 
-    <!-- INTRO
-	================================================== -->
-    <section id="produkte-intro" class="color-dark-grey" >
-    <div class="container">
-            <!-- Form Started -->
-            <div class="container form-top">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                        <div class="panel panel-danger">
-                            <div class="panel-body">
-                                <form id="reused_form">
-                                    <div class="form-group">
-                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
-                                    </div>
-                                </form>
-                                <div id="error_message" style="width:100%; height:100%; display:none; ">
-                                    <h4>
-                                        Error
-                                    </h4>
-                                    Sorry there was an error sending your form. 
-                                </div>
-                                <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                <h2>Success! Your Message was Sent Successfully.</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <!-- quote
+    ================================================== -->
+    <!-- <section id="introduction" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-6 left">
+                    <blockquote class="wp-block-quote is-style-large">
+                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
+                        <p> <?php echo $news_content; ?></p>
+                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
+                    </blockquote>
                 </div>
             </div>
-            <!-- Form Ended -->
         </div>
+    </section> -->
+
+     <!-- INTRO
+	================================================== -->
+    <section id="introduction" class="color-dark-grey" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 left">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- <?php echo $greetings_content; ?> -->
+                            <h2>Impressum</h2>
+                            <p class="lead">
+                                <span>
+                                Bouchéstr. 12 | Halle 20<br>
+                                12435 Berlin<br>
+                                Deutschland<br>
+                                </span>
+                                <br>
+                                Telefon: 01602066123
+                                <br>
+                                Mail: info@more-cargobike.de
+                                <br>
+                                Geschäftsführer: Johannes Weyers
+                                <br>
+                                Handelsregister: Amstgericht Berlin-Charlottenburg, 212921 B
+                                <br>
+                                Umsatzsteuer-Identifikationsnummer: DE327329722
+                                <br>
+                                <br>
+                                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a>. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
+                            </p>
+                        
+                    </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- end col -->
+                <div class="col-sm-8 col-md-8 right" >
+                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
+                        <?php if(!empty($greeting_slideshow_1)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_2)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_3)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
         <script>
-        
-$(function()
-{
-    function after_form_submitted(data) 
-    {
-        if(data.result == 'success')
-        {
-            $('form#reused_form').hide();
-            $('#success_message').show();
-            $('#error_message').hide();
-        }
-        else
-        {
-            $('#error_message').append('<ul></ul>');
+            var myIndex = 0;
+            carousel();
 
-            jQuery.each(data.errors,function(key,val)
-            {
-                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-            });
-            $('#success_message').hide();
-            $('#error_message').show();
-
-            //reverse the response on the button
-            $('button[type="button"]', $form).each(function()
-            {
-                $btn = $(this);
-                label = $btn.prop('orig_label');
-                if(label)
-                {
-                    $btn.prop('type','submit' ); 
-                    $btn.text(label);
-                    $btn.prop('orig_label','');
-                }
-            });
-            
-        }//else
-    }
-
-	$('#reused_form').submit(function(e)
-      {
-        e.preventDefault();
-
-        $form = $(this);
-        //show some response on the button
-        $('button[type="submit"]', $form).each(function()
-        {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            $btn.prop('orig_label',$btn.text());
-            $btn.text('Sending ...');
-        });
-        
-
-                    $.ajax({
-                type: "POST",
-                url: 'handler.php',
-                data: $form.serialize(),
-                success: after_form_submitted,
-                dataType: 'json' 
-            });        
-        
-      });	
-});
-
-</script>
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2300); // Change image every 2 seconds
+            }
+        </script>
     </section>
     <!-- introduction -->
+
+  
+
+    
 
 <?php
 get_footer();
