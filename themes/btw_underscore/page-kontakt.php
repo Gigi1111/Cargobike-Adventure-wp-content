@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Kontakt
+ * Template Name: Contact Page
  */
 $prelaunch_price    = get_post_meta(11, 'prelaunch_price', true);
 $launch_price       = get_post_meta(11, 'launch_price', true);
