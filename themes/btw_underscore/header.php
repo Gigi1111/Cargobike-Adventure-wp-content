@@ -77,7 +77,9 @@ wp_body_open(); ?>
 								<?php if(!empty($brand_logo)): ?>
 									<img src="<?php  echo $brand_logo['url']; ?>" alt="<?php echo $brand_logo['alt']; ?>">
 								<?php endif; ?>
+								<h3 style="color: var(--brand-secondary)"><strong>
 								<?php  echo $brand_name; ?>
+								</strong></h3>
 							</a>
 						</div>
 						
