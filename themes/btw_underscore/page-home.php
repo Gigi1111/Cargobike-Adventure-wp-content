@@ -141,7 +141,7 @@ get_header();
     <section id="introduction" class="color-dark-grey" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-4 left">
+                <div class="col-sm-12 col-md-4 left">
                     <div class="row">
                         <div class="col-lg-12">
                         
@@ -158,8 +158,8 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-8 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
+                <div class="col-sm-12 col-md-8 right" >
+                    <div class="w3-content w3-section" style="max-width:100%; max-height: 500px; overflow: hidden;">
                         <!-- <?php if(!empty($greeting_slideshow_1)): ?> -->
                             <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-bikes.jpg" alt="cargobike brand image" style="width:100%">
                         <!-- <?php endif; ?> -->
@@ -210,7 +210,7 @@ get_header();
             <!-- section-header -->
 
             <div class="row">
-                <div class="col-sm-2">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
                         <h4>Premium Lastenräder in verschiedenen Konfigurationen mit ausführlicher Einführung bei Anmietung</h4>
@@ -305,7 +305,7 @@ get_header();
 
             <div id="bikeCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators col-sm-12 col-md-12 col-lg-12">
                     <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                     <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                 </ol>

@@ -127,19 +127,21 @@ get_header();
     <section id="introduction" class="color-dark-grey" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-4 left">
+                <div class="col-sm-12 col-md-4 left">
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- <?php echo $greetings_content; ?> -->
                             <h2>Kontakt</h2>
                             <p class="lead">
-                            Cargobike Adventures<br>
-                            @ MORE Cargobike GmbH<br>
-                            Bouchéstr. 12 | Halle 20 12435 Berlin
-<br>
-<br>
-tele: 0160.2066123<br> 
-email: urlaub@cargobike-adventures.de
+                                Cargobike Adventures<br>
+                                @ MORE Cargobike GmbH<br>
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/location.svg" alt="cargobike brand image" style="width:20px">
+                                Bouchéstr. 12 | Halle 20 12435 Berlin
+                                <br>
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/phone.svg" alt="cargobike brand image" style="width:20px">
+                                Tele: 0160.2066123<br> 
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/mail.svg" alt="cargobike brand image" style="width:20px">
+                                email: urlaub@cargobike-adventures.de
                             </p>
                         
                     </div>
@@ -147,10 +149,10 @@ email: urlaub@cargobike-adventures.de
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-8 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
+                <div class="col-sm-12 col-md-8 right" >
+                    <div class="w3-content w3-section" style="max-width:100%; overflow: hidden;">
 
-                            <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/contact-ppl2.jpg" alt="contact people" style="width:100%">
+                            <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/contact-ppl2.jpg" alt="contact people" style="width:100%">
 
                     </div>
                 </div>

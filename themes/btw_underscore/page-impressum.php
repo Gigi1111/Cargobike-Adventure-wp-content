@@ -120,21 +120,6 @@ get_header();
             <!-- container -->
     </section>
 
-      <!-- quote
-    ================================================== -->
-    <!-- <section id="introduction" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <blockquote class="wp-block-quote is-style-large">
-                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
-                        <p> <?php echo $news_content; ?></p>
-                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
      <!-- INTRO
 	================================================== -->
@@ -148,14 +133,18 @@ get_header();
                             <h2>Impressum</h2>
                             <p class="lead">
                                 <span>
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/location.svg" alt="cargobike brand image" style="width:30px">
                                 Bouchéstr. 12 | Halle 20<br>
-                                12435 Berlin<br>
+                                12430 Berlin<br>
                                 Deutschland<br>
                                 </span>
                                 <br>
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/phone.svg" alt="cargobike brand image" style="width:30px">
                                 Telefon: 01602066123
                                 <br>
+                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/mail.svg" alt="cargobike brand image" style="width:30px">
                                 Mail: info@more-cargobike.de
+                                <br>
                                 <br>
                                 Geschäftsführer: Johannes Weyers
                                 <br>
@@ -173,16 +162,11 @@ get_header();
                 </div>
                 <!-- end col -->
                 <div class="col-sm-8 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
-                        <?php if(!empty($greeting_slideshow_1)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_2)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_3)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
+                    <div class="w3-content w3-section" style="max-width:100%; height: 730px; overflow: hidden;">
+                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-1.jpg" alt="cargobike brand image" style="width:100%">
+                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-2.jpg" alt="cargobike brand image" style="width:100%">
+                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-3.jpg" alt="cargobike brand image" style="width:100%">
+                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg" alt="cargobike brand image" style="width:100%">
                     </div>
                 </div>
                 <!-- end col -->

@@ -1527,8 +1527,15 @@ form textarea {
 }
 
 section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
+
+
+/* @media (max-width: 658px) {
+    section {
+        padding: 30px 0 !important;
+    }
+} */
 
 .section-header {
     text-align: center;
@@ -2341,10 +2348,6 @@ header .brand h3 {
     color: var(--brand-primary) !important;
 }
 
-.carousel-indicators li {
-    border: 1px solid var(--brand-secondary)!important;
-}
-
 @media screen and (min-width: 768px) {
     .carousel-indicators {
         bottom: 0;
@@ -2363,20 +2366,19 @@ header .brand h3 {
 }
 
 .carousel-indicators li {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     background-size: contain !important;
     background-position: center !important;
     border: 1px solid #ddd !important;
     border-radius: 0;
     background-color: white !important;
+    border: 1px solid var(--brand-secondary)!important;
 }
 
 .carousel-indicators li:hover {
     backdrop-filter: brightness(100%);
     filter: brightness(80%);
-    width: 100px;
-    height: 100px;
     background-size: contain !important;
     background-position: center !important;
     border: 1px solid #ddd !important;
@@ -2386,8 +2388,6 @@ header .brand h3 {
 .carousel-indicators li.active {
     backdrop-filter: brightness(100%);
     filter: brightness(70%);
-    width: 100px;
-    height: 100px;
     background-size: contain !important;
     background-position: center !important;
     border: 1px solid #ddd !important;
@@ -2445,7 +2445,6 @@ header .brand h3 {
     color: var(--brand-dark-grey);
     /* width: 20%; */
     right: 10% !important;
-    
     height: 100% !important;
     background: white;
     padding-left: 15px;
@@ -2609,19 +2608,27 @@ body {
     border-color: #bdc3c7;
 }
 
-
 @media (min-width: 768px) {
-    #optin p  {
+    #optin p {
         float: right;
     }
 }
 
 @media (max-width: 765px) {
-    #optin p  {
-        float: none ;
+    #optin p {
+        float: none;
     }
 }
 
-.carousel-inner>.item>#right-info {
-  
+@media screen and (max-width: 300px) {
+    .carousel-indicators li {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
 }
