@@ -1585,6 +1585,8 @@ section.main-content {
 
 #optin p {
     margin: 7px 0 0 0;
+    float: right;
+    text-align: center;
 }
 
 #section-column-sm {
@@ -1922,6 +1924,7 @@ footer li.signup-link a:hover {
     }
     #optin p {
         margin: 0 0 10px;
+        float: none;
     }
     #featurette iframe {
         height: 240px;
@@ -2442,8 +2445,10 @@ header .brand h3 {
     color: var(--brand-dark-grey);
     /* width: 20%; */
     right: 10% !important;
-    /* position: absolute; */
-    /* top: 0; */
+    
+    height: 100% !important;
+    background: white;
+    padding-left: 15px;
 }
 
 #section-slideshow>.container {
@@ -2602,4 +2607,21 @@ body {
 .btn-warning {
     background-color: transparent;
     border-color: #bdc3c7;
+}
+
+
+@media (min-width: 768px) {
+    #optin p  {
+        float: right;
+    }
+}
+
+@media (max-width: 765px) {
+    #optin p  {
+        float: none ;
+    }
+}
+
+.carousel-inner>.item>#right-info {
+  
 }

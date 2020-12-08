@@ -154,7 +154,7 @@ get_header();
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="font-size: 27px !important">
+                        <h3 class="panel-title" style="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                             1. Zugriffsdaten und Hosting
                             </a>
@@ -177,7 +177,7 @@ get_header();
                 <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="font-size: 27px !important">
+                        <h3 class="panel-title" style="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                             2. Datenerhebung und -verwendung bei Kontaktaufnahme
                             </a>
@@ -195,7 +195,7 @@ get_header();
                 <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="font-size: 27px !important">
+                        <h3 class="panel-title" style="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                             3. Cookies und weitere Technologien
                             </a>
@@ -225,7 +225,7 @@ Die Cookie-Einstellungen für Ihren Browser finden Sie unter den folgenden Links
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="font-size: 27px !important">
+                        <h3 class="panel-title" style="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                             4. Einsatz von Cookies und anderen Technologien zu Webanalyse und Werbezwecken
                             </a>
@@ -258,7 +258,7 @@ Die Cookie-Einstellungen für Ihren Browser finden Sie unter den folgenden Links
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="font-size: 27px !important">
+                        <h3 class="panel-title" style="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
                             5. Kontaktmöglichkeiten und Ihre Rechte
                             </a>
