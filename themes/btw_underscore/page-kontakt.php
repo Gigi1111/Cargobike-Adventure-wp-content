@@ -124,115 +124,63 @@ get_header();
             <!-- container -->
     </section>
 
-    <!-- INTRO
-	================================================== -->
-    <section id="produkte-intro" class="color-dark-grey" >
-    <div class="container">
-            <!-- Form Started -->
-            <div class="container form-top">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                        <div class="panel panel-danger">
-                            <div class="panel-body">
-                                <form id="reused_form">
-                                    <div class="form-group">
-                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
-                                    </div>
-                                </form>
-                                <div id="error_message" style="width:100%; height:100%; display:none; ">
-                                    <h4>
-                                        Error
-                                    </h4>
-                                    Sorry there was an error sending your form. 
-                                </div>
-                                <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                <h2>Success! Your Message was Sent Successfully.</h2>
-                                </div>
-                            </div>
-                        </div>
+    <section id="introduction" class="color-dark-grey" >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-4 left">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- <?php echo $greetings_content; ?> -->
+                            <h2>Kontakt</h2>
+                            <p class="lead">
+                            Cargobike Adventures<br>
+                            @ MORE Cargobike GmbH<br>
+                            Bouchéstr. 12 | Halle 20 12435 Berlin
+<br>
+<br>
+tele: 0160.2066123<br> 
+email: urlaub@cargobike-adventures.de
+                            </p>
+                        
+                    </div>
+                    </div>
+                    <!-- row -->
+                </div>
+                <!-- end col -->
+                <div class="col-sm-8 col-md-8 right" >
+                    <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
+                        <?php if(!empty($greeting_slideshow_1)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_2)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
+                        <?php if(!empty($greeting_slideshow_3)): ?>
+                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
+                        <?php endif; ?>
                     </div>
                 </div>
+                <!-- end col -->
             </div>
-            <!-- Form Ended -->
+            <!-- row -->
         </div>
+        <!-- container -->
         <script>
-        
-$(function()
-{
-    function after_form_submitted(data) 
-    {
-        if(data.result == 'success')
-        {
-            $('form#reused_form').hide();
-            $('#success_message').show();
-            $('#error_message').hide();
-        }
-        else
-        {
-            $('#error_message').append('<ul></ul>');
+            var myIndex = 0;
+            carousel();
 
-            jQuery.each(data.errors,function(key,val)
-            {
-                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-            });
-            $('#success_message').hide();
-            $('#error_message').show();
-
-            //reverse the response on the button
-            $('button[type="button"]', $form).each(function()
-            {
-                $btn = $(this);
-                label = $btn.prop('orig_label');
-                if(label)
-                {
-                    $btn.prop('type','submit' ); 
-                    $btn.text(label);
-                    $btn.prop('orig_label','');
-                }
-            });
-            
-        }//else
-    }
-
-	$('#reused_form').submit(function(e)
-      {
-        e.preventDefault();
-
-        $form = $(this);
-        //show some response on the button
-        $('button[type="submit"]', $form).each(function()
-        {
-            $btn = $(this);
-            $btn.prop('type','button' ); 
-            $btn.prop('orig_label',$btn.text());
-            $btn.text('Sending ...');
-        });
-        
-
-                    $.ajax({
-                type: "POST",
-                url: 'handler.php',
-                data: $form.serialize(),
-                success: after_form_submitted,
-                dataType: 'json' 
-            });        
-        
-      });	
-});
-
-</script>
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2300); // Change image every 2 seconds
+            }
+        </script>
     </section>
     <!-- introduction -->
 

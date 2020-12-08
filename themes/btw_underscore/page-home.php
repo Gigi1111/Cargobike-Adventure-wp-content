@@ -387,7 +387,7 @@ get_header();
     <!-- section slideshow equipments
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
-        <div class="container" style="width: 100%;">
+        <div class="container" style="width: 100%; text-align: center; color: var(--brand-dark-grey);">
             <!-- <h2 style="text-align: center; color: var(--brand-dark-grey);"><?php echo $equipment_slideshow_title; ?></h2>  
             <p><?php echo $equipment_slideshow_sub; ?></p> -->
             <h2>Camping Equipments for Rent</h2>
