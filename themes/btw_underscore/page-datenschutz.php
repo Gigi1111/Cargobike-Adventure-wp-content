@@ -126,21 +126,22 @@ get_header();
 	================================================== -->
     <section id="gut-zu-wissen-intro" class="color-dark-grey" style="padding-bottom: 0" >
         <div class="container">
-            <h1>Datenschutzerklärung</h1>
-            <h3>Verantwortlicher für die Datenverarbeitung ist:</h3>
-            <p style="font-size:1.1em">
-                Johannes Weyers<br>
-                Bouchéstr. 12 | Halle 20<br>
-                12435 Berlin<br>
-                ​​​​​​​Deutschland<br>
-                info@more-cargobike.de
-            </p>
-            <p style="font-size:1.4em">
-            Wir freuen uns über Ihr Interesse an unserer Webseite. Der Schutz Ihrer Privatsphäre ist für uns sehr wichtig. Nachstehend informieren wir Sie ausführlich über den Umgang mit Ihren Daten.
-            </p>
-            <p style="font-size:1.4em">
-                    
-            </p>
+            <div class="row">
+                <div class="col-sm-12 col-md-8 ">
+                    <h1>Datenschutz<wbr>erklärung</h1>
+                    <h3>Verantwortlicher für die Datenverarbeitung ist:</h3>
+                    <p style="font-size:1.1em">
+                        Johannes Weyers<br>
+                        Bouchéstr. 12 | Halle 20<br>
+                        12435 Berlin<br>
+                        ​​​​​​​Deutschland<br>
+                        info@more-cargobike.de
+                    </p>
+                    <p style="font-size:1.4em">
+                        Wir freuen uns über Ihr Interesse an unserer Webseite. Der Schutz Ihrer Privatsphäre ist für uns sehr wichtig. Nachstehend informieren wir Sie ausführlich über den Umgang mit Ihren Daten.
+                    </p>
+                </div>
+            </div>
        </div>
     </section>
     <!-- introduction -->
@@ -148,13 +149,13 @@ get_header();
     
     <!-- akordion
 	================================================== -->
-    <section id="section-faq-akordion" class="color-dark-grey" >
+    <section id="section-faq-akordion" class="color-dark-grey" style="padding: 40px 0;">
         <div class="container">
             <div class="panel-group" id="accordion">
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="">
+                        <h3 class="panel-title"  style="font-size: 24px !important">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                             1. Zugriffsdaten und Hosting
                             </a>
@@ -177,7 +178,7 @@ get_header();
                 <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="">
+                        <h3 class="panel-title"  style="font-size: 24px !important">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                             2. Datenerhebung und -verwendung bei Kontaktaufnahme
                             </a>
@@ -195,7 +196,7 @@ get_header();
                 <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="">
+                        <h3 class="panel-title"  style="font-size: 24px !important">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                             3. Cookies und weitere Technologien
                             </a>
@@ -225,7 +226,7 @@ Die Cookie-Einstellungen für Ihren Browser finden Sie unter den folgenden Links
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="">
+                        <h3 class="panel-title"  style="font-size: 24px !important">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                             4. Einsatz von Cookies und anderen Technologien zu Webanalyse und Werbezwecken
                             </a>
@@ -258,7 +259,7 @@ Die Cookie-Einstellungen für Ihren Browser finden Sie unter den folgenden Links
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="">
+                        <h3 class="panel-title"  style="font-size: 24px !important">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
                             5. Kontaktmöglichkeiten und Ihre Rechte
                             </a>

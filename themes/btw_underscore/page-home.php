@@ -158,17 +158,12 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-12 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; max-height: 500px; overflow: hidden;">
-                        <!-- <?php if(!empty($greeting_slideshow_1)): ?> -->
-                            <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-bikes.jpg" alt="cargobike brand image" style="width:100%">
-                        <!-- <?php endif; ?> -->
-                        <!-- <?php if(!empty($greeting_slideshow_2)): ?> -->
-                            <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/sleep-side-sm.jpg" alt="cargobike brand image" style="width:100%">
-                        <!-- <?php endif; ?> -->
-                        <!-- <?php if(!empty($greeting_slideshow_3)): ?> -->
-                            <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-riding-sm.jpg" alt="cargobike brand image" style="width:100%">
-                        <!-- <?php endif; ?> -->
+                <div class="hidden-xs col-sm-12 col-md-8 right" >
+                    <div class="w3-content w3-section" style="width:100%; height: 730px; overflow: hidden;">
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-bikes.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/sleep-side-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-riding-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
                     </div>
                 </div>
                 <!-- end col -->
@@ -210,30 +205,30 @@ get_header();
             <!-- section-header -->
 
             <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
                         <h4>Premium Lastenräder in verschiedenen Konfigurationen mit ausführlicher Einführung bei Anmietung</h4>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-tent.png" alt="tent icon" style="width:50px; height:50px" >
-                        <h4>Bestes Camping Equipment, für unsere Kunden frei zusammenstellbar</h4>
+                        <h4>Bestes Camping Equipment, für unsere Kunden frei zusammen<wbr>stellbar</h4>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-time.png" alt="clock icon" style="width:50px; height:50px" >
                         <h4>Viele Extras, die euch die Zeit unterwegs versüßen</h4>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-vacation.png" alt="camping icon" style="width:50px; height:50px" >
-                        <h4>Versicherungspakete für ein rundum sorglos Gefühl im Urlaub</h4>
+                        <h4>Versicherungs<wbr>pakete für ein rundum sorglos Gefühl im Urlaub</h4>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-direction.png" alt="direction icon" style="width:50px; height:50px" >
-                        <h4>Routenplanung, Tipps und Tricks rund ums Cargobike</h4>
+                        <h4>Routen<wbr>planung, Tipps und Tricks rund ums Cargobike</h4>
                     </div>  
             </div>
             <!-- row -->
@@ -367,8 +362,8 @@ get_header();
             <div id="equipmentCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
                 <!-- Indicators -->
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner"  style="height: auto !important; overflow: visible !important">
-                            <div class="item active"  style="overflow: visible !important">
+                    <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
+                            <div class="item active"  style="overflow-y: visible !important">
                                 <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
@@ -378,7 +373,7 @@ get_header();
                             </div>
 
 
-                            <div class="item"  style="overflow: visible !important">
+                            <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
                                     
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
@@ -388,7 +383,7 @@ get_header();
                                     </div>
                             </div>
 
-                             <div class="item"  style="overflow: visible !important">
+                             <div class="item"  style="overflow-y: visible !important">
                                 <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"> </div>
                                    
                                  <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">

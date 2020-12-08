@@ -74,7 +74,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
             <div class="row">
                 <!-- <?php if(!empty($title1)): ?> -->
                 
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <h5>
                         <!-- <?php echo $title1; ?> -->
                         Kontakt
@@ -95,48 +95,48 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
                 <!-- col -->
   
   
-                <div class="col-sm-2">
+                <div class="col-md-2 col-sm-12">
                         <h5>
                         Gesetz
                         </h5>
                          <ul class="nav navbar-nav">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;"> 
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 100%;text-align: center;"> 
                                 <a href="<?php echo get_site_url(); ?>/impressum" style="margin:0">Impressum</a>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 100%;text-align: center;">
                                 <a href="<?php echo get_site_url(); ?>/datenschutz" style="margin:0">Datenschutz</a>
                             </li>
                          </ul>
                     </div>
                 <!-- col -->
-                <div class="col-sm-2">
+                <div class="col-md-2 col-sm-12">
                         <h5>
                         Für Euch
                         </h5>
                          <ul class="nav navbar-nav">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155" style="width: 80%;text-align: center;">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155" style="width: 100%;text-align: center;">
                                 <a href="<?php echo get_site_url(); ?>/gut-zu-wissen" style="margin:0">Gut Zu Wissen</a>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 80%;text-align: center;">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"  style="width: 100%;text-align: center;">
                                 <a href="<?php echo get_site_url(); ?>/kontakt" style="margin:0">Kontakt</a>
                             </li>
                          </ul>
                     </div>
                 <!-- col -->
                 <?php if(!empty($title4)): ?>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <h5>Zahlungsmethode</h5>
-                        <ul style="list-style-type:none; margin: 0">
-                            <li>
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/paypal.svg" alt="paypal" style="height: 40px; margin: 3px;    display: block;">
+                        <ul style="list-style-type:none; margin: 0; width:100%; padding: 0;">
+                            <li class="col-sm-12">
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/paypal.svg" alt="paypal" style="height: 40px; display: block; float: left; margin: 10px">
                            </li>
-                           <li>
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/visa.svg" alt="visa" style="height: 40px; margin: 3px;    display: block;">
+                           <li class="col-sm-12">
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/visa.svg" alt="visa" style="height: 40px; display: block; float: left; margin: 10px">
                             </li>
-                           <li>
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/mastercard.svg" alt="mastercard" style="height: 40px; margin: 3px;    display: block;">
+                           <li class="col-sm-12">
+                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/mastercard.svg" alt="mastercard" style="height: 40px; display: block; float: left; margin: 10px">
                             </li>
-                           <li>
+                           <li class="col-sm-12">
                                 Überweisung
                            </li>
                         </ul>
@@ -144,7 +144,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
                 <?php endif; ?>
                 <!-- col -->
                 <?php if(!empty($title5)): ?>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-sm-12">
                         <h5><?php echo $title5; ?></h5>
                         <!-- <?php if(!empty($twitter)): ?>
                             <a href="<?php echo $twitter; ?>" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>

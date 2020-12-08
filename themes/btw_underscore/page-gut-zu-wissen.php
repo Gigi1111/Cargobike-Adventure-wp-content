@@ -204,7 +204,7 @@ get_header();
                     </div>
                     <div id="collapse3" class="panel-collapse collapse in">
                         <div class="panel-body">
-                            <h5>Urlaub mit Kindern im Cargobike, geht das überhaupt? Und wenn ja, wie viele!?</h5>
+                            <h3>Urlaub mit Kindern im Cargobike, geht das überhaupt? Und wenn ja, wie viele!?</h3>
                           
                             <p style="font-size:1.2em">
                             Grundsätzlich sei gesagt, dass eine Radreise mit den Kleinen absolut möglich ist. Mit einem unserer Riese & Müller Load75 E-Cargobikes kann man bis zu 3 Kinder mitnehmen. Das kommt natürlich auch auf deren Größe und Aktivität an – Platz ist genügend vorhanden! Es lassen sich bis zu 3 Kindersitze plus Gurte verbauen. Aus eigener Erfahrung und derer befreundeter Eltern hat sich gezeigt, dass die Kids im Bike sogar, wie auch im Auto, entspannt schlafen können. Hierzu empfehlen wir die Mitnahme von Nackenhörnchen und, je nach Temperatur, auch von Decken für die Kleinen. Während ihr fahrt und in die Pedale tretet bewegen sich die Kinder schließlich kaum. Als 5 köpfige Familie, bestehend aus 2 Erwachsenen plus 3 Kindern, könnt ihr mit 2 Cargobikes losziehen. In einem Bike verstauen wir sämtliche Ausrüstung, im anderen werden die Kids transportiert - so steht dem Abenteuer nichts mehr im Weg.
