@@ -100,41 +100,6 @@ get_header();
 ?>
 
 
-    <!-- HERO
-    ================================================== -->
-    <section id="hero">
-            <div class="container clearfix">
-                <!-- The video -->
-                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
-                    <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="overlay">
-                     <?php
-                        get_template_part( 'template-parts/hero', 'content' );
-                        ?>
-                </div>
-
-                
-            </div>
-            <!-- container -->
-    </section>
-
-      <!-- quote
-    ================================================== -->
-    <!-- <section id="introduction" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <blockquote class="wp-block-quote is-style-large">
-                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
-                        <p> <?php echo $news_content; ?></p>
-                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
      <!-- INTRO
 	================================================== -->
@@ -159,11 +124,11 @@ get_header();
                 </div>
                 <!-- end col -->
                 <div class="hidden-xs col-sm-12 col-md-8 right" >
-                    <div class="w3-content w3-section" style="width:100%; height: 730px; overflow: hidden;">
-                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-bikes.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
-                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/sleep-side-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
-                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-riding-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
-                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                    <div class="w3-content w3-section" style="width:100%; height: 550px; overflow: hidden;">
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-bikes.jpg'); background-size: cover;background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/sleep-side-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/two-riding-sm.jpg'); background-size: cover;background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg'); background-size: cover;background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
                     </div>
                 </div>
                 <!-- end col -->
@@ -205,27 +170,27 @@ get_header();
             <!-- section-header -->
 
             <div class="row">
-                    <div class="col-md-2 col-sm-12">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
                         <h4>Premium Lastenräder in verschiedenen Konfigurationen mit ausführlicher Einführung bei Anmietung</h4>
                     </div>
-                    <div class="col-md-2 col-sm-12">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-tent.png" alt="tent icon" style="width:50px; height:50px" >
                         <h4>Bestes Camping Equipment, für unsere Kunden frei zusammen<wbr>stellbar</h4>
                     </div>
-                    <div class="col-md-2 col-sm-12">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-time.png" alt="clock icon" style="width:50px; height:50px" >
                         <h4>Viele Extras, die euch die Zeit unterwegs versüßen</h4>
                     </div>
-                    <div class="col-md-2 col-sm-12">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-vacation.png" alt="camping icon" style="width:50px; height:50px" >
                         <h4>Versicherungs<wbr>pakete für ein rundum sorglos Gefühl im Urlaub</h4>
                     </div>
-                    <div class="col-md-2 col-sm-12">
+                    <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-direction.png" alt="direction icon" style="width:50px; height:50px" >
                         <h4>Routen<wbr>planung, Tipps und Tricks rund ums Cargobike</h4>
@@ -295,49 +260,44 @@ get_header();
       <!-- section slideshow bikes
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
-        <div class="container" style="width: 100%; text-align: center; color: var(--brand-dark-grey);">
-            <h2>Bikes for Rent</h2>
+        <div class="container" style="text-align: center; color: var(--brand-dark-grey);">
+             <h2>Bikes for Rent</h2>
 
-            <div id="bikeCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators col-sm-12 col-md-12 col-lg-12">
-                    <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+            <div id="bikeCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
+                            <div class="item active"  style="overflow-y: visible !important">
+                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
+
+                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                                </div>
+                            </div>
+
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                        <h3>Amazing Self-Built Inflated Tent (Black)</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                            
+                                    </div>
+                            </div>
+                    </div>
+
+                 <!-- Indicators -->
+                 <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
+                   <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                     <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                 </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
-                    <div class="item active"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg" alt="cargobike side view"  style="height:100%">
-                        </div>
-                    
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px !important; overflow: hidden">
-                            <h3>Cargo Load up to 35kg</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
-                        </div>
-                    </div>
-
-                    <div class="item"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg" alt="cargobike front view"  style="height:100%">
-                        </div>
-
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px !important; overflow: hidden">
-                            <h3>Cargo Load up to 35kg</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost</p>
-                 
-                        </div>
-                    </div>
-                   
-                </div>
-
                 <!-- Left and right controls -->
-                <a class="left carousel-control" href="#bikeCarousel" data-slide="prev">
+                <a class="left carousel-control  hidden-xs" href="#bikeCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#bikeCarousel" data-slide="next">
+                <a class="right carousel-control  hidden-xs" href="#bikeCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -360,7 +320,6 @@ get_header();
             <h2>Camping Equipments for Rent</h2>
 
             <div id="equipmentCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
-                <!-- Indicators -->
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
                             <div class="item active"  style="overflow-y: visible !important">
@@ -394,6 +353,7 @@ get_header();
                             </div>
                     </div>
 
+                    <!-- Indicators -->
                     <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
                         <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                         <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
@@ -402,7 +362,7 @@ get_header();
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control  hidden-xs" href="#equipmentCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left hidden-sm-down d-sm-none d-md-inline"></span>
+                    <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control  hidden-xs" href="#equipmentCarousel" data-slide="next">

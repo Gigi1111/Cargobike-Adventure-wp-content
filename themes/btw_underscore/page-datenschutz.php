@@ -100,27 +100,6 @@ get_header();
 ?>
 
 
-    <!-- HERO
-    ================================================== -->
-    <section id="hero">
-            <div class="container clearfix">
-                <!-- The video -->
-                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
-                    <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="overlay">
-                     <?php
-                        get_template_part( 'template-parts/hero', 'content' );
-                        ?>
-                </div>
-
-                
-            </div>
-            <!-- container -->
-    </section>
-
-
 
     <!-- INTRO
 	================================================== -->
@@ -335,28 +314,6 @@ Dies gilt nicht, wenn die Verarbeitung zu Zwecken des Direktmarketings erfolgt. 
     </section>
   <!-- INTRO
 	================================================== -->
-
-      <!-- quote
-    ================================================== -->
-    <!-- <section id="introduction" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-6 left">
-                    <blockquote class="wp-block-quote is-style-large">
-                    <span class="" style="font:bold 84px / 5px 'Noe Display'">“</span>
-                        <p> <?php echo $news_content; ?></p>
-                        <cite class=""><a href="https://www.tagesspiegel.de/" onclick="javascript:window.open('https://www.tagesspiegel.de/'); return false;">Tagesspiegel</a></cite>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-     
-
-  
-
-   
 
 <?php
 get_footer();

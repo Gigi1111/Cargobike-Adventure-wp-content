@@ -74,11 +74,12 @@ wp_body_open(); ?>
 						================================================== -->
 						<div class="brand" >
 							<a href="/home" style=" display: flex;">
-								<?php if(!empty($brand_logo)): ?>
-									<img src="<?php  echo $brand_logo['url']; ?>" alt="<?php echo $brand_logo['alt']; ?>">
-								<?php endif; ?>
-								<h3 style="color: var(--brand-secondary)"><strong>
-								<?php  echo $brand_name; ?>
+								
+								<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo/logo-lg-v3.png" alt="logo">
+								
+								<h3 style="color: var(--brand-secondary)" class="hidden-xs"><strong>
+								<!-- <?php  echo $brand_name; ?> -->
+								Cargobike Adventures
 								</strong></h3>
 							</a>
 						</div>
@@ -106,3 +107,7 @@ wp_body_open(); ?>
 
 			</div>
 		</header>
+
+		<?php
+                        get_template_part( 'template-parts/section', 'hero' );
+                        ?>

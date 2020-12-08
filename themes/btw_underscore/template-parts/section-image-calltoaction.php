@@ -1,4 +1,7 @@
-<div class="container">
+<section id="signup" style="background: url('<?php bloginfo('stylesheet_directory'); ?><?php echo $background_img; ?>'); background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;">
+    <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
                         <?php if(!empty($content_text)): ?>
@@ -22,3 +25,9 @@
             <!-- row -->
         </div>
         <!-- container -->
+</section>
+
+    
+
+
+   

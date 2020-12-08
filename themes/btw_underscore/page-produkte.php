@@ -100,25 +100,6 @@ get_header();
 ?>
 
 
-    <!-- HERO
-    ================================================== -->
-    <section id="hero">
-            <div class="container clearfix">
-                <!-- The video -->
-                <video autoplay muted loop id="videoPlayer" poster="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/image-relax.jpg">
-                    <source src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/cargobike_hero_reel.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="overlay">
-                     <?php
-                        get_template_part( 'template-parts/hero', 'content' );
-                        ?>
-                </div>
-
-                
-            </div>
-            <!-- container -->
-    </section>
 
     <!-- INTRO
 	================================================== -->
@@ -193,6 +174,8 @@ get_header();
        </div>
     </section>
     <!-- introduction -->
+
+
 
 <?php
 get_footer();

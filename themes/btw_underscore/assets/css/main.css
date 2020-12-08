@@ -1426,7 +1426,7 @@ form textarea {
     color: var(--brand-white);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 #hero video {
@@ -1909,13 +1909,6 @@ footer li.signup-link a:hover {
 
 /* ==== MEDIA QUERIES ==== */
 
-@media screen and (max-width: 991px) {
-    #introduction .container {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-    }
-}
-
 
 /* fix the top margin when logged in */
 
@@ -2044,11 +2037,9 @@ footer nav {
     flex-direction: column;
 }
 
-@media (min-width: 768px) {
-    .flex-column {
-        display: flex;
-        flex-direction: column;
-    }
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -2264,8 +2255,8 @@ header .brand h3 {
 
 .cover-inner {
     width: 800px;
-    margin: 18% auto;
     text-align: center;
+    margin: auto;
 }
 
 
@@ -2274,8 +2265,8 @@ header .brand h3 {
 @media screen and (min-width: 850px) {
     .cover-inner {
         width: 800px;
-        margin: 18% auto;
         text-align: center;
+        margin: auto;
     }
 }
 
@@ -2285,7 +2276,7 @@ header .brand h3 {
 @media screen and (max-width: 849px) and (min-width: 701px) {
     .cover-inner {
         width: 550px;
-        margin: 18% auto;
+        margin: auto;
         text-align: center;
     }
 }
@@ -2299,9 +2290,20 @@ header .brand h3 {
         margin: 18% auto;
         text-align: center;
     }
-    #hero video,
-    #hero .overlay {
+    #hero video {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #hero {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero {
+        background: none;
     }
 }
 
@@ -2348,15 +2350,6 @@ header .brand h3 {
     color: var(--brand-primary) !important;
 }
 
-@media screen and (min-width: 768px) {
-    .carousel-indicators {
-        bottom: 0;
-        /* padding: 10px; */
-        z-index: 4;
-        height: 102px;
-    }
-}
-
 .carousel-indicators {
     margin-bottom: 0;
 }
@@ -2366,17 +2359,19 @@ header .brand h3 {
 }
 
 .carousel-indicators li {
-    width: 60px;
-    height: 60px;
+    width: 100px !important;
+    height: 100px !important;
     background-size: contain !important;
     background-position: center !important;
     border: 1px solid #ddd !important;
     border-radius: 0;
     background-color: white !important;
-    border: 1px solid var(--brand-secondary)!important;
+    border: 1px solid var(--brand-grey)!important;
 }
 
 .carousel-indicators li:hover {
+    width: 100px !important;
+    height: 100px !important;
     backdrop-filter: brightness(100%);
     filter: brightness(80%);
     background-size: contain !important;
@@ -2386,6 +2381,8 @@ header .brand h3 {
 }
 
 .carousel-indicators li.active {
+    width: 100px !important;
+    height: 100px !important;
     backdrop-filter: brightness(100%);
     filter: brightness(70%);
     background-size: contain !important;
@@ -2618,15 +2615,62 @@ body {
     }
 }
 
-@media screen and (max-width: 300px) {
-    .carousel-indicators li {
-        width: 50px !important;
-        height: 50px !important;
+@media (min-width: 1498px) {
+    .navbar-collapse.collapse {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    .navbar-toggle {
+        display: none !important;
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 992px) {
-    body {
-        background-color: blue;
+@media (max-width: 1497px) {
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .collapse.in {
+        display: block !important;
+        max-height: none !important;
+        margin: auto;
+    }
+    .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .nav>li {
+        position: relative;
+        display: block;
+    }
+    .navbar-header {
+        float: unset !important;
+    }
+    .navbar-nav>li {
+        float: left;
+        width: 100%;
+    }
+    .navbar-right {
+        width: 100%;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #101010;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .brand {
+        display: inline-block !important;
     }
 }

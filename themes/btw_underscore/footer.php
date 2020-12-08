@@ -46,15 +46,16 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
 
 <?php wp_footer(); ?>
 
-      <!-- image call to action
+ <!-- image call to action
 	================================================== -->
-    <section id="signup" >
-            <?php 
+    <?php 
              set_query_var( 'content_text', "Gift a dream bike trip to some now" );
              set_query_var( 'btn_text', "los geht's" );
+             set_query_var( 'background_img', "/assets/img/brand-image/bike-far-field-lg.jpg" );
             get_template_part( 'template-parts/section', 'image-calltoaction' );?>
-    </section>
+
     <!-- optin -->
+  
 
 
     <!-- FOOTER
