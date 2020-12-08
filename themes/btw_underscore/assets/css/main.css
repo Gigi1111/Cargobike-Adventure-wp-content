@@ -277,7 +277,7 @@ button,
     color: var(--brand-button-txt) !important;
     padding: 15px var(--button-padding-horizontal) !important;
     width: auto;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 button:hover,
@@ -2028,8 +2028,8 @@ footer .navbar-nav>li>a {
 }
 
 .navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
+    /* padding-right: 0;
+    padding-left: 0; */
 }
 
 footer nav {

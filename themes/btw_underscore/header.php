@@ -17,27 +17,27 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<!-- Bootstrap core CSS -->
-	<!-- <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Font Awesome Icons -->
-	<!-- <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- w3 school css -->
-	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!-- send email -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Optional theme -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-	<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 	<!-- Extra css -->
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
@@ -71,7 +71,7 @@ wp_body_open(); ?>
 
 			<!-- NAVBAR
 			================================================== -->
-			<!-- <div class="navbar-wrapper">
+			<div class="navbar-wrapper">
 
 				<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 					<div class="container">
@@ -98,20 +98,19 @@ wp_body_open(); ?>
 						</div>
 
 						<?php
-							/*wp_nav_menu(array(
+							wp_nav_menu(array(
 								'theme_location' => 'header',
 								'container' => 'nav',
 								'container_class' => 'navbar-collapse collapse',
 								'menu_class' => 'nav navbar-nav navbar-right'
-							));*/
+							));
 						?>
 					</div>
 				</div>
 
-			</div> -->
+			</div>
 
-			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-				<!-- Brand -->
+			<!-- <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 				<a class="navbar-brand" href="#">
 					<?php 
 						// if(!empty($brand_logo)) {
@@ -119,31 +118,24 @@ wp_body_open(); ?>
 						// } else {
 						// 	echo $brand_name;
 						// }
-						echo 'CargoBike';
+						// echo 'CargoBike';
 					?>
 				</a>
 
-				<!-- Toggler/collapsibe Button -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<!-- Navbar links -->
 				<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Products</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Coupons</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact us</a>
-						</li>
-					</ul>
+
+					<?php
+						// wp_nav_menu(array(
+						// 	'theme_location' => 'header',
+						// 	'container' => 'nav',
+						// 	'container_class' => 'navbar-collapse collapse',
+						// 	'menu_class' => 'nav navbar-nav navbar-right'
+						// ));
+					?>
 				</div>
-			</nav>
+			</nav> -->
 		</header>
