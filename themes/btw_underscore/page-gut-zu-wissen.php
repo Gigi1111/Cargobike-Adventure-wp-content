@@ -124,7 +124,7 @@ get_header();
 
     <!-- INTRO
 	================================================== -->
-    <section id="gut-zu-wissen-intro" class="color-dark-grey" >
+    <section id="gut-zu-wissen-intro" class="color-dark-grey" style="padding-bottom: 0"  >
         <div class="container">
         <p style="font-size:1.4em">
                 Auf einer Radreise hat man die einzigartige Gelegenheit wunderbar zu entschleunigen, dem hektischen Alltag der Großstadt zu entkommen und die Seele auf dem Bike baumeln zu lassen. Zwischen den Etappen Stopps warten wunderschöne Landschaften und zahlreiche Geschichten auf euch. Um diese genießen zu können, ist eine gewisse Vorbereitung auf die Reise unausweichlich und verschönert euch den Urlaub.
