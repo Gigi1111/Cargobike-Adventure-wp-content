@@ -2417,7 +2417,7 @@ header .brand h3 {
     width: 70%;
     margin: 0 15%;
     padding: 15px;
-    height: auto !important;
+    /* height: auto !important; */
     color: var(--brand-dark-grey);
     text-shadow: none;
     /* background: rgba(0, 0, 0, 0.1); */
