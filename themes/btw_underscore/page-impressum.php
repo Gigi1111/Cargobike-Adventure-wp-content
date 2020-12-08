@@ -126,7 +126,7 @@ get_header();
     <section id="introduction" class="color-dark-grey" >
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-4 left">
+                <div class="col-sm-12 col-md-4 left">
                     <div class="row">
                         <div class="col-lg-12">
                             <!-- <?php echo $greetings_content; ?> -->
@@ -153,7 +153,7 @@ get_header();
                                 Umsatzsteuer-Identifikationsnummer: DE327329722
                                 <br>
                                 <br>
-                                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a>. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
+                                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/<wbr>consumers/odr/</a>. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
                             </p>
                         
                     </div>
@@ -161,12 +161,12 @@ get_header();
                     <!-- row -->
                 </div>
                 <!-- end col -->
-                <div class="col-sm-8 col-md-8 right" >
-                    <div class="w3-content w3-section" style="max-width:100%; height: 730px; overflow: hidden;">
-                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-1.jpg" alt="cargobike brand image" style="width:100%">
-                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-2.jpg" alt="cargobike brand image" style="width:100%">
-                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-3.jpg" alt="cargobike brand image" style="width:100%">
-                        <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg" alt="cargobike brand image" style="width:100%">
+                <div class="hidden-xs col-sm-12 col-md-8 right" >
+                    <div class="w3-content w3-section" style="width:100%; height: 730px; overflow: hidden;">
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-1.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-2.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-3.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                        <div class="mySlides" style="height:100%; background: url('<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/square-4.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
                     </div>
                 </div>
                 <!-- end col -->

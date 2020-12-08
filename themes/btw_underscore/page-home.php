@@ -397,9 +397,6 @@ get_header();
                             
                                 </div>
                             </div>
-
-
-                    <!--  -->
                     </div>
 
                     <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
