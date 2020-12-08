@@ -361,79 +361,59 @@ get_header();
     <!-- section slideshow equipments
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
-        <div class="container" style="width: 100%; text-align: center; color: var(--brand-dark-grey);">
+        <div class="container" style="text-align: center; color: var(--brand-dark-grey);">
             <h2>Camping Equipments for Rent</h2>
 
-            <div id="equipmentCarousel" class="carousel slide" data-ride="carousel">
+            <div id="equipmentCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="2"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="3"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                  
-                </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner"  style="height: auto !important; overflow: visible !important">
+                            <div class="item active"  style="overflow: visible !important">
+                                <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
-                    <div class="item active"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg" alt="riding cargobike"  style="height:460px">
-                        </div>
-
-                        <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px !important; overflow: hidden">
-
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
-                    </div>
-
-                    <div class="item"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg" alt="cargo load"  style="height:460px">
-                        </div>
-                    <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px!important; overflow: hidden">
-
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
-                    </div>
-
-                    <div class="item"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg" alt="tent chair setup"  style="height:460px">
+                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                                </div>
                             </div>
-                    <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px !important; overflow: hidden">
 
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
+
+                            <div class="item"  style="overflow: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                        <h3>Amazing Self-Built Inflated Tent (Black)</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                            
+                                    </div>
+                            </div>
+
+                             <div class="item"  style="overflow: visible !important">
+                                <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"> </div>
+                                   
+                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+                            
+                                </div>
+                            </div>
+
+
+                    <!--  -->
                     </div>
 
-                    <div class="item"  style="height: 600px;">
-                        <div class="image-container" style="height:460px">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent.jpg" alt="red inflatable tnetd"  style="height:460px">
-                            </div>   
-                    <div class="carousel-caption d-none d-md-block" id="bottom-info" style="height:140px !important; overflow: hidden">
-
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
-                    </div>
-
-                   
-                </div>
+                    <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
+                        <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="2"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    </ol>
 
                 <!-- Left and right controls -->
-                <a class="left carousel-control" href="#equipmentCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
+                <a class="left carousel-control  hidden-xs" href="#equipmentCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left hidden-sm-down d-sm-none d-md-inline"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#equipmentCarousel" data-slide="next">
+                <a class="right carousel-control  hidden-xs" href="#equipmentCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>

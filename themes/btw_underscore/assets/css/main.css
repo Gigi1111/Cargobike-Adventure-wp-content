@@ -2414,8 +2414,6 @@ header .brand h3 {
 }
 
 .carousel-inner>.item>#bottom-info {
-    width: 70%;
-    margin: 0 15%;
     padding: 15px;
     /* height: auto !important; */
     color: var(--brand-dark-grey);
