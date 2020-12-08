@@ -149,15 +149,9 @@ email: urlaub@cargobike-adventures.de
                 <!-- end col -->
                 <div class="col-sm-8 col-md-8 right" >
                     <div class="w3-content w3-section" style="max-width:100%; height: 500px; overflow: hidden;">
-                        <?php if(!empty($greeting_slideshow_1)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_1['url']; ?>" alt="<?php echo $greeting_slideshow_1['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_2)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_2['url']; ?>" alt="<?php echo $greeting_slideshow_2['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
-                        <?php if(!empty($greeting_slideshow_3)): ?>
-                            <img class="mySlides" src="<?php  echo $greeting_slideshow_3['url']; ?>" alt="<?php echo $greeting_slideshow_3['alt']; ?>" style="width:100%">
-                        <?php endif; ?>
+
+                            <img class="mySlides" src="<?php bloginfo('stylesheet_directory');?>/assets/img/brand-image/contact-ppl2.jpg" alt="contact people" style="width:100%">
+
                     </div>
                 </div>
                 <!-- end col -->
@@ -165,22 +159,7 @@ email: urlaub@cargobike-adventures.de
             <!-- row -->
         </div>
         <!-- container -->
-        <script>
-            var myIndex = 0;
-            carousel();
 
-            function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 2300); // Change image every 2 seconds
-            }
-        </script>
     </section>
     <!-- introduction -->
 

@@ -146,15 +146,15 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
                 <?php if(!empty($title5)): ?>
                     <div class="col-sm-2">
                         <h5><?php echo $title5; ?></h5>
-                        <?php if(!empty($twitter)): ?>
+                        <!-- <?php if(!empty($twitter)): ?>
                             <a href="<?php echo $twitter; ?>" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($facebook)): ?>
-                            <a href="<?php echo $facebook; ?>" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <?php endif; ?>
-                        <?php if(!empty($instagram)): ?>
-                            <a href="<?php echo $instagram; ?>" class="badge social instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <?php endif; ?>
+                        <?php endif; ?> -->
+                        <!-- <?php if(!empty($facebook)): ?> -->
+                            <a href="https://www.facebook.com/sogehtroadtripheute/photos/104079531466752" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <!-- <?php endif; ?> -->
+                        <!-- <?php if(!empty($instagram)): ?> -->
+                            <a href="https://www.instagram.com/p/CHprhBULxeJ/"  class="badge social facebook" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <!-- <?php endif; ?> -->
                     </div>
                 <?php endif; ?>
                 <!-- col -->

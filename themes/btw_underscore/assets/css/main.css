@@ -1289,6 +1289,10 @@ a.text-danger:hover {
     background: #3b5998;
 }
 
+.badge.social.instagram:hover {
+    background: pink !important;
+}
+
 .badge.social.gplus:hover {
     background: #db4b39;
 }

@@ -148,15 +148,9 @@ get_header();
                             <h2>Hallo Abenteurer*innen, herzlich willkommen!</h2>
                             <p class="lead">Wir von Cargobike Adventures haben es uns zum Ziel gesetzt, euch mit unseren Premium Lastenrädern und allerfeinstem Camping Equipment auf die Reise zu schicken. Wir sorgen dafür, dass rund um eure Reise alles glatt läuft, ihr tretet in die Pedale und beschert euch und euren Liebsten eine unvergessliche Zeit in der Natur.</p>
                         <div class="">
-                        <!-- <?php if(!empty($twitter)): ?> -->
-                            <!-- <a href="<?php echo $twitter; ?>" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a> -->
-                        <!-- <?php endif; ?> -->
-                        <!-- <?php if(!empty($facebook)): ?> -->
-                            <!-- <a href="<?php echo $facebook; ?>" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a> -->
-                        <!-- <?php endif; ?> -->
-                        <!-- <?php if(!empty($instagram)): ?> -->
-                            <!-- <a href="<?php echo $instagram; ?>" class="badge social instagram" target="_blank"><i class="fa fa-instagram"></i></a> -->
-                        <!-- <?php endif; ?> -->
+                        <a href="https://www.facebook.com/sogehtroadtripheute/photos/104079531466752" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/p/CHprhBULxeJ/"  class="badge social facebook" target="_blank"><i class="fa fa-instagram"></i></a>
+                      
                         </div>
                         
                     </div>
@@ -321,14 +315,14 @@ get_header();
             <div id="bikeCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php  echo $bike_slideshow_item_image_1['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php  echo $bike_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
                     <div class="item active">
-                        <img src="<?php  echo $bike_slideshow_item_image_1['url']; ?>" alt="<?php  echo $bike_slideshow_item_image_1['alt']; ?>" >
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg" alt="cargobike side view"  style="height:460px">
                         <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
@@ -344,8 +338,8 @@ get_header();
                     </div>
 
                     <div class="item">
-                        <img src="<?php  echo $bike_slideshow_item_image_2['url']; ?>" alt="<?php  echo $bike_slideshow_item_image_2['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg" alt="cargobike front view"  style="height:460px">
+                    <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
                             <h3>Amazing Self-Built Inflated Tent (Black)</h3>
@@ -395,18 +389,17 @@ get_header();
             <div id="equipmentCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php  echo $equipment_slideshow_item_image_1['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php  echo $equipment_slideshow_item_image_2['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="2" style="background: url('<?php  echo $equipment_slideshow_item_image_3['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="3" style="background: url('<?php  echo $equipment_slideshow_item_image_4['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#equipmentCarousel" data-slide-to="4" style="background: url('<?php  echo $equipment_slideshow_item_image_5['url']; ?>') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#equipmentCarousel" data-slide-to="2"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#equipmentCarousel" data-slide-to="3"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                   
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner"  style="height: 600px; overflow: hidden;">
                     <div class="item active">
-                        <img src="<?php  echo $equipment_slideshow_item_image_1['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_1['alt']; ?>" >
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg" alt="riding cargobike"  style="height:460px">
                         <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
@@ -424,7 +417,7 @@ get_header();
                     </div>
 
                     <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_2['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_2['alt']; ?>" >
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg" alt="cargo load"  style="height:460px">
                         <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
@@ -442,8 +435,8 @@ get_header();
                     </div>
 
                     <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_3['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_3['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg" alt="tent chair setup"  style="height:460px">
+                       <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
                             <h3>Amazing Self-Built Inflated Tent (Black)</h3>
@@ -460,7 +453,7 @@ get_header();
                     </div>
 
                     <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_4['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_4['alt']; ?>" >
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent.jpg" alt="red inflatable tnetd"  style="height:460px">
                         <div class="d-none d-md-block" id="right-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
@@ -471,24 +464,6 @@ get_header();
                         <div class="carousel-caption d-none d-md-block" id="bottom-info">
                             <!-- <h3><?php echo $equipment_slideshow_item_title_4 ?></h3>
                             <p><?php echo $equipment_slideshow_item_description_4 ?></p> -->
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="<?php  echo $equipment_slideshow_item_image_5['url']; ?>" alt="<?php  echo $equipment_slideshow_item_image_5['alt']; ?>" >
-                        <div class="d-none d-md-block" id="right-info">
-                            <!-- <h3><?php echo $equipment_slideshow_item_title_1 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_1 ?></p> -->
-                            <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                       
-                        </div>
-                        <div class="carousel-caption d-none d-md-block"  id="bottom-info">
-                            <!-- <h3><?php echo $equipment_slideshow_item_title_5 ?></h3>
-                            <p><?php echo $equipment_slideshow_item_description_5 ?></p> -->
                             <h3>Amazing Self-Built Inflated Tent (Black)</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
                        

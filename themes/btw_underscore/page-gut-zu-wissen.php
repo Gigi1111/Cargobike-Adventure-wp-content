@@ -235,6 +235,7 @@ get_header();
                         </div>
                     </div>
                 </div>
+
                  <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -252,6 +253,7 @@ get_header();
                         <p style="font-size:1.2em">
                         An unseren Bikes könnt ihr eure Handys mittels der entsprechenden Halterung befestigen und einen Routenplaner (z.B. Komoot) laufen lassen. So verpasst ihr keine Abzweigung und bleibt immer auf dem richtigen Pfad.
                         </p>
+                        </div>
                     </div>
                 </div>
                  <!-- container -->
@@ -265,15 +267,16 @@ get_header();
                     </div>
                     <div id="collapse6" class="panel-collapse collapse">
                         <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Was passiert im Falle eines Diebstahls oder wenn ich einen Unfall mit dem Rad baue? Da haben wir in Zusammenarbeit mit der ENRA Fahrradversicherung ein tolles Angebot für euch. In einer Standardbuchung seid ihr in jedem Falle gegen Diebstahl, Teilediebstahl und Vandalismus abgesichert. Soll es noch ein bisschen mehr sein und Ihr wünscht euch das Rundum-sorglos-Paket für euer Abenteuer? Dann bucht das Premium Paket. Neben der Diebstahlversicherung beinhaltet der Extra Service u.a. Eine 24/7 Hotline, wo ihr Unfall-, Pannen- und Sturzschäden melden könnt und euch am Ort des Geschehens geholfen wird. Der Pickup Service* im Premium Paket gilt europaweit und transportiert euch zum Start oder Tagesetappe oder zur nächstgelegenen Werkstatt.
-                        </p>
-                        <p style="font-size:1.2em">
-                        2 Schlösser – bitte in jedem Fall über Nacht beide verwenden und das Fahrrad an einen befestigten Gegenstand, möglichst in Zeltnähe, anschließen.
-                        </p>
-                        <p style="font-size:1.2em">
-                        <span style="font-size: 0.7em">* Ausführliche Informationen zum Umfang der Premium Versicherung findet ihr in den AGBs</span>
-                        </p>
+                            <p style="font-size:1.2em">
+                            Was passiert im Falle eines Diebstahls oder wenn ich einen Unfall mit dem Rad baue? Da haben wir in Zusammenarbeit mit der ENRA Fahrradversicherung ein tolles Angebot für euch. In einer Standardbuchung seid ihr in jedem Falle gegen Diebstahl, Teilediebstahl und Vandalismus abgesichert. Soll es noch ein bisschen mehr sein und Ihr wünscht euch das Rundum-sorglos-Paket für euer Abenteuer? Dann bucht das Premium Paket. Neben der Diebstahlversicherung beinhaltet der Extra Service u.a. Eine 24/7 Hotline, wo ihr Unfall-, Pannen- und Sturzschäden melden könnt und euch am Ort des Geschehens geholfen wird. Der Pickup Service* im Premium Paket gilt europaweit und transportiert euch zum Start oder Tagesetappe oder zur nächstgelegenen Werkstatt.
+                            </p>
+                            <p style="font-size:1.2em">
+                            2 Schlösser – bitte in jedem Fall über Nacht beide verwenden und das Fahrrad an einen befestigten Gegenstand, möglichst in Zeltnähe, anschließen.
+                            </p>
+                            <p style="font-size:1.2em">
+                            <span style="font-size: 0.7em">* Ausführliche Informationen zum Umfang der Premium Versicherung findet ihr in den AGBs</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -288,27 +291,21 @@ get_header();
                     </div>
                     <div id="collapse7" class="panel-collapse collapse">
                         <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Wir statten die Bikes außerdem mit einigen Annehmlichkeiten für eure Reise aus. Zur Grundausstattung gehören neben StVZO-konformer Beleuchtung auch ein Rückspiegel, ein fest installiertes, sowie ein extra ABUS Fahrradschloss und je Vermietung eine Luftpumpe dazu.
-
-
-
-
-                   <p style="font-size:1.2em">
-                        Die Reichweite deiner Akkus variiert je nach Stärke der Unterstützung. Die maximale Reichweite beim schwächsten Modus „Eco“ beträgt ca. 200km. Danach rollt das Lastenrad natürlich weiter, ihr müsst dann aber ohne motorische Unterstützung auskommen.
- </p>
-                        <p style="font-size:1.2em">
-                        Um die Akkus von nahezu 0% auf 100% aufzuladen benötigt ihr ca. 3 Std. Zeit. Ihr könnt die Akkus vom Bike entfernen und sie an einer Steckdose laden, oder aber auch das Bike direkt mit dem Strom verbinden – so werden beide Akkus nacheinander geladen und man spart sich das Geschleppe. Auch die stärksten Regengüsse können den Cargobikes und der Elektronik nichts anhaben, ein Tauchgang im Bach kann aber zu einem selbstverschuldetem Ausfall führen - wir raten dringend davon ab es zu versuchen.
-                        </p>
-
-                        <p style="font-size:1.2em">
-                        Solltet Ihr selbst keine besitzen, geben wir euch 2 Ortlieb Fahrradtaschen für den Gepäckträger mit. Diese bieten mit je 20 Litern Volumen einiges an zusätzlichem Stauraum, sind komplett wasserdicht und abnehmbar. Je nachdem ob und wenn ja, wie viele Kinder ihr mitnehmt, bleibt euch in der vorderen Box noch einiges an Stauraum zum Transport von privaten Gegenstände frei zur Verfügung.
-  </p>
-
-                        <p style="font-size:1.2em">
-                        Solltet ihr Extrawünsche haben dann lasst es zu uns wissen. Am Ende des Tages ist fast nichts unmöglich.
-                        </p>
-      </p>
+                            <p style="font-size:1.2em">
+                            Wir statten die Bikes außerdem mit einigen Annehmlichkeiten für eure Reise aus. Zur Grundausstattung gehören neben StVZO-konformer Beleuchtung auch ein Rückspiegel, ein fest installiertes, sowie ein extra ABUS Fahrradschloss und je Vermietung eine Luftpumpe dazu.
+                            <p style="font-size:1.2em">
+                            Die Reichweite deiner Akkus variiert je nach Stärke der Unterstützung. Die maximale Reichweite beim schwächsten Modus „Eco“ beträgt ca. 200km. Danach rollt das Lastenrad natürlich weiter, ihr müsst dann aber ohne motorische Unterstützung auskommen.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Um die Akkus von nahezu 0% auf 100% aufzuladen benötigt ihr ca. 3 Std. Zeit. Ihr könnt die Akkus vom Bike entfernen und sie an einer Steckdose laden, oder aber auch das Bike direkt mit dem Strom verbinden – so werden beide Akkus nacheinander geladen und man spart sich das Geschleppe. Auch die stärksten Regengüsse können den Cargobikes und der Elektronik nichts anhaben, ein Tauchgang im Bach kann aber zu einem selbstverschuldetem Ausfall führen - wir raten dringend davon ab es zu versuchen.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Solltet Ihr selbst keine besitzen, geben wir euch 2 Ortlieb Fahrradtaschen für den Gepäckträger mit. Diese bieten mit je 20 Litern Volumen einiges an zusätzlichem Stauraum, sind komplett wasserdicht und abnehmbar. Je nachdem ob und wenn ja, wie viele Kinder ihr mitnehmt, bleibt euch in der vorderen Box noch einiges an Stauraum zum Transport von privaten Gegenstände frei zur Verfügung.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Solltet ihr Extrawünsche haben dann lasst es zu uns wissen. Am Ende des Tages ist fast nichts unmöglich.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -323,15 +320,16 @@ get_header();
                     </div>
                     <div id="collapse8" class="panel-collapse collapse">
                         <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Viele denken bei Camping Urlaub an kleine Zelte, ungemütliche Sitzpositionen auf dem Boden und Rückenschmerzen von dünnen Matten. Wir von Cargobike Adventures schicken euch in einen komfortablen Aktivurlaub. Mit unseren E-Cargobikes könnt ihr eine große Menge an Camping Equipment mit in den Urlaub nehmen und müsst so auf keine Annehmlichkeiten in der schönsten Zeit des Jahres verzichten.
-                        </p>
-                        <p style="font-size:1.2em">
-                        Wir haben uns dazu entschlossen, keine klassischen Zelte mit Gestänge zu verleihen sondern hier voll auf Innovation, Robustheit und Langlebigkeit zu setzen. Wir geben euch ein extrem robustes, aufblasbares Zelt des in Hamburg sitzenden Herstellers Heimplanet inklusive Pumpe mit. Ihr schließt die Pumpe an das Ventil des Zeltbogens an, pumpt ca. eine Minute und das Zelt steht. Heringe sichern das Zelt vom Wegfliegen - schon habt ihr euer Eigenheim für die Nacht aufgebaut. Schaut euch um, es gibt viel zu entdecken und das Zelt ist ein echter Hingucker.
-                        </p>
-                        <p style="font-size:1.2em">
-                        Wir haben bereits ein sogenanntes Groundsheet, also einen extra Boden an das Zelt angebracht. So wird der Zeltboden vor übermäßiger Abnutzung geschützt und die Lebensdauer erhöht.
-                        </p>
+                            <p style="font-size:1.2em">
+                            Viele denken bei Camping Urlaub an kleine Zelte, ungemütliche Sitzpositionen auf dem Boden und Rückenschmerzen von dünnen Matten. Wir von Cargobike Adventures schicken euch in einen komfortablen Aktivurlaub. Mit unseren E-Cargobikes könnt ihr eine große Menge an Camping Equipment mit in den Urlaub nehmen und müsst so auf keine Annehmlichkeiten in der schönsten Zeit des Jahres verzichten.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Wir haben uns dazu entschlossen, keine klassischen Zelte mit Gestänge zu verleihen sondern hier voll auf Innovation, Robustheit und Langlebigkeit zu setzen. Wir geben euch ein extrem robustes, aufblasbares Zelt des in Hamburg sitzenden Herstellers Heimplanet inklusive Pumpe mit. Ihr schließt die Pumpe an das Ventil des Zeltbogens an, pumpt ca. eine Minute und das Zelt steht. Heringe sichern das Zelt vom Wegfliegen - schon habt ihr euer Eigenheim für die Nacht aufgebaut. Schaut euch um, es gibt viel zu entdecken und das Zelt ist ein echter Hingucker.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Wir haben bereits ein sogenanntes Groundsheet, also einen extra Boden an das Zelt angebracht. So wird der Zeltboden vor übermäßiger Abnutzung geschützt und die Lebensdauer erhöht.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -346,13 +344,13 @@ get_header();
                     </div>
                     <div id="collapse9" class="panel-collapse collapse">
                         <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Bitte denkt daran, dass Schlafsäcke nicht Standard bei einer Buchung sind!
-                        </p>
-                        <p style="font-size:1.2em">
-                        Wir können keine Schlafsäcke als Leihartikel anbieten. Die ständige Reinigung würde die Modelle extrem schnell altern lassen und sich absolut mit unserer Idee von umweltbewusstem Handeln im Allgemeinen beißen. Hier sind wir dabei, mit Herstellen an Lösungen zu arbeiten um euch gute Konditionen für entsprechende Produkte anzubieten. Solltet ihr vorab eine Beratung zum Thema brauchen dann sagt uns Bescheid, wir helfen euch gerne und kompetent weiter. Bitte denkt also an Decken oder einen eigenen Schlafsack wenn ihr aufbrecht. Neben dem Schlafsack empfiehlt es sich, ein eigenes Kissen dabei zu haben. Da ihr weniger auf das Gewicht achten müsst, könnt ihr ruhig eure Kuschelkissen von zu Hause einpacken. Solltet ihr ohnehin mit dem Gedanken einer Neuanschaffung (z.B. auch für Wandertouren) spielen, informiert euch im Fachgeschäft was es für Modelle am Markt gibt und testet euch durch – nur so findet ihr euren Favoriten. Bei den Kollegen von Globetrotter in Steglitz z.B. kann man sich prima in verschiedene Modelle reinlegen um den geeigneten Schlafsack zu finden.
-                        </p>
-                       
+                            <p style="font-size:1.2em">
+                            Bitte denkt daran, dass Schlafsäcke nicht Standard bei einer Buchung sind!
+                            </p>
+                            <p style="font-size:1.2em">
+                            Wir können keine Schlafsäcke als Leihartikel anbieten. Die ständige Reinigung würde die Modelle extrem schnell altern lassen und sich absolut mit unserer Idee von umweltbewusstem Handeln im Allgemeinen beißen. Hier sind wir dabei, mit Herstellen an Lösungen zu arbeiten um euch gute Konditionen für entsprechende Produkte anzubieten. Solltet ihr vorab eine Beratung zum Thema brauchen dann sagt uns Bescheid, wir helfen euch gerne und kompetent weiter. Bitte denkt also an Decken oder einen eigenen Schlafsack wenn ihr aufbrecht. Neben dem Schlafsack empfiehlt es sich, ein eigenes Kissen dabei zu haben. Da ihr weniger auf das Gewicht achten müsst, könnt ihr ruhig eure Kuschelkissen von zu Hause einpacken. Solltet ihr ohnehin mit dem Gedanken einer Neuanschaffung (z.B. auch für Wandertouren) spielen, informiert euch im Fachgeschäft was es für Modelle am Markt gibt und testet euch durch – nur so findet ihr euren Favoriten. Bei den Kollegen von Globetrotter in Steglitz z.B. kann man sich prima in verschiedene Modelle reinlegen um den geeigneten Schlafsack zu finden.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -367,15 +365,16 @@ get_header();
                     </div>
                     <div id="collapse10" class="panel-collapse collapse">
                         <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Ähnlich wie bei den Schlafsäcken verhält es sich auch mit den Isomatten. Die Produkte sind sensibel in der Handhabung und definieren sich außerdem als hygienisch relevant. Wir wollen daher keine Isomatten als Leihartikel anbieten, haben aber auch hier eine Lösung für euch parat. Gemeinsam mit dem Anbieter VAUDE bieten wir euch ausgewählte Modelle zum Kauf an. Eine Beratung geben wir euch gerne, schaut mal im Shop vorbei und kontaktiert uns bei Fragen und Anregungen.
-                        </p>
-                        <p style="font-size:1.2em">
-                        Da wir neben Rad Enthusiasten auch Outdoor erfahren sind, haben wir euch vom Anbieter VAUDE Modelle rausgesucht, die wir euch zum Kauf anbieten. Schaut mal in unserem Shop vorbei. LINK Favoriten zu finden.
-                        </p>
-                        <p style="font-size:1.2em">
-                        Wir statten euch, je nach Wunsch, mit Isomatten für euren Trip aus. Aus hygienischen Gründen bitten wir euch, Bettbezügen zu verwenden. Wir säubern und desinfizieren die Leihmodelle nach jeder Vermietung, mit eurer Hilfe schaffen wir aber eine deutlich längere Lebensdauer und können nachhaltiger denken.
-                        </p>
+                            <p style="font-size:1.2em">
+                            Ähnlich wie bei den Schlafsäcken verhält es sich auch mit den Isomatten. Die Produkte sind sensibel in der Handhabung und definieren sich außerdem als hygienisch relevant. Wir wollen daher keine Isomatten als Leihartikel anbieten, haben aber auch hier eine Lösung für euch parat. Gemeinsam mit dem Anbieter VAUDE bieten wir euch ausgewählte Modelle zum Kauf an. Eine Beratung geben wir euch gerne, schaut mal im Shop vorbei und kontaktiert uns bei Fragen und Anregungen.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Da wir neben Rad Enthusiasten auch Outdoor erfahren sind, haben wir euch vom Anbieter VAUDE Modelle rausgesucht, die wir euch zum Kauf anbieten. Schaut mal in unserem Shop vorbei. LINK Favoriten zu finden.
+                            </p>
+                            <p style="font-size:1.2em">
+                            Wir statten euch, je nach Wunsch, mit Isomatten für euren Trip aus. Aus hygienischen Gründen bitten wir euch, Bettbezügen zu verwenden. Wir säubern und desinfizieren die Leihmodelle nach jeder Vermietung, mit eurer Hilfe schaffen wir aber eine deutlich längere Lebensdauer und können nachhaltiger denken.
+                            </p>
+                        </div>
                     </div>
                 </div>
                  
