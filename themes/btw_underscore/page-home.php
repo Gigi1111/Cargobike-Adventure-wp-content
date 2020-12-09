@@ -270,18 +270,19 @@ get_header();
                                 <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
-                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                                </div>
+                                    <h3>Riese & Müller Load75 Bike</h3>
+                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
+                                        
+                                    </div>
                             </div>
 
                             <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
                                     
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
-                                        <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                            
+                                     <h3>Riese & Müller Load75 Bike</h3>
+                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
+                                        
                                     </div>
                             </div>
                     </div>
@@ -320,46 +321,228 @@ get_header();
             <h2>Camping Equipments for Rent</h2>
 
             <div id="equipmentCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
+                      <!-- Indicators -->
+                    <ol class="carousel-indicators" style="position: relative; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 0; height: auto!important; ">
+                        <li data-target="#equipmentCarousel" data-slide-to="0" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="2" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent-cave.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="3" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/chairs.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                       <li data-target="#equipmentCarousel" data-slide-to="4" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-stove2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="5" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="6" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasL.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="7" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="8" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasS.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="9" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-servingkit.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="10" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/md-mug.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="11" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/boat.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="12" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/espressomaker.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="13" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/slackline.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="14" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/hammock.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="15" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/badminton.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="16" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/firstaid.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="17" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/SUP2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+              
+                    </ol>
+
+            
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
+                              <!-- individual item -->
                             <div class="item active"  style="overflow-y: visible !important">
-                                <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
-
-                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
-                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                                </div>
-                            </div>
-
-
-                            <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
                                     
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                         <h3>Amazing Self-Built Inflated Tent (Black)</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                            
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
+                                    <!-- right info -->
+                                    <!-- <div class="carousel-caption col-sm-12" id="right-info" style="height: 460px !important; position: relative; width: auto; margin: 0; overflow: scroll;">
+                                      
+                                    </div> -->
+                                    <!-- bottom info -->
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Backdoor 3-Season</h3>
+                                        <p>Das Backdoor ist unser größtes Zelt des Hamburger Herstellers Heimplanet und ein echter Hingucker auf jedem Campingplatz. Es wird anders als herkömmliche Zelt in kürzester Zeit per Doppelhubpumpe aufgepumpt und mit den beiliegenden Heringen im Boden verankert. Hier können bis zu 4 Personen schlafen und finden in den Zelt Vorräumen, den sogenannten Apsiden, genug Platz für jegliche Ausrüstungsgegenstände. 2 Eingänge erleichtern den Ein- und Ausstieg und das speziell entwickelte Advanced Ventilation System sorgt für eine angenehme Luftzirkulation im Innenzelt. Absolut wasserdicht und mit doppeltem Boden hält es auch widrigsten Wetterbedingungen stand.</p>      
+                                        <p>
+                                            <span style="font-weight:700">
+                                            Schlafplatz für 4 Personen und Platz für Equipment.</span><br>
+                                            <br>
+                                            Grundfläche:  9 &#x33a1;<br>
+                                            Liegefläche: 240cm x 240cm (Breite Fußende 180cm)<br>
+                                            Gesamthöhe:  153 cm<br>
+                                            Innenzelthöhe:   125 cm<br> </p>
+                                    </div>
+                            </div>
+                             <!-- individual item -->
+                             <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent-cave.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    <!-- right info -->
+                                    <!-- <div class="carousel-caption col-sm-12" id="right-info" style="height: 460px !important; position: relative; width: auto; margin: 0; overflow: scroll;">
+                                        
+                                    </div> -->
+                                    <!-- bottom info -->
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>The Cave</h3>
+                                        <p>Das Zelt The Cave mutet nicht nur wie eine kuschelige Höhle an, es schläft sich auch wie in einer. Hier finden 2-3 Personen Platz, wir empfehlen es für 2 Abenteurer, gegebenenfalls plus Kind. Es bietet einen Eingang und dementsprechend auch eine Apsis als Verstaumöglichkeit für Ausrüstungsgegenstände. Das Zelt ist absolut wasserfest, mit dem doppelten Boden und den extra festen und widerstandsfähigen Luftstreben extrem robust und hält auch dem nächtlichen Platzregen entspannt stand.</p>     
+                                        <p>
+                                            <span style="font-weight:700">
+                                            Schlafplatz für 2 Personen+ und Platz für Equipment.</span><br>
+                                            <br>
+                                            Grundfläche: 5 &#x33a1;<br>
+                                            Liegefläche: 200cm x 146cm   <br>   
+                                            Gesamthöhe: 127 cm<br>
+                                            Innenzelthöhe: 102 cm<br>
+                                        </p>
+                                    </div>
+                            </div>
+                              <!-- individual item -->
+                              <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/chairs.jpg'); background-size: cover;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    <!-- right info -->
+                                    <!-- <div class="carousel-caption col-sm-12" id="right-info" style="height: 460px !important; position: relative; width: auto; margin: 0; overflow: scroll;"> </div>  -->
+                                    <!-- bottom info -->
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Chair TWO</h3>
+                                        <p>Der Chair TWO aus dem Hause der Innovationsschmiede Helinox ist eine perfekte Kombination aus Packmaß und Komfort. Der Stuhl bietet die ideale Möglichkeit, nach einem Tag auf den Fahrrädern in angenehmer Sitzposition zu entspannen. In Handumdrehen lässt sich der Packsack für noch mehr Komfort beispielsweise mit einem Pullover füllen und an der Ken moflehne befestigen. Und schon hat man eine Stütze für den Kopf montiert - das nennen wir zu Ende gedacht! Die maximale Belastung liegt bei 145kg.</p>    
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-stove2.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Primus Kinja Cooker</h3>
+                                        <p>Der Primus Kocher 'Kinjia' ist ein leichter, kleiner und kompakter Kocher mit zwei Brennern, der echten Spaß beim Kochen unter freiem Himmel ermöglicht. Ob der Kaffee am Morgen oder das Abendessen für die ganze Familie, wie ihr den Kinjia nutzt bleibt ganz alleine euch überlassen. Im Adapter für Gasflaschen befindet sich zugleich ein Druckregulator der dafür sorgt, dass beide Brenner immer mit gleichem Druck versorgt werden. Wir geben euch eine Gaskartusche (100g) mit dazu.</p>       
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Primus CampFire Cookset S.S. Large</h3>
+                                        <p>Kochset von Primus aus robustem 18/8-Edelstahl. Das Set besteht aus 2 Töpfen mit je 1,8L bzw. 3L Volumen, zwei Deckeln mit integriertem Abtropfsieb und einer Bratpfanne mit integriertem Griff. Besonders praktisch sind die Töpfe, da sie sich ineinander stapeln und so extrem platzsparend verstauen lassen. So wird es beim Kochen auf dem Campingplatz fast so komfortabel, wohl aber noch schöner als in der Küche zu Hause.</p>     
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasL.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                       <h3>Primus Power Gas Size L (450g)</h3>
+                                       <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier eine kleine Beispielrechnung:<br>
+Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                     <h3>Primus Power Gas Size M (230g)</h3>
+                                       <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier eine kleine Beispielrechnung:<br>
+Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
+                                   
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasS.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                     <h3>Primus Power Gas Size S (100g)</h3>
+                                       <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier eine kleine Beispielrechnung:<br>
+Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
+                                   
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-servingkit.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Primus CampFire Serving Kit</h3>
+                                        <p>Set zum Servieren der gezauberten Mahlzeiten, bestehend aus 4 Edelstahl-Tellern und einer Schüssel. Alle 4 Teller lassen sich ineinander stapeln und in der Schüssel verstauen. Der Silikondeckel verschließt das Set und sorgt dafür, dass nichts hin und her fliegt während des Tages.</p>      
+                                     </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/md-mug.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                        <h3>Primus 4-Season Mug 0.2L</h3>
+                                        <p>Doppelwandiger, robuster Becher aus poliertem, hochwertigem rostfreiem Edelstahl (18/8). Er sorgt dafür, dass euer Tee oder die heiße Schokolade am Abend auch warm
+ bleibt und zeigt sich dabei elegant und unempfindlich.</p>    
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/boat.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto;">
+                                        <h3>Boat</h3>
+
+                                    </div>
+                            </div>
+                          
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/espressomaker.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                        <h3>Espresso Cooker</h3>
+                                       
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/slackline.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                            <h3>Slackline</h3>     
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/hammock.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                        <h3>Hammock</h3>
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/badminton.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                        <h3>Badminton Set</h3>
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/firstaid.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                        <h3>First aid Kit</h3>   
+                                    </div>
+                            </div>
+                            <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/SUP2.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                                    
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width:100%; margin: 0 auto">
+                                        <h3>SUP</h3>      
                                     </div>
                             </div>
 
-                             <div class="item"  style="overflow-y: visible !important">
-                                <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"> </div>
-                                   
-                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
-                                    <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
                             
-                                </div>
-                            </div>
                     </div>
 
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
-                        <li data-target="#equipmentCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/riding3.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="2"  style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/tent-bike-chair.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    </ol>
-
+                  
                 <!-- Left and right controls -->
                 <a class="left carousel-control  hidden-xs" href="#equipmentCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
