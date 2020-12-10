@@ -480,10 +480,10 @@ get_header();
 
                                         <p>
                                             <strong>Helinox Chair TWO (Price for 2 chairs!):</strong><br>
-                                            3 days: 	15,-
-                                            4 days: 	19,-
-                                            7 days: 	30,-
-                                            14 days:	49,-
+                                            3 days: 	15,-<br>
+                                            4 days: 	19,-<br>
+                                            7 days: 	30,-<br>
+                                            14 days:	49,-<br>
                                         </p>
                                         
                                     
