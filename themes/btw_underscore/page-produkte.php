@@ -122,179 +122,165 @@ get_header();
 
     <!-- PRODUKTE ANZEIGEN
 	================================================== -->
-    <section class="ti_products_show">
-        <div class="ti_cat_wrapper">
+    <!-- CATEGORY NAVIGATION     -->
+    <!-- <div class="ti_cat_wrapper" id="ti_sticky_nav">
             <ul class="ti_cat_list">
                 <?php
-                $args = array(
-                    'number'     => $number,
-                    // 'orderby'    => 'title',
-                    // 'order'      => 'ASC',
-                    'hide_empty' => $hide_empty,
-                    'include'    => $ids
-                );
-                $product_categories = get_terms( 'product_cat', $args );
-                $count = count($product_categories);
-                if ( $count > 0 ){
-                    foreach ( $product_categories as $product_category ) {
-                        if ($product_category->count > 0) {
-                            echo '<li class="ti_cat_item"><a href="#category' . $product_category->term_id . '">' . $product_category->name . '</a></li>';
-                        }
-                    };
-                }  
+                // $args = array(
+                //     // 'number'     => $number,
+                //     // 'orderby'    => 'title',
+                //     // 'order'      => 'ASC',
+                //     'hide_empty' => true, //$hide_empty,
+                //     // 'include'    => $ids
+                // );
+                // $product_categories = get_terms( 'product_cat', $args );
+                // $count = count($product_categories);
+                // if ( $count > 0 ){
+                //     foreach ( $product_categories as $product_category ) {
+                //         if ($product_category->count > 0) {
+                //             echo '<li class="ti_cat_item"><a href="#category' . $product_category->term_id . '">' . $product_category->name . '</a></li>';
+                //         }
+                //     };
+                // }  
                 ?>
             </ul>
-        </div>
-                <!-- TI CUSTOM - PRODUKTLISTE - START -->
-                <div class="ti_product_display">
-                    <?php  
-                        $args = array(
-                        'number'     => $number,
-                        // 'orderby'    => 'title',
-                        // 'order'      => 'ASC',
-                        'hide_empty' => $hide_empty,
-                        'include'    => $ids
-                        );
-                        $product_categories = get_terms('product_cat', $args);
-                        $count = count($product_categories);
-                        if ( $count > 0 ){
-                        foreach ( $product_categories as $product_category ) {
-                            $thumbnail_id = get_woocommerce_term_meta( $product_category->term_id, 'thumbnail_id', true );
-                            $image = wp_get_attachment_url( $thumbnail_id ); ?>
-                            <div class="ti_cat_grid">
-                            <img src="<?php echo $image ?>" alt="Cargobike Adventures" id="category<?php echo $product_category->term_id ?>">
-                            <h3 class="ti_cat_grid_title"><?php echo $product_category->name ?></h3>
+        </div> -->
+
+    <!-- TI CUSTOM - PRODUKTLISTE - START -->
+    <section class="ti_products_show">                
+        <?php  
+        $args = array(
+            // 'number'     => $number,
+            // 'orderby'    => 'title',
+            // 'order'      => 'ASC',
+            'hide_empty' => true, //$hide_empty,
+            // 'include'    => $ids
+        );
+        $product_categories = get_terms('product_cat', $args);
+        $count = count($product_categories);
+        if ( $count > 0 ){
+            foreach ( $product_categories as $product_category ) {
+                // $thumbnail_id = get_term_meta( $product_category->term_id, 'thumbnail_id', true );
+                // $image = wp_get_attachment_url( $thumbnail_id );
+        ?>
+                <div class="ti_category">
+                    <h3 class="ti_cat_grid_title" id="category<?php echo $product_category->term_id ?>"><?php echo $product_category->name ?></h3>
+                    <?php
+                    // Loop through to get products of a category
+                    $args = array(
+                        'posts_per_page' => -1,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            array(
+                                'taxonomy' => 'product_cat',
+                                'field' => 'slug',
+                                // 'terms' => 'white-wines'
+                                'terms' => $product_category->slug
+                            )
+                        ),
+                        'post_type' => 'product',
+                        'orderby' => 'ID,',
+                        'order' => 'ASC'
+                    );
+                    $products = new WP_Query( $args );
+                    echo "<ul>";
+                    while ( $products->have_posts() ) {
+                        $products->the_post();
+                        $product_id = get_the_ID();
+                        $new_product = wc_get_product($product_id);
+                        $sku = $new_product->get_sku();
+                        $product_name = $new_product->get_name();
+                        $product_price = $new_product->get_price_html();
+                        $product_type = $new_product->get_type();
+                        $product_images = $new_product->get_gallery_image_ids();
+                        $product_children = array();
+                        $variation_ids = '';
+                        $attr_values = '';
+                        $variation_prices = '';
+                        if ($product_type == "variable") {
+                            $product_children = $new_product->get_children();
+                            $formatted_price = number_format($new_product->get_variation_regular_price(), 2, ',', '.');
+                            $product_price = 'ab ' . get_woocommerce_currency_symbol() . $formatted_price;
+                            // $product_price = 'ab ' . $new_product->get_variation_price( 'min', true );
+                        }
+                        ?>
+                        <div class="ti_product_container">
+                            <div class="ti_grid_prod_name"><?php echo $product_name ?></div>
+                            <div class="ti_product_images" >
+                                <?php
+                                $product_main_img = wp_get_attachment_url($product_images[0]);
+                                ?>
+                                <img data-toggle="collapse" href="#id_<?php echo $sku ?>" src="<?php echo $product_main_img ?>" alt="CargoBike Adventures" width="300" height="300">
                             </div>
-                            <?php
-                            // Loop through to get products of a category
-                            $args = array(
-                            'posts_per_page' => -1,
-                            'tax_query' => array(
-                                'relation' => 'AND',
-                                array(
-                                    'taxonomy' => 'product_cat',
-                                    'field' => 'slug',
-                                    // 'terms' => 'white-wines'
-                                    'terms' => $product_category->slug
-                                )
-                            ),
-                            'post_type' => 'product',
-                            'orderby' => 'ID,',
-                            'order' => 'ASC'
-                            );
-                            $products = new WP_Query( $args );
-                            echo "<ul>";
-                            while ( $products->have_posts() ) {
-                            $products->the_post();
-                            $product_id = get_the_ID();
-                            $new_product = wc_get_product($product_id);
-                            $sku = $new_product->get_sku();
-                            $product_name = $new_product->get_name();
-                            $product_price = $new_product->get_price_html();
-                            $product_type = $new_product->get_type();
-                            $product_children = array();
-                            $variation_ids = '';
-                            $attr_values = '';
-                            $variation_prices = '';
-                            if ($product_type == "variable") {
-                                $product_children = $new_product->get_children();
-                                $formatted_price = number_format($new_product->get_variation_regular_price(), 2, ',', '.');
-                                $product_price = 'ab ' . get_woocommerce_currency_symbol() . $formatted_price;
-                                // $product_price = 'ab ' . $new_product->get_variation_price( 'min', true );
-                            }
-                            ?>
-                                <div class="ti_grid_container">
-                                    <div class="ti_grid_prod_name"><?php echo $sku . '. ' . $product_name ?></div>                  
-                                    <div class="ti_grid_prod_cart">
-                                    <?php
-                                        if (count($product_children) > 0) {
-                                        foreach ($product_children as $variation_id) {
-                                            $variation = new WC_Product_Variation($variation_id);
-                                            $variation_attributes = $variation->get_variation_attributes();
-                                            $variation_price = number_format($variation->get_regular_price(), 2, ',', '.');
-                                            // $variation_price = $variation->get_regular_price();
-                                            // echo implode(", ", $variation_attributes) . ' - ' . $variation_price . '<br>';
-                                            
-                                            // Save all variation ids to button
-                                            $variation_ids .= $variation_id . "|";
+                            <div class="ti_grid_excerpt"><?php the_excerpt() ?></div>
+                            <div class="ti_prod_varianten">                          
+                                <?php
+                                if (count($product_children) > 0) {
+                                    foreach ($product_children as $variation_id) {
+                                        $variation = new WC_Product_Variation($variation_id);
+                                        $variation_attributes = $variation->get_variation_attributes();
+                                        $variation_price = number_format($variation->get_regular_price(), 2, ',', '.');
+                                        // $variation_price = $variation->get_regular_price();
+                                        // echo implode(", ", $variation_attributes) . ' - ' . $variation_price . '<br>';
+                                        
+                                        // Save all variation ids to button
+                                        // $variation_ids .= $variation_id . "|";
 
-                                            // Save all variation prices to button
-                                            $variation_prices .= $variation_price . "|";
+                                        // Save all variation prices to button
+                                        // $variation_prices .= $variation_price . "|";
 
-                                            foreach ($variation_attributes as $taxonomy => $term_slug) {
+                                        foreach ($variation_attributes as $taxonomy => $term_slug) {
                                             $new_taxonomy = str_replace("attribute_", "", $taxonomy);
                                             $new_term = get_term_by('slug', $term_slug, $new_taxonomy);
                                             $new_name = $new_term->name;
                                             $attr_values .= $new_name . "^";
-                                            }
 
-                                            // Save attributes values to button
-                                            $attr_values .= "|";
+                                ?>
+                                <p class="ti_varianten_attribute"><?php echo $new_name ?></p>
+                                <p class="ti_varianten_price"><?php echo  $variation_price ?></p>
+                                <?php
                                         }
-                                        }
-                                    ?>
-                                    <button 
-                                        type="button" class="btn btn-danger" data-toggle="modal" data-target="#add_to_cart_model"
-                                        data-product-id="<?php echo $product_id; ?>"
-                                        data-product-name="<?php echo $product_name; ?>" 
-                                        data-product-sku="<?php echo $sku; ?>" 
-                                        data-children="<?php echo count($product_children); ?>"
-                                        data-variation-ids=<?php echo $variation_ids; ?> 
-                                        data-variation-attr-values="<?php echo $attr_values; ?>"
-                                        data-variation-prices="<?php echo $variation_prices; ?>" 
-                                        onclick="showDetails(this)"
-                                    >
-                                        <?php echo $product_price; ?>&nbsp;<i class="fa fa-cart-plus ti_prod_cart"></i>
-                                    </button>
-                                    </div>
-                                    <div class="ti_grid_prod_excerpt"><?php the_excerpt() ?></div>
-                                </div>
-                            <?php
-                            }
-                            echo "</ul>";
-                        }
-                        }
-                    ?>
-                    </div>
-                    <!-- The Add-to-cart Modal -->
-                    <div class="modal fade" id="add_to_cart_model">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                        
-                        <!-- Modal Header -->
-                        <!-- <div class="modal-header">
-                        </div> -->
-                        
-                        <!-- Modal body -->
-                        <div class="modal-body ti_single_grid">
-                            <div id="prod_title"></div>
-                            <div class="prod_close_btn"><i type="button" class="fa fa-times manh_btn manh_normal_btn" class="close" data-dismiss="modal"></i></div>
-                            <div id="prod_info"></div>
-                        </div>
-                        
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <div class="ti_single_grid_item" id="ti_quantity_box">
-                            <i onclick="minus()" class="fa fa-minus ti_grid_minus ti_grid_btn"></i>
-                            <input id="quantity" type="number" value="1" style="text-align: center">
-                            <i onclick="plus()" class="fa fa-plus ti_grid_plus ti_grid_btn"></i>
+                                        // Save attributes values to button
+                                        // $attr_values .= "|";
+                                    }
+                                }
+                                ?>
+
+                                <!-- <button 
+                                    type="button" class="btn btn-danger" data-toggle="modal" data-target="#add_to_cart_model"
+                                    data-product-id="<?php echo $product_id; ?>"
+                                    data-product-name="<?php echo $product_name; ?>" 
+                                    data-product-sku="<?php echo $sku; ?>" 
+                                    data-children="<?php echo count($product_children); ?>"
+                                    data-variation-ids=<?php echo $variation_ids; ?> 
+                                    data-variation-attr-values="<?php echo $attr_values; ?>"
+                                    data-variation-prices="<?php echo $variation_prices; ?>" 
+                                    onclick="showDetails(this)"
+                                >
+                                    <?php echo $product_price; ?>&nbsp;<i class="fa fa-cart-plus ti_prod_cart"></i>
+                                </button> -->
                             </div>
-                            <a href="#" 
-                            data-quantity="#"
-                            class="btn btn-success add_to_cart_button ajax_add_to_cart"
-                            data-product_id="#" 
-                            rel="nofollow"
-                            id="ti_cart_btn"
-                            >
-                            <?php echo $new_product->add_to_cart_text(); ?>
-                            </a>
-                            <a class="btn btn-secondary" id="ti_continue_shopping_btn" data-dismiss="modal"><?php echo pll_e('Weiter einkaufen'); ?></a>
+                            <button>BUTTON</button>
+                            <div class="ti_image_show collapse" id="id_<?php echo $sku ?>">
+                                <?php
+                                foreach ($product_images as $product_image) {
+                                    $product_image_url = wp_get_attachment_url($product_image);
+                                    ?>
+                                    <img src="<?php echo $product_image_url ?>" alt="CargoBike Adventures" width="300" height="300">
+                                <?php
+                                }
+                                ?>
+                            </div>
                         </div>
-                        
-                        </div>
-                    </div>
-                    </div>
-                    <!-- TI CUSTOM - PRODUKTLISTE - END -->
+                        <?php
+                        }
+                        echo "</ul>";
+                    }
+                }
+            ?>
+            </div>
+        </div>
+        <!-- TI CUSTOM - PRODUKTLISTE - END -->
     </section>
 
 <?php
