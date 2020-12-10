@@ -264,22 +264,53 @@ get_header();
              <h2>Bikes for Rent</h2>
 
             <div id="bikeCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
-                <!-- Wrapper for slides -->
+            
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="position: relative; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 0; height: auto!important; ">
+                    <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#bikeCarousel" data-slide-to="1" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/epic0-lg.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+
+                    <li data-target="#bikeCarousel" data-slide-to="2" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                    <li data-target="#bikeCarousel" data-slide-to="3" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                </ol>
+            
+                 <!-- Wrapper for slides -->
                 <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
+                               <!-- individual item -->
                             <div class="item active"  style="overflow-y: visible !important">
+                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg'); background-size: cover; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+
+                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                    <h3>Riese & Müller Load75 Bike</h3>
+                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
+                                        
+                                </div>
+                            </div>
+                               <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
+                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/epic0-lg.jpg'); background-size: cover; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+
+                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
+                                    <h3>Riese & Müller Load75 Bike</h3>
+                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
+                                        
+                                </div>
+                            </div>
+                               <!-- individual item -->
+                            <div class="item"  style="overflow-y: visible !important">
                                 <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
 
-                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                     <h3>Riese & Müller Load75 Bike</h3>
                                     <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
                                         
                                     </div>
                             </div>
-
+                               <!-- individual item -->
                             <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
                                     
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 102px auto 0 auto">
+                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                      <h3>Riese & Müller Load75 Bike</h3>
                                     <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
                                         
@@ -287,11 +318,7 @@ get_header();
                             </div>
                     </div>
 
-                 <!-- Indicators -->
-                 <ol class="carousel-indicators" style="position: absolute; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 465px; height: 102px;">
-                   <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#bikeCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                </ol>
+               
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control  hidden-xs" href="#bikeCarousel" data-slide="prev">
