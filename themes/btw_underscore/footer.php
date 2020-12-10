@@ -49,7 +49,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
  <!-- image call to action
 	================================================== -->
     <?php 
-             set_query_var( 'content_text', "Gift a dream bike trip to some now" );
+             set_query_var( 'content_text', "Planen Sie jetzt eine unvergessliche Radtour!" );
              set_query_var( 'btn_text', "los geht's" );
              set_query_var( 'background_img', "/assets/img/brand-image/epic2-lg.jpg" );
             get_template_part( 'template-parts/section', 'image-calltoaction' );?>
@@ -62,7 +62,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
 	================================================== -->
     <section id="optin" >
             <?php
-            set_query_var( 'content_text', "Gift a dream bike trip to some now" );
+            set_query_var( 'content_text', "Planen Sie jetzt eine unvergessliche Radtour!" );
             set_query_var( 'btn_text', "los geht's" );
              get_template_part( 'template-parts/section', 'oneline' );?>
     </section>

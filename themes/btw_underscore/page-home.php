@@ -172,27 +172,27 @@ get_header();
             <div class="row">
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
                         <h4>Premium Lastenräder in verschiedenen Konfigurationen mit ausführlicher Einführung bei Anmietung</h4>
                     </div>
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-tent.png" alt="tent icon" style="width:50px; height:50px" >
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-tent.png" alt="tent icon" style="width:50px; height:50px" >
                         <h4>Bestes Camping Equipment, für unsere Kunden frei zusammen<wbr>stellbar</h4>
                     </div>
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-time.png" alt="clock icon" style="width:50px; height:50px" >
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-time.png" alt="clock icon" style="width:50px; height:50px" >
                         <h4>Viele Extras, die euch die Zeit unterwegs versüßen</h4>
                     </div>
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-vacation.png" alt="camping icon" style="width:50px; height:50px" >
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-vacation.png" alt="camping icon" style="width:50px; height:50px" >
                         <h4>Versicherungs<wbr>pakete für ein rundum sorglos Gefühl im Urlaub</h4>
                     </div>
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/offer-direction.png" alt="direction icon" style="width:50px; height:50px" >
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-direction.png" alt="direction icon" style="width:50px; height:50px" >
                         <h4>Routen<wbr>planung, Tipps und Tricks rund ums Cargobike</h4>
                     </div>  
             </div>
@@ -335,10 +335,7 @@ get_header();
 
     <!-- OPT IN SECTION
 	================================================== -->
-    <section id="optin" >
-            <?php get_template_part( 'template-parts/section', 'oneline' );?>
-           
-    </section>
+ 
     <!-- optin -->
     
     <!-- section slideshow equipments
@@ -588,10 +585,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
 
     <!-- OPT IN SECTION
 	================================================== -->
-    <section id="optin" >
-            <?php get_template_part( 'template-parts/section', 'oneline' );?>
-           
-    </section>
+
     <!-- optin -->
 
 
@@ -607,7 +601,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
             <div class="row">
                 <div class="col-sm-4">
                     <?php if(!empty($col_image_1)): ?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/specialty-berlin2.png" alt="icon" style="padding: 15px;">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/specialty-berlin2.png" alt="icon" style="padding: 15px;">
                     <?php endif; ?>
 
                     <p>Zentraler Pick-Up und Drop-Off im MotionLab Berlin-Treptow</p>
@@ -615,7 +609,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                 <!-- col -->
                 <div class="col-sm-4">
                     <?php if(!empty($col_image_2)): ?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/specialty-chair.png" alt="icon" >
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/specialty-chair.png" alt="icon" >
                     <?php endif; ?>
 
                    <p>Ausführliche Einführung in Bike und Equipment bei Anmietung</p>
@@ -623,7 +617,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                 <!-- col -->
                 <div class="col-sm-4">
                     <?php if(!empty($col_image_3)): ?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/specialty-wheel.png" alt="icon" >
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/specialty-wheel.png" alt="icon" >
                     <?php endif; ?>
 
                     <p>Neueste Modelle an Bikes und Zubehör, garantiert frisch gewartet und desinfiziert</p>
@@ -631,7 +625,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                 <!-- col -->
                 <div class="col-sm-4">
                     <?php if(!empty($col_image_4)): ?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/specialty-leaf.png" alt="icon" style="padding: 8px;">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/specialty-leaf.png" alt="icon" style="padding: 8px;">
                     <?php endif; ?>
 
                     <p>CO2 neutrales und somit emissionsfreies Reisen - so schont ihr die Umwelt</p>
@@ -639,7 +633,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                 <!-- col -->
                 <div class="col-sm-4">
                     <?php if(!empty($col_image_5)): ?>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/specialty-cycle2.png" alt="icon" >
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/specialty-cycle2.png" alt="icon" >
                     <?php endif; ?>
 
                     <p>Alle unsere Partner verschreiben sich in höchstem Maße Nachhaltigkeit und Transparenz im Wirtschaftskreislauf</p>
@@ -656,10 +650,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
     
       <!-- OPT IN SECTION
 	================================================== -->
-    <section id="optin" >
-            <?php get_template_part( 'template-parts/section', 'oneline' );?>
-           
-    </section>
+
     <!-- optin -->
 
     <!-- column large; premium service

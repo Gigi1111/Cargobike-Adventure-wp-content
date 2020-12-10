@@ -4,7 +4,7 @@
                     <?php if(!empty($content_text)): ?>
                         <p class="" style='text-align: center'><?php echo $content_text; ?></p>
                     <?php else: ?>
-                        <p class="" style='text-align: center'>Gift a dream bike trip to some now</p>
+                        <p class="" style='text-align: center'>Planen Sie jetzt eine unvergessliche Radtour!</p>
                     <?php endif ?>
                 </div>
                 <!-- end col -->
