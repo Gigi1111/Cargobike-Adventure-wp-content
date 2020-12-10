@@ -162,7 +162,7 @@ get_header();
             foreach ( $product_categories as $product_category ) {
                 // $thumbnail_id = get_term_meta( $product_category->term_id, 'thumbnail_id', true );
                 // $image = wp_get_attachment_url( $thumbnail_id );
-        ?>
+                ?>
                 <div class="ti_category">
                     <h3 class="ti_cat_grid_title" id="category<?php echo $product_category->term_id ?>"><?php echo $product_category->name ?></h3>
                     <?php
@@ -220,22 +220,13 @@ get_header();
                                         $variation = new WC_Product_Variation($variation_id);
                                         $variation_attributes = $variation->get_variation_attributes();
                                         $variation_price = number_format($variation->get_regular_price(), 2, ',', '.');
-                                        // $variation_price = $variation->get_regular_price();
-                                        // echo implode(", ", $variation_attributes) . ' - ' . $variation_price . '<br>';
-                                        
-                                        // Save all variation ids to button
-                                        // $variation_ids .= $variation_id . "|";
-
-                                        // Save all variation prices to button
-                                        // $variation_prices .= $variation_price . "|";
 
                                         foreach ($variation_attributes as $taxonomy => $term_slug) {
                                             $new_taxonomy = str_replace("attribute_", "", $taxonomy);
                                             $new_term = get_term_by('slug', $term_slug, $new_taxonomy);
                                             $new_name = $new_term->name;
                                             $attr_values .= $new_name . "^";
-
-                                ?>
+                                        ?>
                                 <p class="ti_varianten_attribute"><?php echo $new_name ?></p>
                                 <p class="ti_varianten_price"><?php echo  $variation_price ?></p>
                                 <?php
@@ -245,22 +236,8 @@ get_header();
                                     }
                                 }
                                 ?>
-
-                                <!-- <button 
-                                    type="button" class="btn btn-danger" data-toggle="modal" data-target="#add_to_cart_model"
-                                    data-product-id="<?php echo $product_id; ?>"
-                                    data-product-name="<?php echo $product_name; ?>" 
-                                    data-product-sku="<?php echo $sku; ?>" 
-                                    data-children="<?php echo count($product_children); ?>"
-                                    data-variation-ids=<?php echo $variation_ids; ?> 
-                                    data-variation-attr-values="<?php echo $attr_values; ?>"
-                                    data-variation-prices="<?php echo $variation_prices; ?>" 
-                                    onclick="showDetails(this)"
-                                >
-                                    <?php echo $product_price; ?>&nbsp;<i class="fa fa-cart-plus ti_prod_cart"></i>
-                                </button> -->
                             </div>
-                            <button>BUTTON</button>
+                            <button class="ti_angebot_btn" data-toggle="modal" data-target="#tiModal">ZUM ANGEBOT</button>
                             <div class="ti_image_show collapse" id="id_<?php echo $sku ?>">
                                 <?php
                                 foreach ($product_images as $product_image) {
@@ -274,15 +251,38 @@ get_header();
                         </div>
                         <?php
                         }
-                        echo "</ul>";
-                    }
-                }
+                    echo "</ul>";
+                    ?>
+                </div>
+            <?php
+            }
             ?>
+        <?php
+        }
+        ?>
+    </section>
+    <!-- TI CUSTOM - PRODUKTLISTE - END -->
+    <!-- The Modal -->
+    <div class="modal fade" id="tiModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>Aufgrund der aktuell und bis auf Weiteres undurchsichtigen Pandemie Situation haben wir uns dazu entschlossen, unser Buchungstool noch nicht live zu schalten. Wir wollen euch und uns den Ärger von Umbuchungen und Stornierungen ersparen und gehen mit dem Angebot online, sobald absehbar ist wie sich die Lage im nächsten Jahr entwickelt.
+Wir bieten euch dafür die Möglichkeit an bereits Gutscheine zu erwerben, die Ihr dann im Frühjahr 2021 in konkrete Abenteuer verwandeln könnt.</p>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Jetzt Gutscheine für 2021 sichern!</button>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                </div>  
             </div>
         </div>
-        <!-- TI CUSTOM - PRODUKTLISTE - END -->
-    </section>
-
+    </div>
 <?php
 get_footer();
 ?>

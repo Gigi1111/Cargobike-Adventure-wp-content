@@ -73,12 +73,14 @@
 }
 
 .ti_image_show {
+    /* display: grid; */
     grid-column: 1 / span 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .ti_image_show_inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
 }
 
 .ti_image_show > img {
@@ -100,3 +102,7 @@
 .ti_varianten_price {
 
 }
+
+/* #tiModal p, #tiModal button{
+    text-align: center;
+} */
