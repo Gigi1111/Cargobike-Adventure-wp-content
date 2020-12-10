@@ -1728,7 +1728,7 @@ footer p {
 
 footer a:link,
 footer a:visited {
-    color: var(--brand-white);
+    color: var(--brand-primary);
 }
 
 footer a:hover {

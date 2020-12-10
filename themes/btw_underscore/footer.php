@@ -13,7 +13,7 @@
 
     <!-- FOOTER
 	================================================== -->
-<footer id="site-footer" role="contentinfo" class="header-footer-group">
+<footer id="site-footer" role="contentinfo" class="header-footer-group" style="background: none; color:var(--brand-dark-grey) !important;">
 
     <!-- image call to action
 	================================================== -->
