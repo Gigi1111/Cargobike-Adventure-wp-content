@@ -504,7 +504,8 @@ get_header();
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
                                     
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                     <h3>Primus Power Gas Size M (230g)</h3>
+                                     <h3>Primus Power Gas</h3>
+                                     <h4>s 100g, m 230g, L 450g</h4>
                                        <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier <strong>eine kleine Beispielrechnung:</strong><br>
 Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
                                    
