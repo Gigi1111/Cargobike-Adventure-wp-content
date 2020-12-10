@@ -112,30 +112,23 @@ get_header();
                         <div class="col-lg-12">
                             <!-- <?php echo $greetings_content; ?> -->
                             <h2>Impressum</h2>
-                            <p class="lead">
-                                <span>
-                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/location.svg" alt="cargobike brand image" style="width:30px">
-                                Bouchéstr. 12 | Halle 20<br>
-                                12430 Berlin<br>
-                                Deutschland<br>
-                                </span>
-                                <br>
-                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/phone.svg" alt="cargobike brand image" style="width:30px">
-                                Telefon: 01602066123
-                                <br>
-                                <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/mail.svg" alt="cargobike brand image" style="width:30px">
-                                Mail: info@more-cargobike.de
-                                <br>
-                                <br>
-                                Geschäftsführer: Johannes Weyers
-                                <br>
-                                Handelsregister: Amstgericht Berlin-Charlottenburg, 212921 B
-                                <br>
-                                Umsatzsteuer-Identifikationsnummer: DE327329722
-                                <br>
-                                <br>
-                                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/<wbr>consumers/odr/</a>. Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
-                            </p>
+                            <p class="lead">         
+                                    MORE Cargobike GmbH<br>
+                                    Cargobike Adventures<br>
+                                    Sitz der Gesellschaft: Berlin<br>
+                                    <br>
+                                    Registergericht: Amstgericht Berlin-Charlottenburg, HRB 212921 B<br>
+                                    Geschäftsführer: Johannes Weyers<br>
+                                    <br>
+                                    Bouchéstr. 12 | Halle 20<br>
+                                    12435 Berlin<br>
+                                    <br>
+                                    <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/mail.svg" alt="cargobike brand image" style="width:30px">
+                                    info@MORE-Cargobike.de<br>
+
+                                    <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/phone.svg" alt="cargobike brand image" style="width:30px">
+                                    Servicetelefon: +49 160 2066123<br>
+                               </p>
                         
                     </div>
                     </div>

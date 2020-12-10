@@ -172,6 +172,7 @@ get_header();
             <div class="row">
                     <div class="col-sm-2">
                         <!-- <i class="<?php the_field('course_feature_icon');?>"></i> -->
+                        <div ></div>
                         <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/offer-bike.png" alt="bike icon" style="width:50px; height:50px" >
                         <h4>Premium Lastenräder in verschiedenen Konfigurationen mit ausführlicher Einführung bei Anmietung</h4>
                     </div>
@@ -261,7 +262,7 @@ get_header();
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
         <div class="container" style="text-align: center; color: var(--brand-dark-grey);">
-             <h2>Bikes for Rent</h2>
+             <h2>Unsere E-Bike</h2>
 
             <div id="bikeCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
             
@@ -269,21 +270,33 @@ get_header();
                 <ol class="carousel-indicators" style="position: relative; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 0; height: auto!important; ">
                     <li data-target="#bikeCarousel" data-slide-to="0" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
                     <li data-target="#bikeCarousel" data-slide-to="1" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/epic0-lg.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-
-                    <li data-target="#bikeCarousel" data-slide-to="2" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                    <li data-target="#bikeCarousel" data-slide-to="3" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                </ol>
+                    <li data-target="#bikeCarousel" data-slide-to="2" class="active" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/bikes/correct-bike.jpg') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                 </ol>
             
                  <!-- Wrapper for slides -->
                 <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
                                <!-- individual item -->
                             <div class="item active"  style="overflow-y: visible !important">
-                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg'); background-size: cover; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
+                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg'); background-size: contain; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                     <h3>Riese & Müller Load75 Bike</h3>
                                     <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                        
+                                    <br>
+                                    <p>
+                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
+                                        3 days: 	149,- <br>
+                                        4 days: 	199,-<br>
+                                        7 days: 	299,-<br>
+                                        14 days:	499,-<br>
+                                    </p>
+                                    <p>
+                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
+                                        3 days:    15,-<br>
+                                        4 days:    20,-<br>
+                                        7 days:    35,-<br>
+                                        14 days:  70,-<br>
+                                    </p>
                                 </div>
                             </div>
                                <!-- individual item -->
@@ -293,29 +306,48 @@ get_header();
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                     <h3>Riese & Müller Load75 Bike</h3>
                                     <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                        
+                                    <br>
+                                    <p>
+                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
+                                        3 days: 	149,- <br>
+                                        4 days: 	199,-<br>
+                                        7 days: 	299,-<br>
+                                        14 days:	499,-<br>
+                                    </p>
+                                    <p>
+                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
+                                        3 days:    15,-<br>
+                                        4 days:    20,-<br>
+                                        7 days:    35,-<br>
+                                        14 days:  70,-<br>
+                                    </p>
                                 </div>
                             </div>
                                <!-- individual item -->
                             <div class="item"  style="overflow-y: visible !important">
-                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-side.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
+                                <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/bikes/correct-bike.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                     <h3>Riese & Müller Load75 Bike</h3>
                                     <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                        
-                                    </div>
+                                    <br>
+                                    <p>
+                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
+                                        3 days: 	149,- <br>
+                                        4 days: 	199,-<br>
+                                        7 days: 	299,-<br>
+                                        14 days:	499,-<br>
+                                    </p>
+                                    <p>
+                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
+                                        3 days:    15,-<br>
+                                        4 days:    20,-<br>
+                                        7 days:    35,-<br>
+                                        14 days:  70,-<br>
+                                    </p>
+                                </div>
                             </div>
-                               <!-- individual item -->
-                            <div class="item"  style="overflow-y: visible !important">
-                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike-front.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
-                                    
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                     <h3>Riese & Müller Load75 Bike</h3>
-                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                        
-                                    </div>
-                            </div>
+                           
                     </div>
 
                
@@ -342,46 +374,38 @@ get_header();
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
         <div class="container" style="text-align: center; color: var(--brand-dark-grey);">
-            <h2>Camping Equipments for Rent</h2>
+            <h2>Campingausrüstung und Campingzubehör</h2>
 
             <div id="equipmentCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
                       <!-- Indicators -->
                     <ol class="carousel-indicators" style="position: relative; left:unset; width: unset;  width: 100%; margin: 0 auto; top: 0; height: auto!important; ">
-                        <li data-target="#equipmentCarousel" data-slide-to="0" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="2" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent-cave.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="3" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/chairs.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                       <li data-target="#equipmentCarousel" data-slide-to="4" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-stove2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="5" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="6" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasL.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="7" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="8" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasS.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="9" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-servingkit.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="10" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/md-mug.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="11" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/boat.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="12" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/espressomaker.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="13" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/slackline.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="14" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/hammock.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="15" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/badminton.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="16" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/firstaid.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
-                        <li data-target="#equipmentCarousel" data-slide-to="17" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/SUP2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                      
+                        <li data-target="#equipmentCarousel" data-slide-to="0" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="1" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent-cave.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="2" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/chairs.jpg') !important;background-size: cover !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                       <li data-target="#equipmentCarousel" data-slide-to="3" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-stove2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                       <li data-target="#equipmentCarousel" data-slide-to="4" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                       <li data-target="#equipmentCarousel" data-slide-to="5" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="6" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-servingkit.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="7" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/md-mug.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="8" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/boat.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="9" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/espressomaker.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="10" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/slackline.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="11" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/hammock.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="12" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/badminton.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="13" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/firstaid.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
+                        <li data-target="#equipmentCarousel" data-slide-to="14" style="background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/SUP2.png') !important;background-size: contain !important; background-position: center !important; background-repeat: no-repeat !important;"></li>
               
                     </ol>
-
             
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner"  style="height: auto !important; overflow-y: visible !important">
-                              <!-- individual item -->
-                            <div class="item active"  style="overflow-y: visible !important">
-                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/cargo-load2.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
-                                    
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                        <h3>Amazing Self-Built Inflated Tent (Black)</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-                                    </div>
-                            </div>
+    
+            
+            
+                   
                             <!-- individual item -->
-                            <div class="item"  style="overflow-y: visible !important">
+                            <div class="item active"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/tent.jpg'); background-size: cover;background-repeat: no-repeat;background-position: top center; float: unset; margin: 0 auto;"></div>
                                     <!-- right info -->
                                     <!-- <div class="carousel-caption col-sm-12" id="right-info" style="height: 460px !important; position: relative; width: auto; margin: 0; overflow: scroll;">
@@ -399,6 +423,14 @@ get_header();
                                             Liegefläche: 240cm x 240cm (Breite Fußende 180cm)<br>
                                             Gesamthöhe:  153 cm<br>
                                             Innenzelthöhe:   125 cm<br> </p>
+
+                                        <p>
+                                            <strong>Pricelist tent BACKDOOR:</strong><br>
+                                            3 days: 	45,-<br>
+                                            4 days: 	60,-<br>
+                                            7 days: 	99,-<br>
+                                            14 days:	169,-<br>
+                                        </p>
                                     </div>
                             </div>
                              <!-- individual item -->
@@ -420,7 +452,19 @@ get_header();
                                             Liegefläche: 200cm x 146cm   <br>   
                                             Gesamthöhe: 127 cm<br>
                                             Innenzelthöhe: 102 cm<br>
+                                            
                                         </p>
+
+                                        <p>
+                                            <strong> Pricelist tent CAVE:</strong><br>
+
+                                            3 days: 	39,-<br>
+                                            4 days: 	52,-<br>
+                                            7 days: 	89,-<br>
+                                            14 days:	159,-<br>
+
+                                        </p>
+                                       
                                     </div>
                             </div>
                               <!-- individual item -->
@@ -432,6 +476,17 @@ get_header();
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
                                         <h3>Chair TWO</h3>
                                         <p>Der Chair TWO aus dem Hause der Innovationsschmiede Helinox ist eine perfekte Kombination aus Packmaß und Komfort. Der Stuhl bietet die ideale Möglichkeit, nach einem Tag auf den Fahrrädern in angenehmer Sitzposition zu entspannen. In Handumdrehen lässt sich der Packsack für noch mehr Komfort beispielsweise mit einem Pullover füllen und an der Ken moflehne befestigen. Und schon hat man eine Stütze für den Kopf montiert - das nennen wir zu Ende gedacht! Die maximale Belastung liegt bei 145kg.</p>    
+                                        <br>
+
+                                        <p>
+                                            <strong>Helinox Chair TWO (Price for 2 chairs!):</strong><br>
+                                            3 days: 	15,-
+                                            4 days: 	19,-
+                                            7 days: 	30,-
+                                            14 days:	49,-
+                                        </p>
+                                        
+                                    
                                     </div>
                             </div>
                             <!-- individual item -->
@@ -443,25 +498,7 @@ get_header();
                                         <p>Der Primus Kocher 'Kinjia' ist ein leichter, kleiner und kompakter Kocher mit zwei Brennern, der echten Spaß beim Kochen unter freiem Himmel ermöglicht. Ob der Kaffee am Morgen oder das Abendessen für die ganze Familie, wie ihr den Kinjia nutzt bleibt ganz alleine euch überlassen. Im Adapter für Gasflaschen befindet sich zugleich ein Druckregulator der dafür sorgt, dass beide Brenner immer mit gleichem Druck versorgt werden. Wir geben euch eine Gaskartusche (100g) mit dazu.</p>       
                                     </div>
                             </div>
-                            <!-- individual item -->
-                            <div class="item"  style="overflow-y: visible !important">
-                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
-                                    
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                        <h3>Primus CampFire Cookset S.S. Large</h3>
-                                        <p>Kochset von Primus aus robustem 18/8-Edelstahl. Das Set besteht aus 2 Töpfen mit je 1,8L bzw. 3L Volumen, zwei Deckeln mit integriertem Abtropfsieb und einer Bratpfanne mit integriertem Griff. Besonders praktisch sind die Töpfe, da sie sich ineinander stapeln und so extrem platzsparend verstauen lassen. So wird es beim Kochen auf dem Campingplatz fast so komfortabel, wohl aber noch schöner als in der Küche zu Hause.</p>     
-                                    </div>
-                            </div>
-                            <!-- individual item -->
-                            <div class="item"  style="overflow-y: visible !important">
-                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasL.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
-                                    
-                                     <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                       <h3>Primus Power Gas Size L (450g)</h3>
-                                       <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier eine kleine Beispielrechnung:<br>
-Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
-                                    </div>
-                            </div>
+                          
                             <!-- individual item -->
                             <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
@@ -473,17 +510,17 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                                    
                                     </div>
                             </div>
-                            <!-- individual item -->
-                            <div class="item"  style="overflow-y: visible !important">
-                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasS.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
+                            
+                              <!-- individual item -->
+                              <div class="item"  style="overflow-y: visible !important">
+                                    <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-cookingset.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
                                     
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                     <h3>Primus Power Gas Size S (100g)</h3>
-                                       <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier eine kleine Beispielrechnung:<br>
-Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
-                                   
+                                        <h3>Primus CampFire Cookset S.S. Large</h3>
+                                        <p>Kochset von Primus aus robustem 18/8-Edelstahl. Das Set besteht aus 2 Töpfen mit je 1,8L bzw. 3L Volumen, zwei Deckeln mit integriertem Abtropfsieb und einer Bratpfanne mit integriertem Griff. Besonders praktisch sind die Töpfe, da sie sich ineinander stapeln und so extrem platzsparend verstauen lassen. So wird es beim Kochen auf dem Campingplatz fast so komfortabel, wohl aber noch schöner als in der Küche zu Hause.</p>     
                                     </div>
                             </div>
+
                             <!-- individual item -->
                             <div class="item"  style="overflow-y: visible !important">
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-servingkit.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
@@ -671,23 +708,20 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
 
             <!-- <p class="lead"><?php echo $premium_service_section_desc; ?></p> -->
             <div class="row">
-                <div class="col-sm-6">
-
-                    <h3>Wir sind für euch da</h3>
+                <div class="col-sm-6" style="text-align: center;">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/group.svg" alt="icon" style="width: 90px" >
                     <p>Wir sind Radreisende wie Ihr und für euch da, telefonisch oder per Mail</p>
                 </div>
                 <!-- end col -->
 
-                <div class="col-sm-6">
-
-                    <h3>We cherish every customer</h3>
+                <div class="col-sm-6"  style="text-align: center;">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/clean.svg" alt="icon" style="width: 90px"  >
                     <p>Von der persönlichen Übergabe eures gebuchten Bikes+Equipment bis zur Rückgabe - hier trefft ihr die Gründer noch mit Putzlappen und Staubwedel</p>
                 </div>
                 <!-- end col -->
 
-                <div class="col-sm-6">
-               
-                    <h3>Our door is open for you</h3>
+                <div class="col-sm-6"  style="text-align: center;">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/door.svg" alt="icon"  style="width: 90px" >
                     <p>Nach voriger Terminvereinbarung könnt Ihr uns im MotionLab besuchen kommen und euch ein Bild von unserem Angebot machen. Wir haben Gesichter und die zeigen wir gern. Persönlicher Kontakt ist uns wichtig</p>
                 </div>
                 <!-- end col -->
