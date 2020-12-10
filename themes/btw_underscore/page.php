@@ -24,7 +24,7 @@ get_header();
 					<form action="<?php echo get_site_url();?>" method="post">
                         <label for="search"> 
                         </label>
-                            <input type="submit" class="btn" id=”searchsubmit” value="Back to HOME"/>
+                            <input type="submit" class="btn custom-btn" id=”searchsubmit” value="Back to HOME"/>
                         </form>
 					</div>
 					

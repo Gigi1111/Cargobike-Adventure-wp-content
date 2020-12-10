@@ -12,9 +12,9 @@
                   
                    <form action="/gutschein" method="post">
                         <?php if(!empty($btn_text)): ?>
-                            <input type="submit" class="btn" id=”searchsubmit” value="<?php echo $btn_text; ?>"/>
+                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="<?php echo $btn_text; ?>"/>
                         <?php else: ?>
-                            <input type="submit" class="btn" id=”searchsubmit” value="los geht's"/>
+                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="los geht's"/>
                         <?php endif ?>
                     </form>
                     <!-- <?php echo $booking_btn ?> -->

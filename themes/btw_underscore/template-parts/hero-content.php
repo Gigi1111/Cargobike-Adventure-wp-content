@@ -29,8 +29,8 @@ Paare, Singles, Familien, Hundebesitzer oder Senioren.</p>
                             </div>
                             <div class="col-sm-6"> -->
                            
-                            <input type="submit" class="btn" id=”searchsubmit” value="GUTSCHEIN KAUFEN"/>
-                                <!-- <input type="submit" class="btn" id=”searchsubmit” value="<?php  echo $hero_btn; ?>"/> -->
+                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="GUTSCHEIN KAUFEN"/>
+                                <!-- <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="<?php  echo $hero_btn; ?>"/> -->
                             <!-- </div>
                         </div> -->
                         </form>

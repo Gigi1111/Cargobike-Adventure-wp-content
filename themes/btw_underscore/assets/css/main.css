@@ -270,18 +270,24 @@ textarea {
     margin: 0;
 }
 
-button,
-.btn {
+.custom-btn {
     border-radius: 50px !important;
     background: var(--brand-button-bg) !important;
     color: var(--brand-button-txt) !important;
     padding: 15px var(--button-padding-horizontal) !important;
     width: auto;
     margin: 0 auto;
+    font-weight: bold;
 }
 
-button:hover,
-.btn:hover {
+.custom-btn:focus {
+    outline: none;
+}
+
+button,
+.btn {}
+
+.custom-btn:hover {
     border-radius: 50px !important;
     background: var(--brand-button-bg-hover) !important;
     filter: brightness(110%);
