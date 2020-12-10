@@ -131,12 +131,7 @@ $booking_btn    = get_post_meta(11, 'booking_btn_text', true);
                             <li class="col-sm-12">
                                 <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/paypal.svg" alt="paypal" style="height: 40px; display: block; float: left; margin: 10px">
                            </li>
-                           <li class="col-sm-12">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/visa.svg" alt="visa" style="height: 40px; display: block; float: left; margin: 10px">
-                            </li>
-                           <li class="col-sm-12">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/payment/mastercard.svg" alt="mastercard" style="height: 40px; display: block; float: left; margin: 10px">
-                            </li>
+                          
                            <li class="col-sm-12">
                                 Überweisung
                            </li>
