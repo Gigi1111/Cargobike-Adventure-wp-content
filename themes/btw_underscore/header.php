@@ -23,7 +23,7 @@
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- w3 school css -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -73,7 +73,7 @@ wp_body_open(); ?>
 						<!-- logo
 						================================================== -->
 						<div class="brand" >
-							<a href="/home" style=" display: flex;">
+							<a href="/" style=" display: flex;">
 								
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo/logo-lg-v3.png" alt="logo">
 								
@@ -107,7 +107,3 @@ wp_body_open(); ?>
 
 			</div>
 		</header>
-
-		<?php
-                        get_template_part( 'template-parts/section', 'hero' );
-                        ?>

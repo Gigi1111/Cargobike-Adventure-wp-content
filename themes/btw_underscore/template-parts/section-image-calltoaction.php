@@ -5,16 +5,16 @@
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
                         <?php if(!empty($content_text)): ?>
-                           <h2 style="font-weight: 800;"><?php echo $content_text; ?></h2>
+                           <h2><?php echo $content_text; ?></h2>
                         <?php else: ?>
-                            <h2 style="font-weight: 800;">Sind Sie bereit für neue Abenteuer?</h2>
+                            <h2>Sind Sie bereit für neue Abenteuer?</h2>
                         <?php endif ?>
                   
-                   <form action="/gutschein" method="post">
+                   <form action="/produkt/gutscheinkarte" method="post">
                         <?php if(!empty($btn_text)): ?>
-                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="<?php echo $btn_text; ?>"/>
+                            <input type="submit" class="btn" id=”searchsubmit” value="<?php echo $btn_text; ?>"/>
                         <?php else: ?>
-                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="los geht's"/>
+                            <input type="submit" class="btn" id=”searchsubmit” value="los geht's"/>
                         <?php endif ?>
                     </form>
                     <!-- <?php echo $booking_btn ?> -->

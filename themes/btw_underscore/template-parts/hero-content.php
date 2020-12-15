@@ -10,15 +10,14 @@ $hero_btn   = get_field('hero_btn');
             <div class="cover-inner" style="width: ;z-index: 99;    margin: auto;
     padding-bottom: 50px;">
                 <div class="cover-text">
-                    <form action="/gutschein" method="post">
+                    <form action="/produkt/gutscheinkarte" method="post">
                         <label for="search">
                             <!-- <h1 style="margin: 20px;"><?php  echo $hero_text; ?></h1> -->
                             <h1 style="margin: 20px;" ><span style="color:var(--brand-secondary);
                             text-shadow: 0 0 1px var(--brand-primary);
                             " >Cargobike Adventures</span><br> So geht Roadtrip heute!</h1>
                             <h3 style="font-weight:300;"> 
-                            <p class="hidden-xs">Aktiv und nachhaltig Urlauben: Mit E-Cargobikes und hochwertigem Campingequipment denken wir Roadtrips neu. 
-Paare, Singles, Familien, Hundebesitzer oder Senioren.</p>
+                            <p class="hidden-xs">Aktiv und nachhaltig Urlauben: Mit E-Cargobikes und hochwertigem Campingequipment denken wir Roadtrips neu.</p>
 
                         </label>
 
@@ -29,8 +28,8 @@ Paare, Singles, Familien, Hundebesitzer oder Senioren.</p>
                             </div>
                             <div class="col-sm-6"> -->
                            
-                            <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="GUTSCHEIN KAUFEN"/>
-                                <!-- <input type="submit" class="btn  custom-btn" id=”searchsubmit” value="<?php  echo $hero_btn; ?>"/> -->
+                            <input type="submit" class="btn" id=”searchsubmit” value="Vorfreude schenken"/>
+                                <!-- <input type="submit" class="btn" id=”searchsubmit” value="<?php  echo $hero_btn; ?>"/> -->
                             <!-- </div>
                         </div> -->
                         </form>

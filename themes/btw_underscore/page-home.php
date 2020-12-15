@@ -98,9 +98,11 @@ $bike_slideshow_item_description_2      = get_field('bike_slideshow_item_descrip
 $bike_slideshow_item_image_2      = get_field('bike_slideshow_item_image_2');
 get_header();
 ?>
+<?php
+get_template_part( 'template-parts/section', 'hero' );
+?>
 
-
-
+<h2 class="hinweis">Hinweis: Diese Webseite ist noch im Aufbau. Für eventuelle Fehler am Design der Seite oder in den Texten wollen wir uns bei euch entschuldigen. Wir arbeiten dran die Fehler so schnell wie möglich zu korrigieren.</h2>
      <!-- INTRO
 	================================================== -->
     <section id="introduction" class="color-dark-grey" >
@@ -113,8 +115,8 @@ get_header();
                             <h2>Hallo Abenteurer*innen, herzlich willkommen!</h2>
                             <p class="lead">Wir von Cargobike Adventures haben es uns zum Ziel gesetzt, euch mit unseren Premium Lastenrädern und allerfeinstem Camping Equipment auf die Reise zu schicken. Wir sorgen dafür, dass rund um eure Reise alles glatt läuft, ihr tretet in die Pedale und beschert euch und euren Liebsten eine unvergessliche Zeit in der Natur.</p>
                         <div class="">
-                        <a href="https://www.facebook.com/sogehtroadtripheute/photos/104079531466752" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/p/CHprhBULxeJ/"  class="badge social facebook" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sogehtroadtripheute/" class="badge social facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/cargobike.adventures/"  class="badge social facebook" target="_blank"><i class="fa fa-instagram"></i></a>
                       
                         </div>
                         
@@ -262,7 +264,7 @@ get_header();
 	================================================== -->
     <section id="section-slidshow" class="" style="padding-bottom: 0;">
         <div class="container" style="text-align: center; color: var(--brand-dark-grey);">
-             <h2>Unsere E-Bike</h2>
+             <h2>Unser E-Bike</h2>
 
             <div id="bikeCarousel" class="carousel slide" data-ride="carousel" style="height: auto !important; overflow: visible !important; margin-bottom: 40px;">
             
@@ -280,23 +282,7 @@ get_header();
                                 <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/bike1.jpg'); background-size: contain; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                    <h3>Riese & Müller Load75 Bike</h3>
-                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                    <br>
-                                    <p>
-                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
-                                        3 days: 	149,- <br>
-                                        4 days: 	199,-<br>
-                                        7 days: 	299,-<br>
-                                        14 days:	499,-<br>
-                                    </p>
-                                    <p>
-                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
-                                        3 days:    15,-<br>
-                                        4 days:    20,-<br>
-                                        7 days:    35,-<br>
-                                        14 days:  70,-<br>
-                                    </p>
+                                    
                                 </div>
                             </div>
                                <!-- individual item -->
@@ -304,23 +290,7 @@ get_header();
                                 <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/brand-image/epic0-lg.jpg'); background-size: cover; background-repeat: no-repeat;background-position: bottom center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                    <h3>Riese & Müller Load75 Bike</h3>
-                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                    <br>
-                                    <p>
-                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
-                                        3 days: 	149,- <br>
-                                        4 days: 	199,-<br>
-                                        7 days: 	299,-<br>
-                                        14 days:	499,-<br>
-                                    </p>
-                                    <p>
-                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
-                                        3 days:    15,-<br>
-                                        4 days:    20,-<br>
-                                        7 days:    35,-<br>
-                                        14 days:  70,-<br>
-                                    </p>
+                                    
                                 </div>
                             </div>
                                <!-- individual item -->
@@ -328,28 +298,32 @@ get_header();
                                 <div class="image-container col-md-5 col-sm-12" style="width: 100%; height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/bikes/correct-bike.jpg'); background-size: contain; background-repeat: no-repeat;background-position: center center; float: unset; margin: 0 auto;"></div>
 
                                 <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                    <h3>Riese & Müller Load75 Bike</h3>
-                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
-                                    <br>
-                                    <p>
-                                        <strong>Pricelist bike Riese&Müller Load75:</strong><br>
-                                        3 days: 	149,- <br>
-                                        4 days: 	199,-<br>
-                                        7 days: 	299,-<br>
-                                        14 days:	499,-<br>
-                                    </p>
-                                    <p>
-                                            <strong>Insurance ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
-                                        3 days:    15,-<br>
-                                        4 days:    20,-<br>
-                                        7 days:    35,-<br>
-                                        14 days:  70,-<br>
-                                    </p>
+                                    
                                 </div>
                             </div>
                            
                     </div>
 
+                    <div class="carousel-text">
+                    <h3>Riese & Müller Load75</h3>
+                                    <p>Das Load 75 aus dem Hause Riese & Müller ist ein Lastenrad der absoluten Oberklasse. Der leistungsstarke Bosch Motor bietet euch 4 verschiedene Unterstützungen, eine stufenlose Enviolo Schaltung, einen nahezu unverwüstbaren Carbonriemen und ist für maximalen Komfort voll gefedert. Ein rundum angenehmes, sicheres und gleichzeitig sehr spaßiges Fahrgefühl. Die Dual-Battery Bauart mit 1.000 KWh ermöglicht lange Touren auch in entlegene Gegenden mit bis zu 200km Reichweite.</p>
+                                    <br>
+                                    <p>
+                                        <strong>Preisliste für Riese&Müller Load75:</strong><br>
+                                        3 Tage: 	149,- <br>
+                                        4 Tage: 	199,-<br>
+                                        7 Tage: 	299,-<br>
+                                        14 Tage:	499,-<br>
+                                    </p>
+                                    <p>
+                                            <strong>Versicherung: ENRA Premiumschutz Europaweit inkl. 24/7 Hotline und Pick-Up Service</strong><br>
+                                        3 Tage:    15,-<br>
+                                        4 Tage:    20,-<br>
+                                        7 Tage:    35,-<br>
+                                        14 Tage:  70,-<br>
+                                    </p><br>
+                    <p>Alle Preise in EUR (€) angegeben.</p>
+                    </div>
                
 
                 <!-- Left and right controls -->
@@ -504,8 +478,7 @@ get_header();
                                     <div class="image-container col-md-5 col-sm-12" style="height:460px; background: url('<?php bloginfo('stylesheet_directory'); ?>/assets/img/equipments_for_rent/sm-gasM.png'); background-size: contain;background-repeat: no-repeat;background-position: center; float: unset; margin: 0 auto;"></div>
                                     
                                      <div class="carousel-caption col-sm-12" id="bottom-info" style="height:auto !important; position: relative; width: auto; margin: 0 auto">
-                                     <h3>Primus Power Gas</h3>
-                                     <h4>s 100g, m 230g, L 450g</h4>
+                                     <h3>Primus Power Gas Size M (230g)</h3>
                                        <p>Wenn ihr euer Abenteuer startet geben wir euch gern noch den passenden Brennstoff für den Kocher mit. Um ein Gefühl zu bekommen, wie viel Gas ihr benötigen werdet habt ihr hier <strong>eine kleine Beispielrechnung:</strong><br>
 Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 20 Brennvorgänge à 3:48 Minuten. Umgerechnet sind das ca. 71 bis 76 Minuten Brenndauer. Grundlage hierfür ist jeweils, 1 Liter Wasser bis zum Sieden zu erhitzen. Bringt ihr also beispielsweise jeweils 2L Wasser zum Kochen, halbiert sich die Brenndauer entsprechend. Ihr könnt selbstverständlich nicht angebrochene Gaskartuschen bei uns wieder abgeben.</p>
                                    
@@ -703,7 +676,7 @@ Eine Primus Gaskartusche in Größe L mit 230 Gramm Gasinhalt hält rund 19 bis 
                 <?php endif; ?> -->
                 
 
-                <h2>Wie Definieren Wir Premium Service?</h2>
+                <h2>Wie definieren wir Premium Service?</h2>
             </div>
             <!-- section-header -->
 

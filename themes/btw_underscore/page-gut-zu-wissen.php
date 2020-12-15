@@ -101,8 +101,9 @@ get_header();
 
     <!-- INTRO
 	================================================== -->
-    <section id="gut-zu-wissen-intro" class="color-dark-grey" style="padding-bottom: 0"  >
+    <section id="gut-zu-wissen-intro" class="color-dark-grey page_top" style="padding-bottom: 0"  >
         <div class="container">
+        <h1>Gut zu wissen</h1>
         <p style="font-size:1.4em">
                 Auf einer Radreise hat man die einzigartige Gelegenheit wunderbar zu entschleunigen, dem hektischen Alltag der Großstadt zu entkommen und die Seele auf dem Bike baumeln zu lassen. Zwischen den Etappen Stopps warten wunderschöne Landschaften und zahlreiche Geschichten auf euch. Um diese genießen zu können, ist eine gewisse Vorbereitung auf die Reise unausweichlich und verschönert euch den Urlaub.
                 </p>
@@ -110,7 +111,7 @@ get_header();
                 Wir haben uns Gedanken darüber gemacht und euch nochmal verbildlicht was wir euch bieten, was ihr vergessen könntet und welche Dinge aus unserer Sicht nicht fehlen sollten.
               </p>
                         <p style="font-size:1.4em">
-                Bei Fragen und Anregungen schreibt uns gern an <span style="color:blue">urlaub@cargobike-adventures.de</span> und wir kommen auf euch zurück
+                Bei Fragen und Anregungen schreibt uns gern an <a href="mailto:urlaub@cargobike-adventures.de"><span style="color:blue">urlaub@cargobike-adventures.de</span></a> und wir kommen auf euch zurück
             </p>
        </div>
     </section>
@@ -146,30 +147,14 @@ get_header();
                                     Solltet Ihr selbst keine besitzen, geben wir euch 2 Ortlieb Fahrradtaschen für den Gepäckträger mit. Diese bieten mit je 20 Litern Volumen einiges an zusätzlichem Stauraum, sind komplett wasserdicht und abnehmbar. Je nachdem ob und wenn ja, wie viele Kinder ihr mitnehmt, bleibt euch in der vorderen Box noch einiges an Stauraum zum Transport von privaten Gegenstände frei zur Verfügung.
                         </p>
                         <p style="font-size:1.2em">
-                                    Solltet ihr Extrawünsche haben dann lasst es zu uns wissen. Am Ende des Tages ist fast nichts unmöglich.        
+                                    Solltet ihr Extrawünsche haben dann lasst es uns wissen. Am Ende des Tages ist fast nichts unmöglich.        
                         </p>
 
                         </div>
                     </div>
                 </div>
                 <!-- container -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title" style="font-size: 24px !important">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            Packliste
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">
-                        <p style="font-size:1.2em">
-                        Hier findet ihr eine Packliste mit Empfehlungen des ADFC.
-                        </p>
-                        <a href="">LINK</a>
-                        </div>
-                    </div>
-                </div>
+                
                 <!-- container -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -207,7 +192,7 @@ get_header();
                             Wir bitten wir euch, bei einer Buchung anzugeben, dass ihr eure Fellnase mit in den Urlaub nehmt. Im Anschluss an eure Reise werden das Zelt und Bike gründlich gereinigt, damit die nächsten Abenteurer auch eine schöne Zeit haben.
                             </p>
                         <p style="font-size:1.2em">
-                            Solltet Ihr Fragen rund um das Thema Radreisen mit Hund haben dann schreibt uns gerne an: <span style="color:blue">urlaub@cargobike-adventures.de</span>
+                            Solltet Ihr Fragen rund um das Thema Radreisen mit Hund haben dann schreibt uns gerne an: <a href="mailto:urlaub@cargobike-adventures.de><span style="color:blue">urlaub@cargobike-adventures.de</span></a>
                             </p>
                         </div>
                     </div>
@@ -325,7 +310,7 @@ get_header();
                             Bitte denkt daran, dass Schlafsäcke nicht Standard bei einer Buchung sind!
                             </p>
                             <p style="font-size:1.2em">
-                            Wir können keine Schlafsäcke als Leihartikel anbieten. Die ständige Reinigung würde die Modelle extrem schnell altern lassen und sich absolut mit unserer Idee von umweltbewusstem Handeln im Allgemeinen beißen. Hier sind wir dabei, mit Herstellen an Lösungen zu arbeiten um euch gute Konditionen für entsprechende Produkte anzubieten. Solltet ihr vorab eine Beratung zum Thema brauchen dann sagt uns Bescheid, wir helfen euch gerne und kompetent weiter. Bitte denkt also an Decken oder einen eigenen Schlafsack wenn ihr aufbrecht. Neben dem Schlafsack empfiehlt es sich, ein eigenes Kissen dabei zu haben. Da ihr weniger auf das Gewicht achten müsst, könnt ihr ruhig eure Kuschelkissen von zu Hause einpacken. Solltet ihr ohnehin mit dem Gedanken einer Neuanschaffung (z.B. auch für Wandertouren) spielen, informiert euch im Fachgeschäft was es für Modelle am Markt gibt und testet euch durch – nur so findet ihr euren Favoriten. Bei den Kollegen von Globetrotter in Steglitz z.B. kann man sich prima in verschiedene Modelle reinlegen um den geeigneten Schlafsack zu finden.
+                            Wir können keine Schlafsäcke als Leihartikel anbieten. Die ständige Reinigung würde die Modelle extrem schnell altern lassen und sich absolut mit unserer Idee von umweltbewusstem Handeln im Allgemeinen beißen. Hier sind wir dabei, mit Herstellern an Lösungen zu arbeiten um euch gute Konditionen für entsprechende Produkte anzubieten. Solltet ihr vorab eine Beratung zum Thema brauchen dann sagt uns Bescheid, wir helfen euch gerne und kompetent weiter. Bitte denkt also an Decken oder einen eigenen Schlafsack wenn ihr aufbrecht. Neben dem Schlafsack empfiehlt es sich, ein eigenes Kissen dabei zu haben. Da ihr weniger auf das Gewicht achten müsst, könnt ihr ruhig eure Kuschelkissen von zu Hause einpacken. Solltet ihr ohnehin mit dem Gedanken einer Neuanschaffung (z.B. auch für Wandertouren) spielen, informiert euch im Fachgeschäft was es für Modelle am Markt gibt und testet euch durch – nur so findet ihr euren Favoriten. Bei den Kollegen von Globetrotter in Steglitz z.B. kann man sich prima in verschiedene Modelle reinlegen um den geeigneten Schlafsack zu finden.
                             </p>
                         </div>
                     </div>
@@ -346,7 +331,7 @@ get_header();
                             Ähnlich wie bei den Schlafsäcken verhält es sich auch mit den Isomatten. Die Produkte sind sensibel in der Handhabung und definieren sich außerdem als hygienisch relevant. Wir wollen daher keine Isomatten als Leihartikel anbieten, haben aber auch hier eine Lösung für euch parat. Gemeinsam mit dem Anbieter VAUDE bieten wir euch ausgewählte Modelle zum Kauf an. Eine Beratung geben wir euch gerne, schaut mal im Shop vorbei und kontaktiert uns bei Fragen und Anregungen.
                             </p>
                             <p style="font-size:1.2em">
-                            Da wir neben Rad Enthusiasten auch Outdoor erfahren sind, haben wir euch vom Anbieter VAUDE Modelle rausgesucht, die wir euch zum Kauf anbieten. Schaut mal in unserem Shop vorbei. LINK Favoriten zu finden.
+                            Da wir neben Rad Enthusiasten auch Outdoor erfahren sind, haben wir euch vom Anbieter VAUDE Modelle rausgesucht, die wir euch zum Kauf anbieten. Schaut dazu gerne mal ab Anfang 2021 in unserem Shop vorbei.
                             </p>
                             <p style="font-size:1.2em">
                             Wir statten euch, je nach Wunsch, mit Isomatten für euren Trip aus. Aus hygienischen Gründen bitten wir euch, Bettbezügen zu verwenden. Wir säubern und desinfizieren die Leihmodelle nach jeder Vermietung, mit eurer Hilfe schaffen wir aber eine deutlich längere Lebensdauer und können nachhaltiger denken.

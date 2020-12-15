@@ -104,7 +104,7 @@ get_header();
 ?>
 
 
-    <section id="introduction" class="color-dark-grey" >
+    <section id="introduction" class="color-dark-grey page_top" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-4 left">
@@ -116,12 +116,14 @@ get_header();
                                 Cargobike Adventures<br>
                                 @ MORE Cargobike GmbH<br>
                                 <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/location.svg" alt="cargobike brand image" style="width:20px">
-                                Bouchéstr. 12 | Halle 20 12435 Berlin
+                                Bouchéstr. 12 | Halle 20<br>
+                                12435 Berlin<br>
+                                Deutschland<br>
                                 <br>
                                 <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/phone.svg" alt="cargobike brand image" style="width:20px">
-                                Tele: 0160.2066123<br> 
+                                Mobil: (+49) 1602066123<br> 
                                 <img  src="<?php bloginfo('stylesheet_directory');?>/assets/img/icons/mail.svg" alt="cargobike brand image" style="width:20px">
-                                email: urlaub@cargobike-adventures.de
+                                E-Mail: <a href="mailto:urlaub@cargobike-adventures.de">urlaub@cargobike-adventures.de</a>
                             </p>
                         
                     </div>

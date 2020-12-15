@@ -36,6 +36,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Forms
 ## Layouts
 # Components
+    - Woocommerce
 	- Navigation
 	- Posts and pages
 	- Comments
@@ -270,24 +271,18 @@ textarea {
     margin: 0;
 }
 
-.custom-btn {
+button,
+.btn {
     border-radius: 50px !important;
     background: var(--brand-button-bg) !important;
     color: var(--brand-button-txt) !important;
     padding: 15px var(--button-padding-horizontal) !important;
     width: auto;
     margin: 0 auto;
-    font-weight: bold;
 }
 
-.custom-btn:focus {
-    outline: none;
-}
-
-button,
-.btn {}
-
-.custom-btn:hover {
+button:hover,
+.btn:hover {
     border-radius: 50px !important;
     background: var(--brand-button-bg-hover) !important;
     filter: brightness(110%);
@@ -528,7 +523,7 @@ input,
 select,
 optgroup,
 textarea {
-    color: var(--brand-grey);
+    /*color: var(--brand-grey);*/
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
@@ -789,6 +784,102 @@ textarea {
 # Components
 --------------------------------------------------------------*/
 
+.page_top {
+    padding-top: 120px!important;
+}
+
+.hinweis {
+    margin-left: 10%!important;
+    margin-right: 10%!important;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px;
+}
+
+/* Woocommerce
+--------------------------------------------- */
+.page-title {
+    padding-top: 60px!important;
+    padding-left: 10%!important;
+}
+
+.products {
+    text-align: center!important;
+}
+
+.woocommerce-result-count {
+    padding-left: 10%!important;
+}
+
+.woocommerce-ordering {
+    padding-right: 10%!important;
+}
+
+.columns-4 {
+    display: grid!important;
+    grid-template-columns: 1fr!important;
+    justify-content: center!important;
+    padding-left: 10%!important;
+    padding-top: 10px!important;
+}
+
+.woocommerce-loop-product__title {
+    font-size: 1.5em!important;
+}
+
+.price {
+    font-size: 1.2em!important;
+}
+
+/* .woocommerce div.product div.images {
+    margin-top: 60px!important;
+} */
+
+.product {
+    /* margin-top: 120px!important;
+    margin-left: 5%!important;
+    margin-right: 5%; */
+}
+
+.woocommerce div.product div.images {
+    margin-top: 60px!important;
+    margin-left: 5%!important;
+    width: 35%!important;
+    height: 35%!important;
+}
+
+.woocommerce div.product div.summary {
+    margin-top: 60px!important;
+    margin-right: 5%;
+    width: 50%!important;
+}
+
+.woocommerce-tabs, .wc-tabs-wrapper {
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    margin-bottom: 60px!important;
+}
+
+.pwgc-input-text {
+    font-size: 1em!important;
+}
+
+#pwgc-message, #pwgc-custom-amount {
+    font-size: 1em!important;
+}
+
+.woocommerce .quantity .qty {
+    font-size: 1.2em!important;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    margin-right: 40px!important;
+}
+
+#pwgc-custom-amount-error {
+    font-size: 1em!important;
+}
 
 /* Navigation
 --------------------------------------------- */
@@ -1728,7 +1819,7 @@ footer p {
 
 footer a:link,
 footer a:visited {
-    color: var(--brand-primary);
+    color: var(--brand-white);
 }
 
 footer a:hover {
@@ -1914,6 +2005,13 @@ footer li.signup-link a:hover {
 
 
 /* ==== MEDIA QUERIES ==== */
+
+/* Woocommerce */
+@media screen and (max-width: 800px) {
+    .woocommerce div.product div.summary {
+        margin-right: 5%!important;
+    }
+}
 
 
 /* fix the top margin when logged in */
@@ -2571,8 +2669,8 @@ html {
 }
 
 body {
-    /* background: url('images/jurassic-coast-1089035_1920.jpg') no-repeat; */
-    background-size: cover;
+    /*background: url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
+    background-size: cover;*/
     height: 100%;
 }
 

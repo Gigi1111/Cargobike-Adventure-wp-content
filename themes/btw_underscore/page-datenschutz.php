@@ -103,7 +103,7 @@ get_header();
 
     <!-- INTRO
 	================================================== -->
-    <section id="gut-zu-wissen-intro" class="color-dark-grey" style="padding-bottom: 0" >
+    <section id="gut-zu-wissen-intro" class="color-dark-grey page_top" style="padding-bottom: 0" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-8 ">
