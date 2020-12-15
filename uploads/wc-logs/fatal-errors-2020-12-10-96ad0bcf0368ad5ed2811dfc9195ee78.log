@@ -1,0 +1,72 @@
+2020-12-10T16:26:46+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:47+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:47+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:47+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:47+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:48+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:48+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:48+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:49+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:49+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:49+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:50+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:50+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:51+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:51+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:51+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:51+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:52+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:52+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:52+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:52+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:52+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:54+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:54+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:54+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:54+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:26:54+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:27:47+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:27:53+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:28:02+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+
+2020-12-10T16:30:04+00:00 CRITICAL require(): Failed opening required '/mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/inc/custom-header.php' (include_path='.:/opt/RZphp74/includes') in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/functions.php in Zeile 169
+

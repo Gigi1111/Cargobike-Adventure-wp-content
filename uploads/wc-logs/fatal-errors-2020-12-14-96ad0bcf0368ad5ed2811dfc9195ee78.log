@@ -1,0 +1,10 @@
+2020-12-14T15:06:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/header.php:55
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template.php(730): require_once()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template.php(676): load_template()
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/general-template.php(48): locate_template()
+#3 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/404.php(10): get_header()
+#4 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include('/mnt/web514/c2/...')
+#5 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#6 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2 in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/header.php in Zeile 55
+

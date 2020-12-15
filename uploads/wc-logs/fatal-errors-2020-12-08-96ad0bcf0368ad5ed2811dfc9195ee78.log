@@ -1,0 +1,88 @@
+2020-12-08T18:33:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php in Zeile 15
+
+2020-12-08T18:34:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:34:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php in Zeile 15
+
+2020-12-08T18:34:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-kontakt.php in Zeile 15
+
+2020-12-08T18:34:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:34:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:34:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:34:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:34:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:36:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
+2020-12-08T18:36:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php:15
+Stack trace:
+#0 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-includes/template-loader.php(106): include()
+#1 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-blog-header.php(19): require_once('/mnt/web514/c2/...')
+#2 /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/index.php(17): require('/mnt/web514/c2/...')
+#3 {main}
+  thrown in /mnt/web514/c2/62/510873462/htdocs/STRATO-apps/wordpress_03/app/wp-content/themes/btw_underscore/page-home.php in Zeile 15
+
